@@ -12,6 +12,8 @@
 /.next/
 /out/
 
+packagehash.txt
+
 # production
 /build
 
