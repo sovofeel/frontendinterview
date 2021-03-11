@@ -5,7 +5,7 @@ complexity: junior
 category: js
 lang: ru
 type: example
-tags: ['fundamental', 'this']
+tags: ['fundamental', 'setTimeout']
 source: https://habr.com/ru/company/otus/blog/517560/
 ---
 ```js

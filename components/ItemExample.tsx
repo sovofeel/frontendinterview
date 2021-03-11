@@ -15,8 +15,7 @@ const ItemExample = ({ attributes, html }) => {
   const second = html.slice(html.indexOf('</pre>') + 6, -1)
 
   return (
-    //
-    <Box key={attributes.id} borderWidth="1px" mb={4} borderRadius="lg" overflow="hidden" p={2}>
+    <Box borderWidth="1px" mb={4} borderRadius="lg" overflow="hidden" p={2}>
       {attributes.title && (
         <Heading as="h2" size="md" mb={4}>
           {attributes.title}

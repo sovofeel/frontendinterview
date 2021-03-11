@@ -9,7 +9,6 @@ tags: ['fundamental']
 source: https://habr.com/ru/company/otus/blog/517560/
 ---
 ```js
-  //Q.1
   var x = 1;
   var y = x;
 

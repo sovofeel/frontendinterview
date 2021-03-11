@@ -9,10 +9,11 @@ import {
 } from '@chakra-ui/react'
 
 import React from 'react'
+import { Question } from '../types/content/Question'
 import ItemFooter from './ItemFooter'
 
-const ItemWithText = ({ attributes, html }) => (
-  <Box key={attributes.id} borderWidth="1px" mb={4} borderRadius="lg" overflow="hidden" p={2}>
+const ItemQuestion = ({ attributes, html }: Question) => (
+  <Box borderWidth="1px" mb={4} borderRadius="lg" overflow="hidden" p={2}>
     {attributes.title && (
       <Heading as="h2" size="md" mb={4}>
         {attributes.title}
@@ -43,4 +44,4 @@ const ItemWithText = ({ attributes, html }) => (
   </Box>
 )
 
-export default ItemWithText
+export default ItemQuestion
