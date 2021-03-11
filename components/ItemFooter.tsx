@@ -9,12 +9,7 @@ interface IProps {
 
 const ItemFooter = ({ attributes }: IProps) => (
   <>
-    <Box>
-      Тэги:{' '}
-      {attributes.tags.map(tag => (
-        <Badge mr={2}>{tag}</Badge>
-      ))}
-    </Box>
+    <Box>Тэги: {attributes.tags && attributes.tags.map(tag => <Badge mr={2}>{tag}</Badge>)}</Box>
     <Flex justifyContent="space-between">
       <Text>Сложность: {attributes.complexity}</Text>
       {attributes?.source && (

@@ -2,6 +2,7 @@ const copytoclipboard =  () => {
   const pres = document.getElementsByTagName("pre")
   if (pres !== null ) {
     for (let i = 0; i < pres.length; i++) {
+      console.log(pres[i])
       if (isPrismClass(pres[i])) {
         pres[i].innerHTML = `<div class="copy">copy</div>${pres[i].innerHTML}`
       }
@@ -27,10 +28,10 @@ const copytoclipboard =  () => {
 
   function isPrismClass(preTag) { 
     return preTag.className.substring(0, 8) === 'language'
-    
   }
 
 
 }
+
 
 export default copytoclipboard

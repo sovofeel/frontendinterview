@@ -8,10 +8,7 @@ interface IProps {
 }
 
 const Filters = ({ tags }: IProps) => {
-  console.log(tags)
-
   const tagItems = createSelectableItems(tags)
-  console.log(tagItems)
 
   return (
     <Box w="300px" borderWidth="1px" borderRadius="lg" p={3} style={styles.wrapper}>

@@ -1,5 +1,5 @@
 ---
-id: 7
+id: 2
 title: Реализуйте функцию debounce
 complexity: junior
 category: js

@@ -1,16 +1,15 @@
 import { Category } from "./Category";
 import { Complexity } from "./Complexity";
 
-export type Task = {
+export type Example = {
   attributes: {
     id: number;
     title: string;
-    description?: string;
-    complexity: Complexity
     source?: string
+    complexity: Complexity
     category: Category
     tags: string[]
   }
   html?: string;
-  slug: string;
+  slug?: string;
 } 

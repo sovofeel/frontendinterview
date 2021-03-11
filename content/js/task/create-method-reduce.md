@@ -1,5 +1,5 @@
 ---
-id: 6
+id: 5
 title: Реализуйте метод reduce
 complexity: junior
 category: js

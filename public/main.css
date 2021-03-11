@@ -1,0 +1,20 @@
+body ul {
+  list-style-type: initial;
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+body .chakra-accordion__button {
+  width: 200px;
+  border: 1px solid var(--chakra-colors-gray-200);
+  border-radius: 0.25em;
+}
+
+body .chakra-accordion {
+  border-color: transparent;
+}
+
+body .chakra-accordion__panel {
+  padding-left: 0;
+  padding-right: 0;
+}

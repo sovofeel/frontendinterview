@@ -4,6 +4,7 @@ import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import copytoclipboard from '../public/copytoclipboard'
 import '../public/copytoclipboard.css'
+import '../public/main.css'
 
 const App = ({ Component, pageProps }: AppProps) => {
   useEffect(() => {

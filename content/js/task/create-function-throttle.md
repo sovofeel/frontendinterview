@@ -1,5 +1,5 @@
 ---
-id: 8
+id: 3
 title: Реализуйте функцию throttle
 complexity: junior
 category: js

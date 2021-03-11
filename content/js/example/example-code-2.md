@@ -1,6 +1,6 @@
 ---
-id: 12
-title: Что выведет код
+id: 2
+title: В какой последовательности выведутся cимволы?
 complexity: junior
 category: js
 lang: ru

@@ -6,6 +6,7 @@ export type Question = {
     id: number;
     title: string;
     source?: string
+    description?: string
     complexity: Complexity
     category: Category
     tags: string[]

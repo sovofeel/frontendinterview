@@ -1,5 +1,5 @@
 ---
-id: 2
+id: 6
 title: Сделайте вложенный массив плоским
 complexity: junior
 category: js

@@ -1,6 +1,6 @@
 ---
-id: 11
-title: Что выведет код
+id: 3
+title: На что будет сслаться `this`
 complexity: junior
 category: js
 lang: ru

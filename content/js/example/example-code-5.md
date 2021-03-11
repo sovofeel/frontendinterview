@@ -1,5 +1,5 @@
 ---
-id: 9
+id: 5
 title: Что выведет код
 complexity: junior
 category: js

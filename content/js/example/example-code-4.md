@@ -1,6 +1,6 @@
 ---
-id: 10
-title: Что выведет код
+id: 4
+title: Что выведется в консоль
 complexity: junior
 category: js
 lang: ru

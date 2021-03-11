@@ -1,3 +1,4 @@
+import { Example } from "../types/content/Example";
 import { Item } from "../types/content/Item";
 import { Question } from "../types/content/Question";
 import { Task } from "../types/content/Task";
@@ -28,6 +29,13 @@ export const importJsQuestions = async (): Promise<Question[]> =>
     require.context('../content/js/question', false, /\.md$/),
     'js/question'
   )) as Question[]
+
+export const importJsExamples = async (): Promise<Example[]> =>
+  (await getFileContent(
+    // @ts-ignore
+    require.context('../content/js/example', false, /\.md$/),
+    'js/example'
+  )) as Example[]
 
 export const getAllTags = (...rest: Item[]) => {
   const tagList: string[] = []
