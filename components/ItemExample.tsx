@@ -8,11 +8,12 @@ import {
   Heading,
 } from '@chakra-ui/react'
 import React from 'react'
+import { Example } from '../types/content/Example'
 import ItemFooter from './ItemFooter'
 
-const ItemExample = ({ attributes, html }) => {
-  const first = html.slice(0, html.indexOf('</pre>') + 6)
-  const second = html.slice(html.indexOf('</pre>') + 6, -1)
+const ItemExample = ({ attributes, html = '' }: Example) => {
+  const first = html && html.slice(0, html.indexOf('</pre>') + 6)
+  const second = html && html.slice(html.indexOf('</pre>') + 6, -1)
 
   return (
     <Box borderWidth="1px" mb={4} borderRadius="lg" overflow="hidden" p={2}>

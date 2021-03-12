@@ -13,7 +13,7 @@ import React from 'react'
 import { Task } from '../types/content/Task'
 import ItemFooter from './ItemFooter'
 
-const ItemTask = ({ attributes, html }: Task) => (
+const ItemTask = ({ attributes, html = '' }: Task) => (
   <Box borderWidth="1px" mb={4} borderRadius="lg" overflow="hidden" p={2}>
     {attributes.title && (
       <Heading as="h2" size="md" mb={4}>
@@ -42,6 +42,7 @@ const ItemTask = ({ attributes, html }: Task) => (
 
         <AccordionPanel pb={4}>
           <Box
+            display="inline-grid"
             maxW="100%"
             mb={4}
             dangerouslySetInnerHTML={{

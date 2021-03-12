@@ -12,5 +12,4 @@ export type Task = {
     tags: string[]
   }
   html?: string;
-  slug: string;
 } 

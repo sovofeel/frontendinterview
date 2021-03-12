@@ -12,7 +12,7 @@ import React from 'react'
 import { Question } from '../types/content/Question'
 import ItemFooter from './ItemFooter'
 
-const ItemQuestion = ({ attributes, html }: Question) => (
+const ItemQuestion = ({ attributes, html = '' }: Question) => (
   <Box borderWidth="1px" mb={4} borderRadius="lg" overflow="hidden" p={2}>
     {attributes.title && (
       <Heading as="h2" size="md" mb={4}>
@@ -31,6 +31,8 @@ const ItemQuestion = ({ attributes, html }: Question) => (
 
         <AccordionPanel pb={4}>
           <Box
+            display="inline-grid"
+            minW="100%"
             maxW="100%"
             mb={4}
             dangerouslySetInnerHTML={{

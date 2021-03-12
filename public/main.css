@@ -18,3 +18,18 @@ body .chakra-accordion__panel {
   padding-left: 0;
   padding-right: 0;
 }
+
+.header {
+  height: 72px;
+  box-shadow: var(--chakra-shadows-sm);
+  transition: box-shadow 0.2s ease 0s;
+  position: fixed;
+  top: var(--chakra-space-0);
+  z-index: 3;
+  background: var(--chakra-colors-white);
+  left: var(--chakra-space-0);
+  right: var(--chakra-space-0);
+  width: var(--chakra-sizes-full);
+  display: flex;
+  align-items: center;
+}
