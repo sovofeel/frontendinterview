@@ -9,8 +9,8 @@ const ItemFooter = ({ tags, complexity, source }: IProps) => {
   return (
     <>
       <Box>
-        Тэги:{' '}
-        {tags &&
+        {tags.length > 0 && <span>Теги:</span>}
+        {tags.length > 0 &&
           tags.map(tag => (
             <Badge key={tag} mr={2}>
               {tag}

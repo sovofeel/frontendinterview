@@ -20,7 +20,7 @@ const defaultConfig = {
     optimizeFonts: true,
     modern: true,
   },
-  redirects: require("./next-redirect"),
+  //redirects: require("./next-redirect"),
 }
 
 const mdxConfig = {

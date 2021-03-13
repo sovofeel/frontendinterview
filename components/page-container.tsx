@@ -62,7 +62,6 @@ function PageContainer(props: PageContainerProps) {
               {children}
               {pagination || null}
             </Box>
-            <ItemFooter {...frontmatter} />
           </div>
         </Box>
       </Container>
