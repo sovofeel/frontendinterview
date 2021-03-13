@@ -2,8 +2,6 @@ import { useRouter } from 'next/router'
 import * as React from 'react'
 import { Box, Text, Heading } from '@chakra-ui/react'
 import Container from '../components/container'
-import ItemFooter from './ItemFooter'
-//import { convertBackticksToInlineCode } from "utils/convert-backticks-to-inline-code"
 
 function useHeadingFocusOnRouteChange() {
   const router = useRouter()

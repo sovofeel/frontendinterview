@@ -1,6 +1,6 @@
 import { Box, Text, Heading, Link, LinkBox, LinkOverlay, VStack } from '@chakra-ui/react'
 import React from 'react'
-import ItemFooter from './ItemFooter'
+import postFooter from './post-footer'
 
 const PostPreview = ({ post }) => {
   return (
@@ -22,7 +22,7 @@ const PostPreview = ({ post }) => {
           </Box>
         )}
         <Box w="100%">
-          <ItemFooter {...post} />
+          <postFooter {...post} />
         </Box>
       </VStack>
     </LinkBox>

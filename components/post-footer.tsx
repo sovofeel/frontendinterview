@@ -5,12 +5,13 @@ import { Item } from '../types/content/Item'
 
 type IProps = Item
 
-const ItemFooter = ({ tags, complexity, source }: IProps) => {
+const PostFooter = ({ tags, complexity, source }: IProps) => {
   return (
     <>
       <Box>
-        {tags.length > 0 && <span>Теги:</span>}
-        {tags.length > 0 &&
+        {tags && tags.length > 0 && <span>Теги:</span>}
+        {tags &&
+          tags.length > 0 &&
           tags.map(tag => (
             <Badge key={tag} mr={2}>
               {tag}
@@ -29,4 +30,4 @@ const ItemFooter = ({ tags, complexity, source }: IProps) => {
   )
 }
 
-export default ItemFooter
+export default PostFooter

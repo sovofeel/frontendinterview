@@ -1,6 +1,7 @@
 import { Box, chakra, HTMLChakraProps, useColorModeValue } from '@chakra-ui/react'
 import React from 'react'
 import CodeBlock from './codeblock/codeblock'
+import PostFooter from './post-footer'
 
 const LinkedHeading = (props: HTMLChakraProps<'h2'>) => (
   <chakra.h2 data-group="" css={{ scrollMarginBlock: '6.875rem' }} {...props}>
@@ -37,6 +38,7 @@ const MDXComponents = {
   ul: props => <chakra.ul apply="mdx.ul" {...props} />,
   li: props => <chakra.li pb="4px" {...props} />,
   inlineCode: InlineCode,
+  footer: props => <PostFooter {...props} />,
   code: CodeBlock,
 }
 

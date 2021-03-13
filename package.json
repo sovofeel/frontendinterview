@@ -1,23 +1,26 @@
 {
-  "name": "with-typescript",
+  "name": "frontendinterview",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "clean": "rm -rf .next .mdx-data",
+    "analyze": "ANALYZE=true next build",
+    "search-meta:gen": "node  scripts/get-search-meta.mjs --experimental-modules"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.6",
     "@chakra-ui/react": "^1.3.4",
     "@chakra-ui/theme-tools": "^1.1.0",
+    "@docsearch/react": "^1.0.0-alpha.14",
     "@docusaurus/utils": "^2.0.0-alpha.71",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
     "@mdx-js/react": "^1.6.22",
-    "@next/bundle-analyzer": "^10.0.8",
     "chakra-ui-autocomplete": "^1.2.6",
-    "formik": "^2.2.6",
     "framer-motion": "^3.10.0",
     "frontmatter-markdown-loader": "^3.6.2",
     "markdown-it": "^12.0.4",
@@ -37,11 +40,14 @@
     "remark-slug": "^6.0.0",
     "remark-toc": "^7.0.0",
     "remark-unwrap-images": "^2.0.0",
-    "scroll-into-view-if-needed": "^2.2.26"
+    "scroll-into-view-if-needed": "^2.2.26",
+    "shelljs": "^0.8.4",
+    "ts-node": "^9.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@next/bundle-analyzer": "^10.0.5",
     "@testing-library/jest-dom": "^5.11.6",
     "@types/jest": "^26.0.1",
     "@types/node": "^12.12.21",
@@ -49,6 +55,7 @@
     "@types/react-dom": "^17.0.1",
     "@types/react-router-dom": "^5.1.6",
     "@types/react-transition-group": "^4.4.0",
+    "@types/sharp": "^0.26.1",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
     "eslint": "^7.13.0",
@@ -61,8 +68,14 @@
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-react": "7.21.5",
     "eslint-plugin-react-hooks": "4.2.0",
+    "graceful-fs": "^4.2.6",
+    "markdown-toc": "^1.2.0",
+    "next-compose-plugins": "^2.2.1",
     "prettier": "^2.2.1",
-    "typescript": "4.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "4.0",
+    "uuid": "^8.3.2"
   },
   "license": "MIT"
 }
