@@ -1,0 +1,27 @@
+---
+id: 10
+title: Уникализация значений в массиве
+description: Необходимо написать функцию, принимающую в аргументах массив целых чисел и возвращающую новый массив, состоящий только из уникальных значений первого массива.
+complexity: junior
+category: js
+lang: ru
+type: task
+tags: ['array']
+source: https://habr.com/ru/post/488510/
+---
+
+```js example
+ const list = [1, 1, 2, 2, 3, 4]
+
+function(list) {
+
+}
+
+// unique(list) => [1,2,3,4]
+```
+
+```js answer
+function unique(arr) {
+  return arr.filter((item, index, self) => self.indexOf(item) === index)
+}
+```

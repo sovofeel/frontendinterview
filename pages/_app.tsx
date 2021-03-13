@@ -1,18 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
-import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import copytoclipboard from '../public/copytoclipboard'
-import '../public/copytoclipboard.css'
-import '../public/main.css'
 
-const App = ({ Component, pageProps }: AppProps) => {
-  useEffect(() => {
-    if (window && Clipboard) {
-      copytoclipboard()
-    }
-  }, [])
-
+const App = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
@@ -27,7 +17,6 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#333333" />
         <meta name="msapplication-TileColor" content="#2d89ef" />
         <meta name="theme-color" content="#ffffff" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
       </Head>
       <ChakraProvider>
         <Component {...pageProps} />
