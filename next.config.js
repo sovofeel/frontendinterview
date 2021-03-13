@@ -20,7 +20,7 @@ const defaultConfig = {
     optimizeFonts: true,
     modern: true,
   },
-  //redirects: require("./next-redirect"),
+  redirects: require("./next-redirect"),
 }
 
 const mdxConfig = {
@@ -39,9 +39,7 @@ const mdxConfig = {
   extendFrontMatter: {
     process: async (_, frontmatter) => {
       const { __resourcePath: mdxPath, tags } = frontmatter
-
       const slug = fileToPath(mdxPath)
-      // if frontmatter inclues author, add the author's data
 
       return {
         slug,

@@ -90,8 +90,6 @@ function CodeBlock(props) {
     ...rest,
   }
 
-  console.log(liveProviderProps)
-
   const onChange = newCode => setEditorCode(newCode.trim())
 
   if (language === 'jsx' && example) {

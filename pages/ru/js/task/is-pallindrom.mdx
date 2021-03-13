@@ -9,17 +9,17 @@ type: task
 tags: ['string', 'sort']
 source: https://habr.com/ru/post/488510/
 ---
-```js
+
+```js answer
 function isEqualSymbols(str1, str2) {
   if (str1.length !== str2.length) {
-    return false;
+    return false
   }
 
   if (str1.split('').sort().join('') === str2.split('').sort().join('')) {
-    return true;
+    return true
   }
 
-  return false;
+  return false
 }
-
 ```

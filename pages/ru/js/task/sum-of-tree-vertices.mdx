@@ -8,14 +8,15 @@ type: task
 tags: ['array', 'recursion']
 source: https://habr.com/ru/post/488510/
 ---
-```js
+
+```js answer
 function getTreeSum(node) {
-  let sum = node.value;
+  let sum = node.value
 
   if (Array.isArray(node.children)) {
-    node.children.forEach(item => sum += getTreeSum(item));
+    node.children.forEach(item => (sum += getTreeSum(item)))
   }
 
-  return sum;
+  return sum
 }
 ```

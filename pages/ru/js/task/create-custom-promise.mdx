@@ -1,16 +1,17 @@
 ---
 id: 1
 title: Создайте промис с нуля
-complexity:  middle
+complexity: middle
 category: js
 lang: ru
 type: task
 tags: ['promise']
 source: https://habr.com/ru/company/otus/blog/517560/
 ---
-```js
+
+```js answer
 class CustomPromise {
-  state = "PENDING"
+  state = 'PENDING'
   value = undefined
   thenCallbacks = []
   errorCallbacks = []
@@ -20,29 +21,29 @@ class CustomPromise {
   }
 
   resolver(value) {
-    this.state = "RESOLVED"
+    this.state = 'RESOLVED'
     this.value = value
-    this.thenCallbacks.forEach((callback) => {
+    this.thenCallbacks.forEach(callback => {
       callback(this.value)
     })
   }
 
   reject(value) {
-    this.state = "REJECTED"
+    this.state = 'REJECTED'
     this.value = value
-    this.errorCallbacks.forEach((callback) => {
+    this.errorCallbacks.forEach(callback => {
       callback(this.value)
     })
   }
 
   then(callback) {
     this.thenCallbacks.push(callback)
-    return this 
+    return this
   }
 
-  catch (callback) {
+  catch(callback) {
     this.errorCallbacks.push(callback)
-    return this 
+    return this
   }
 }
 
@@ -50,18 +51,18 @@ let promise = new CustomPromise((resolver, reject) => {
   setTimeout(() => {
     const rand = Math.ceil(Math.random(1 * 1 + 6) * 6)
     if (rand > 2) {
-      resolver("Success")
+      resolver('Success')
     } else {
-      reject("Error")
+      reject('Error')
     }
   }, 1000)
 })
 
 promise
-  .then(function(response){
+  .then(function (response) {
     console.log(response)
   })
-  .catch(function(error){
+  .catch(function (error) {
     console.log(error)
   })
 ```

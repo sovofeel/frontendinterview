@@ -9,16 +9,17 @@ type: task
 tags: ['prototype', 'class']
 source: https://habr.com/ru/post/488510/
 ---
-```js
-function Bomb(message, delay) {
-  this.message = message;
 
-  setTimeout(this.blowUp.bind(this), delay * 1000); 
+```js answer
+function Bomb(message, delay) {
+  this.message = message
+
+  setTimeout(this.blowUp.bind(this), delay * 1000)
 }
 
 Bomb.prototype.blowUp = function () {
-  console.log(this.message);
-};
+  console.log(this.message)
+}
 
-new Bomb("Explosion!", .5);
+new Bomb('Explosion!', 0.5)
 ```
