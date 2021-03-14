@@ -7,7 +7,7 @@ import { getPosts } from 'utils/get-posts'
 
 const IndexPage = ({ posts }) => {
   return (
-    <PageContainer frontmatter={{ slug: '/' }}>
+    <PageContainer>
       <VStack mt="10" spacing="6" align="stretch">
         {posts.map((post, index) => (
           <React.Fragment key={index}>

@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import * as React from 'react'
 import { Box, Text, Heading } from '@chakra-ui/react'
-import Container from '../components/container'
+import Container from 'components/container'
 import Header from './header'
 
 function useHeadingFocusOnRouteChange() {
@@ -20,14 +20,14 @@ function useHeadingFocusOnRouteChange() {
 }
 
 interface PageContainerProps {
-  frontmatter: {
+  frontmatter?: {
     slug?: string
     description?: string
-    category: string
-    complexity: string
-    lang: string
-    tags: string[]
-    title: string
+    category?: string
+    complexity?: string
+    lang?: string
+    tags?: string[]
+    title?: string
   }
   children: React.ReactNode
   sidebar?: any
@@ -36,18 +36,20 @@ interface PageContainerProps {
 
 function PageContainer(props: PageContainerProps) {
   const { children, pagination, frontmatter } = props
-  const { title, description } = frontmatter
+  const { title, description } = frontmatter || { title: null, description: null }
   useHeadingFocusOnRouteChange()
 
   return (
     <>
       <Header />
-      <Container as="main" className="main-content">
+      <Container mt="4.5rem" as="main" className="main-content">
         <Box display={{ base: 'block', md: 'flex' }}>
           <div style={{ flex: 1 }}>
-            <Heading as="h1" size="md" mb={4}>
-              {title}
-            </Heading>
+            {title && (
+              <Heading as="h1" size="md" mb={4}>
+                {title}
+              </Heading>
+            )}
             {description && (
               <Box mb={2}>
                 <Text fontSize=".90em" as="em">

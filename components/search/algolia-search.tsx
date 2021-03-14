@@ -21,7 +21,7 @@ const ACTION_KEY_APPLE = ['⌘', 'Command']
 function Hit(props: any) {
   const { hit, children } = props
   return (
-    <Link href={hit.url} passHref>
+    <Link href={hit.url}>
       <a>{children}</a>
     </Link>
   )
