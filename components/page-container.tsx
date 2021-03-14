@@ -2,6 +2,7 @@ import { useRouter } from 'next/router'
 import * as React from 'react'
 import { Box, Text, Heading } from '@chakra-ui/react'
 import Container from '../components/container'
+import Header from './header'
 
 function useHeadingFocusOnRouteChange() {
   const router = useRouter()
@@ -35,11 +36,12 @@ interface PageContainerProps {
 
 function PageContainer(props: PageContainerProps) {
   const { children, pagination, frontmatter } = props
-  const { title, tags, complexity, source, description } = frontmatter
+  const { title, description } = frontmatter
   useHeadingFocusOnRouteChange()
 
   return (
     <>
+      <Header />
       <Container as="main" className="main-content">
         <Box display={{ base: 'block', md: 'flex' }}>
           <div style={{ flex: 1 }}>
