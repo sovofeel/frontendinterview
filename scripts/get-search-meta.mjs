@@ -25,6 +25,8 @@ async function getMDXMeta(file) {
     url: removePrefix(slug, "/"),
     hierarchy: {
       lvl1: frontMatter.title,
+      lvl2: frontMatter.description,
+      lvl3: frontMatter.tags
     },
   })
 

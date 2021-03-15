@@ -161,7 +161,7 @@ function Search() {
           break
         }
         case 'Enter': {
-          router.push(results[active].url)
+          results.length && router.push(results[active].url)
           break
         }
       }
@@ -215,7 +215,7 @@ function Search() {
               pl="40px"
               outline="0"
               id="docsearch-input"
-              placeholder="Search the docs"
+              placeholder="Поиск по документам"
               value={query}
               onChange={e => {
                 setQuery(e.target.value)

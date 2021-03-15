@@ -1,6 +1,7 @@
 import React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
 import Head from 'next/head'
+import '../styles/main.css'
 
 const App = ({ Component, pageProps }) => {
   return (

@@ -1,6 +1,5 @@
 import { VStack, Divider } from '@chakra-ui/react'
 import PageContainer from 'components/page-container'
-import PostFooter from 'components/post-footer'
 import PostPreview from 'components/post-preview'
 import React from 'react'
 import { getPosts } from 'utils/get-posts'
@@ -12,7 +11,6 @@ const IndexPage = ({ posts }) => {
         {posts.map((post, index) => (
           <React.Fragment key={index}>
             <PostPreview post={post} />
-            <PostFooter {...post} />
           </React.Fragment>
         ))}
       </VStack>

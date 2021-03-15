@@ -60,13 +60,13 @@ export const SearchButton = React.forwardRef(function SearchButton(
       _focus={{ shadow: 'outline' }}
       shadow="base"
       rounded="md"
-      aria-label="Поиск информации"
+      aria-label="Поиск по документам"
       {...props}
     >
       <SearchIcon />
       <HStack w="full" ml="3" spacing="4px">
         <Text textAlign="left" flex="1">
-          Поиск информации
+          Поиск по документам
         </Text>
         <HStack spacing="4px">
           <VisuallyHidden>Press </VisuallyHidden>
@@ -123,7 +123,7 @@ function AlgoliaSearch() {
       {isOpen && (
         <Portal>
           <DocSearchModal
-            placeholder="Поиск информации"
+            placeholder="Поиск по документам"
             initialQuery={initialQuery}
             initialScrollY={window.scrollY}
             onClose={onClose}

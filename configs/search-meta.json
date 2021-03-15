@@ -1,137 +1,190 @@
 [
   {
     "content": "Что выведет код этот код?",
-    "id": "b42a8311-750c-4337-aa7d-a9a0c5418e86",
+    "id": "829be0e1-00b8-46f4-b311-712f9b0f3c68",
     "type": "lvl1",
     "url": "/ru/js/example/code-examples",
-    "hierarchy": { "lvl1": "Что выведет код этот код?" }
+    "hierarchy": {
+      "lvl1": "Что выведет код этот код?",
+      "lvl2": "Подборка примеров кода"
+    }
   },
   {
     "content": "Что такое замыкание и как/для чего его используют?",
-    "id": "03ab1492-86f8-4e55-8d3e-1872210fb1b7",
+    "id": "681853aa-c7a9-4a8c-bf62-eb381c1ea98b",
     "type": "lvl1",
     "url": "/ru/js/question/clousure",
     "hierarchy": {
-      "lvl1": "Что такое замыкание и как/для чего его используют?"
+      "lvl1": "Что такое замыкание и как/для чего его используют?",
+      "lvl3": ["fundamental", "closure", "function"]
     }
   },
   {
     "content": "Объясните делегирование событий",
-    "id": "ded3ec66-4180-4679-abc2-35ec534edb27",
+    "id": "6d9891d0-27a9-4da3-89fb-0208f07f2e45",
     "type": "lvl1",
     "url": "/ru/js/question/event-delegation",
-    "hierarchy": { "lvl1": "Объясните делегирование событий" }
+    "hierarchy": {
+      "lvl1": "Объясните делегирование событий",
+      "lvl3": ["fundamental", "event delegation"]
+    }
   },
   {
     "content": "Расскажите, как работает прототипное наследование",
-    "id": "7ef42129-1e3c-47dc-a8cb-f7d82d6400b8",
+    "id": "22703d93-d75a-4db8-80bf-f0e835016a58",
     "type": "lvl1",
     "url": "/ru/js/question/protorype-inheratence",
-    "hierarchy": { "lvl1": "Расскажите, как работает прототипное наследование" }
+    "hierarchy": {
+      "lvl1": "Расскажите, как работает прототипное наследование",
+      "lvl3": ["fundamental", "prototype inheritance"]
+    }
   },
   {
     "content": "Уникализация значений в массиве",
-    "id": "98767ea1-90e0-4582-afd7-35efa81f221e",
+    "id": "a417bd59-4378-4d75-aaa1-d3123307aca2",
     "type": "lvl1",
     "url": "/ru/js/task/array-unique-items",
-    "hierarchy": { "lvl1": "Уникализация значений в массиве" }
+    "hierarchy": {
+      "lvl1": "Уникализация значений в массиве",
+      "lvl2": "Необходимо написать функцию, принимающую в аргументах массив целых чисел и возвращающую новый массив, состоящий только из уникальных значений первого массива.",
+      "lvl3": ["array"]
+    }
   },
   {
     "content": "Бомба",
-    "id": "317ae4aa-bd4b-471f-b6c6-29428f34e00d",
+    "id": "dfcaeea1-42d0-48bb-984d-b5e5aa5ffdd2",
     "type": "lvl1",
     "url": "/ru/js/task/bomb",
-    "hierarchy": { "lvl1": "Бомба" }
+    "hierarchy": {
+      "lvl1": "Бомба",
+      "lvl2": "Надо реализовать «бомбу» (в виде функции-конструктора), которая получает на входе время, через которое взорвется и некоторый «звук взрыва» (строку, которую вернет через заданное время)",
+      "lvl3": ["prototype", "class"]
+    }
   },
   {
     "content": "Создайте промис с нуля",
-    "id": "00f13882-7822-414d-8441-bb6e057090af",
+    "id": "82ceafe4-fab2-4258-aa59-29364fe0a1d3",
     "type": "lvl1",
     "url": "/ru/js/task/create-custom-promise",
-    "hierarchy": { "lvl1": "Создайте промис с нуля" }
+    "hierarchy": { "lvl1": "Создайте промис с нуля", "lvl3": ["promise"] }
   },
   {
     "content": "Реализуйте функцию debounce",
-    "id": "4d836de5-f75e-4d72-a0df-dd172edbc2ca",
+    "id": "bbd795d9-dd75-4393-9c99-9f5cde8bb729",
     "type": "lvl1",
     "url": "/ru/js/task/create-function-debounce",
-    "hierarchy": { "lvl1": "Реализуйте функцию debounce" }
+    "hierarchy": {
+      "lvl1": "Реализуйте функцию debounce",
+      "lvl3": ["array", "debounce"]
+    }
   },
   {
     "content": "Реализуйте функцию throttle",
-    "id": "9a0356f2-7c02-4dde-b2d3-c4354d693828",
+    "id": "d46e1e50-7f17-4365-a410-f215836d1b6f",
     "type": "lvl1",
     "url": "/ru/js/task/create-function-throttle",
-    "hierarchy": { "lvl1": "Реализуйте функцию throttle" }
+    "hierarchy": {
+      "lvl1": "Реализуйте функцию throttle",
+      "lvl3": ["array", "throttle"]
+    }
   },
   {
     "content": "Реализуйте метод bind",
-    "id": "56c0e8c6-380f-42b6-9de1-d655cd8fc299",
+    "id": "f3cc46ad-2611-4de0-bc2c-8832e5a63e8b",
     "type": "lvl1",
     "url": "/ru/js/task/create-method-bind",
-    "hierarchy": { "lvl1": "Реализуйте метод bind" }
+    "hierarchy": { "lvl1": "Реализуйте метод bind", "lvl3": ["array", "bind"] }
   },
   {
     "content": "Реализуйте метод reduce",
-    "id": "a33f6f2a-2fa1-4c0d-8742-46445dd4f732",
+    "id": "c6247ab0-e9f2-46e9-84b7-aa807bab0b20",
     "type": "lvl1",
     "url": "/ru/js/task/create-method-reduce",
-    "hierarchy": { "lvl1": "Реализуйте метод reduce" }
+    "hierarchy": {
+      "lvl1": "Реализуйте метод reduce",
+      "lvl3": ["array", "reduce"]
+    }
   },
   {
     "content": "Реализуйте аналог Promise.all",
-    "id": "24404a57-0617-4770-8c19-5338d041c06c",
+    "id": "11750cc2-c6e3-4aa3-8dae-b124d96c8f8b",
     "type": "lvl1",
     "url": "/ru/js/task/create-promise-all",
-    "hierarchy": { "lvl1": "Реализуйте аналог Promise.all" }
+    "hierarchy": {
+      "lvl1": "Реализуйте аналог Promise.all",
+      "lvl3": ["promise"]
+    }
   },
   {
     "content": "Реализовуйте аналог Function.prototype.bind",
-    "id": "7e5a3110-1955-427b-9320-ad7983e47272",
+    "id": "ead234cc-4c10-4176-b99b-613687e63b33",
     "type": "lvl1",
     "url": "/ru/js/task/create-prototype-bind",
-    "hierarchy": { "lvl1": "Реализовуйте аналог Function.prototype.bind" }
+    "hierarchy": {
+      "lvl1": "Реализовуйте аналог Function.prototype.bind",
+      "lvl3": ["prototype"]
+    }
   },
   {
     "content": "Реализуйте делегирование",
-    "id": "6a4165ec-e87d-4627-b9cc-c4bb8469de51",
+    "id": "70a681e4-c86a-48c8-9263-fb8a40e70b62",
     "type": "lvl1",
     "url": "/ru/js/task/how-to-delegation",
-    "hierarchy": { "lvl1": "Реализуйте делегирование" }
+    "hierarchy": {
+      "lvl1": "Реализуйте делегирование",
+      "lvl3": ["event delegation"]
+    }
   },
   {
     "content": "Идентичный алфавит",
-    "id": "ed9c52a0-f0c7-4b9b-a799-9f8143df134c",
+    "id": "0272767b-d1f8-41a0-8fee-50adebcbaf6d",
     "type": "lvl1",
     "url": "/ru/js/task/is-pallindrom",
-    "hierarchy": { "lvl1": "Идентичный алфавит" }
+    "hierarchy": {
+      "lvl1": "Идентичный алфавит",
+      "lvl2": "Необходимо написать функцию, принимающую в аргументах две строки и возвращающую true, если эти строки состоят из идентичных букв и false в противном случае.",
+      "lvl3": ["string", "sort"]
+    }
   },
   {
     "content": "Сделайте вложенный массив плоским",
-    "id": "c96f4b36-f3a6-42c5-bbdc-d1245f7de3e8",
+    "id": "5932dd60-029c-4442-8653-e671d7d26c82",
     "type": "lvl1",
     "url": "/ru/js/task/make-flat-array",
-    "hierarchy": { "lvl1": "Сделайте вложенный массив плоским" }
+    "hierarchy": {
+      "lvl1": "Сделайте вложенный массив плоским",
+      "lvl3": ["array"]
+    }
   },
   {
     "content": "Сортировка нечётных",
-    "id": "5d81c01c-f11a-4b2f-8ecf-aaed498fa1e0",
+    "id": "3107c845-ccd7-4055-a42f-e6dab3a0617c",
     "type": "lvl1",
     "url": "/ru/js/task/odd-sort",
-    "hierarchy": { "lvl1": "Сортировка нечётных" }
+    "hierarchy": {
+      "lvl1": "Сортировка нечётных",
+      "lvl2": "Необходимо написать функцию, принимающую в аргументах массив и возвращающую новый массив, в котором отсортированы все нечетные числа по возрастанию, в то время как чётные остаются на своих местах.",
+      "lvl3": ["array", "sort"]
+    }
   },
   {
     "content": "Сумма вершин дерева",
-    "id": "7d69abc0-a287-4675-9cd5-61b377ca3edd",
+    "id": "24014d01-d4f7-4ca5-84ba-a079341e4554",
     "type": "lvl1",
     "url": "/ru/js/task/sum-of-tree-vertices",
-    "hierarchy": { "lvl1": "Сумма вершин дерева" }
+    "hierarchy": {
+      "lvl1": "Сумма вершин дерева",
+      "lvl3": ["array", "recursion"]
+    }
   },
   {
     "content": "Для чего нужен атрибут key при рендере списков?",
-    "id": "1aa4157e-4ea3-48a2-bd38-a4983c686ad0",
+    "id": "4d979149-ebca-4e67-8d94-f0610d6b738b",
     "type": "lvl1",
     "url": "/ru/react/question/key",
-    "hierarchy": { "lvl1": "Для чего нужен атрибут key при рендере списков?" }
+    "hierarchy": {
+      "lvl1": "Для чего нужен атрибут key при рендере списков?",
+      "lvl3": ["react key"]
+    }
   }
 ]
