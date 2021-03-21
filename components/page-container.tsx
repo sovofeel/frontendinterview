@@ -35,7 +35,7 @@ interface PageContainerProps {
 }
 
 function PageContainer(props: PageContainerProps) {
-  const { children, pagination, frontmatter } = props
+  const { children, pagination, frontmatter, sidebar } = props
   const { title, description } = frontmatter || { title: null, description: null }
   useHeadingFocusOnRouteChange()
 
@@ -65,6 +65,7 @@ function PageContainer(props: PageContainerProps) {
               {pagination || null}
             </Box>
           </div>
+          {sidebar || null}
         </Box>
       </Container>
     </>

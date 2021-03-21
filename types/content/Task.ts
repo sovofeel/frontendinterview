@@ -7,5 +7,6 @@ export type Task = {
   complexity: Complexity
   source?: string
   category: Category
+  type: string
   tags: string[]
 } 

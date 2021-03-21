@@ -7,5 +7,6 @@ export type Question = {
   description?: string
   complexity: Complexity
   category: Category
+  type: string
   tags: string[]
 } 

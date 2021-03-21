@@ -11,7 +11,7 @@ async function loadMDXFromPages(mdxDir = "guides") {
   const dataPromise = filenames.map(async (filename) => {
     const pagesDir = path.join(process.cwd(), "pages")
     const mdxPath = path.relative(pagesDir, filename)
-    const { frontMatter, content } = await parseMarkdownFile(filename)
+    const { frontMatter } = await parseMarkdownFile(filename)
 
     return processFrontmatter({
       ...frontMatter,

@@ -4,7 +4,7 @@ import PostFooter from './post-footer'
 
 const PostPreview = ({ post }) => {
   return (
-    <LinkBox as="article" cursor="pointer" position="relative" rounded="md" pb="3">
+    <LinkBox w="100%" as="article" cursor="pointer" position="relative" rounded="md" pb="3">
       <VStack align="flex-start" mb="5">
         <Heading as="h3" size="md">
           <Link href={post.slug}>
