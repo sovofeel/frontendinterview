@@ -43,6 +43,8 @@ const Sidebar = ({ filters, setFilters }) => {
     setTypes(filters.types)
     setTags(filters.tags)
     setResetKey(resetKey + 1)
+    setSelectedTags([])
+    setFilters(null)
   }
 
   const onTypeChange = event => {

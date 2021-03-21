@@ -3,7 +3,7 @@ import PageContainer from 'components/page-container'
 import PostPreview from 'components/post-preview'
 import Sidebar from 'components/sidebar/Sidebar'
 import React, { useState } from 'react'
-import { getFilters, getPosts } from 'utils/get-posts'
+import { getFilters, getPosts } from 'frontend/utils/get-posts'
 
 const IndexPage = ({ posts: _posts, filters }) => {
   const [posts, setPosts] = useState(_posts)
@@ -13,7 +13,7 @@ const IndexPage = ({ posts: _posts, filters }) => {
       .filter(post => (filters?.category ? post.category === filters.category : true))
       .filter(post => (filters?.type ? post.type === filters.type : true))
       .filter(post => {
-        if (filters.tags.length) {
+        if (filters?.tags?.length) {
           return post.tags.some(tag => filters.tags.includes(tag))
         } else {
           return true

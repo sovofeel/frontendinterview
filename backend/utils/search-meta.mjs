@@ -7,6 +7,7 @@ import fs from "graceful-fs"
 import prettier from "prettier"
 
 const websiteRoot = "pages"
+const toSrc = () => process.cwd()
 
 async function getMDXMeta(file) {
   const { content, frontMatter } = await parseMarkdownFile(file)
@@ -65,7 +66,8 @@ async function getSearchMeta() {
 
   json = prettier.format(JSON.stringify(json), { parser: "json" })
   const outPath = path.join(
-    process.cwd(),
+    toSrc(),
+    'frontend',
     "configs",
     "search-meta.json",
   )

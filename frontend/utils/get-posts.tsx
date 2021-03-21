@@ -1,5 +1,5 @@
 import { Item } from 'types/content/Item'
-import loadMDXFromPages from 'utils/load-mdx-dir'
+import loadMDXFromPages from 'frontend/utils/load-mdx-dir'
 
 type MDXPost = Item & {
   slug: string

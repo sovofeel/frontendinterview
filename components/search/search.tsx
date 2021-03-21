@@ -13,7 +13,7 @@ import {
   useEventListener,
   useUpdateEffect,
 } from '@chakra-ui/react'
-import searchData from '../../configs/search-meta.json'
+import searchData from '../../frontend/configs/search-meta.json'
 import { matchSorter } from 'match-sorter'
 import Link from 'next/link'
 import { useRouter } from 'next/router'

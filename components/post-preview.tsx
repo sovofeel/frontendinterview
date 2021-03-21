@@ -1,6 +1,7 @@
 import { Box, Text, Heading, Link, LinkBox, LinkOverlay, VStack } from '@chakra-ui/react'
 import React from 'react'
 import PostFooter from './post-footer'
+import MDXProvider from './mdx-components'
 
 const PostPreview = ({ post }) => {
   return (
@@ -12,7 +13,7 @@ const PostPreview = ({ post }) => {
           </Link>
         </Heading>
         {post.description && (
-          <Box mb={2}>
+          <Box width="100%" mb={2}>
             <Text fontSize=".90em" as="em">
               <Text as="span" fontWeight="600">
                 Описание:&nbsp;
@@ -21,6 +22,10 @@ const PostPreview = ({ post }) => {
             </Text>
           </Box>
         )}
+        <Box w="100%">
+          {post.code &&
+            post.code.map((postCode, index) => <MDXProvider.code key={index} {...postCode} />)}
+        </Box>
         <Box w="100%">
           <PostFooter {...post} />
         </Box>

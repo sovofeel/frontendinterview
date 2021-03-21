@@ -18,7 +18,7 @@
       "configs/*": ["config/*"],
       "hooks/*": ["hooks/*"],
       "components/*": ["components/*"],
-      "utils/*": ["utils/*"],
+      "utils/*": ["frontend/utils/*"],
       "analytics/*": ["analytics/*"]
     }
   },

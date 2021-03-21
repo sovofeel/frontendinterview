@@ -5,7 +5,7 @@ import { Item } from '../types/content/Item'
 
 type IProps = Item
 
-const PostFooter = ({ tags, complexity, source }: IProps) => {
+const PostFooter = ({ tags, type, source, category }: IProps) => {
   return (
     <>
       <Box>
@@ -19,7 +19,7 @@ const PostFooter = ({ tags, complexity, source }: IProps) => {
           ))}
       </Box>
       <Flex justifyContent="space-between">
-        <Text>Сложность: {complexity}</Text>
+        <Text>Тип: {type}</Text>
         {source && (
           <Link color="blue.400" href={source} isExternal>
             Источник <ExternalLinkIcon mx="2px" />

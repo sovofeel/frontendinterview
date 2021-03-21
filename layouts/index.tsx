@@ -8,8 +8,6 @@ const MDXLayout = dynamic(() => import('layouts/mdx'))
 export default function DefaultLayout({ children, frontMatter }) {
   const { slug } = frontMatter
 
-  console.log(Sidebar)
-
   const layoutMap = {
     '/ru': <MDXLayout frontmatter={frontMatter}>{children}</MDXLayout>,
     default: (

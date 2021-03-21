@@ -5,11 +5,13 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start:prod": "next start",
     "type-check": "tsc",
     "clean": "rm -rf .next .mdx-data",
     "analyze": "ANALYZE=true next build",
-    "search-meta:gen": "node  scripts/get-search-meta.mjs --experimental-modules"
+    "gen:search": "node  ./backend/utils/search-meta.mjs --experimental-modules",
+    "gen:content": "node backend/utils/main-page-content.js",
+    "dev:start": "yarn gen:search && yarn gen:content && yarn dev"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.6",
@@ -43,6 +45,7 @@
     "remark-unwrap-images": "^2.0.0",
     "scroll-into-view-if-needed": "^2.2.26",
     "shelljs": "^0.8.4",
+    "to-vfile": "^6.1.0",
     "ts-node": "^9.1.1"
   },
   "devDependencies": {

@@ -76,6 +76,11 @@ const CodeContainer = (props: BoxProps) => (
 
 function CodeBlock(props) {
   const { className, example, answer, manual, render, children, viewlines, ln, ...rest } = props
+
+  const isSkipCodeBlock = !!children
+  if (!isSkipCodeBlock) {
+    return null
+  }
   const [editorCode, setEditorCode] = useState(children.trim())
 
   const language = className?.replace(/language-/, '')
