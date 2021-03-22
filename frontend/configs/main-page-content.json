@@ -104,12 +104,7 @@
       "children": "// Чему равно foo?\nvar foo = 10 + '20'",
       "className": "js"
     },
-    {
-      "answer": true,
-      "example": false,
-      "children": "1020``",
-      "className": "js"
-    }
+    { "answer": true, "example": false, "children": "1020", "className": "js" }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/clousure.mdx": [
     { "answer": false, "example": false },

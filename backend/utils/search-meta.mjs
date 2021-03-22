@@ -72,7 +72,7 @@ async function getSearchMeta() {
     "search-meta.json",
   )
   fs.writeFileSync(outPath, json)
-  console.log("Search meta is ready ✅")
+  console.log("Search meta is ready 🏔️")
 }
 
 getSearchMeta()

@@ -55,7 +55,7 @@ async function loadMDXData (filename) {
     "main-page-content.json",
   )
   fs.writeFileSync(pathToFront, json)
-  console.log("mdx content ready ✅")
+  console.log("mdx content ready 🏔️")
 }
 
 getMDXData()

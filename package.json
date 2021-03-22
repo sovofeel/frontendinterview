@@ -11,6 +11,7 @@
     "analyze": "ANALYZE=true next build",
     "gen:search": "node  ./backend/utils/search-meta.mjs --experimental-modules",
     "gen:content": "node backend/utils/main-page-content.js",
+    "gen:routes": "node backend/utils/app-routes.mjs",
     "dev:start": "yarn gen:search && yarn gen:content && yarn dev"
   },
   "dependencies": {
