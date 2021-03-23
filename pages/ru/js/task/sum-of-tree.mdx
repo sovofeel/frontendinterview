@@ -1,0 +1,48 @@
+---
+id: 11
+title: Сумма вершин дерева
+description: Найдите сумму вершин для дерева
+complexity: junior
+category: js
+lang: ru
+type: task
+tags: ['array', 'recursion']
+source: https://habr.com/ru/post/488510/
+---
+
+```js example
+const tree = {
+  value: 5,
+  right: {
+    value: 5,
+    right: {
+      value: 5,
+      right: {
+        value: 10,
+      },
+    },
+    left: {
+      value: 5,
+      left: {
+        value: 1,
+      },
+    },
+  },
+}
+
+// sumOftree(tree) => 31
+```
+
+```js answer
+function sumTree(tree) {
+  let count = tree.value
+  if (tree.left) {
+    count += sumTree(tree.left)
+  }
+  if (tree.right) {
+    count += sumTree(tree.right)
+  }
+
+  return count
+}
+```

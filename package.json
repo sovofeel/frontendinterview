@@ -12,7 +12,8 @@
     "gen:search": "node  ./backend/utils/search-meta.mjs --experimental-modules",
     "gen:content": "node backend/utils/main-page-content.js",
     "gen:routes": "node backend/utils/app-routes.mjs",
-    "dev:start": "yarn gen:search && yarn gen:content && yarn dev"
+    "gen:filters": "node backend/utils/app-filters.mjs",
+    "dev:start": "yarn gen:routes && yarn gen:search && yarn gen:content && yarn dev"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.6",
@@ -63,6 +64,7 @@
     "@types/sharp": "^0.26.1",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
+    "child_process": "^1.0.2",
     "eslint": "^7.13.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-airbnb-typescript": "12.0.0",

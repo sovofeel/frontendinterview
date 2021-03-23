@@ -9,108 +9,126 @@
     "title": "Что такое замыкание и как/для чего его используют?",
     "category": "js",
     "type": "question",
+    "tags": ["fundamental", "closure", "function"],
     "path": "/ru/js/question/clousure"
   },
   {
     "title": "Объясните делегирование событий",
     "category": "js",
     "type": "question",
+    "tags": ["fundamental", "event delegation"],
     "path": "/ru/js/question/event-delegation"
   },
   {
     "title": "Расскажите, как работает прототипное наследование",
     "category": "js",
     "type": "question",
+    "tags": ["fundamental", "prototype inheritance"],
     "path": "/ru/js/question/protorype-inheratence"
   },
   {
     "title": "Уникализация значений в массиве",
     "category": "js",
     "type": "task",
+    "tags": ["array"],
     "path": "/ru/js/task/array-unique-items"
   },
   {
     "title": "Бомба",
     "category": "js",
     "type": "task",
+    "tags": ["prototype", "class"],
     "path": "/ru/js/task/bomb"
   },
   {
     "title": "Создайте промис с нуля",
     "category": "js",
     "type": "task",
+    "tags": ["promise"],
     "path": "/ru/js/task/create-custom-promise"
   },
   {
     "title": "Реализуйте функцию debounce",
     "category": "js",
     "type": "task",
+    "tags": ["array", "debounce"],
     "path": "/ru/js/task/create-function-debounce"
   },
   {
     "title": "Реализуйте функцию throttle",
     "category": "js",
     "type": "task",
+    "tags": ["array", "throttle"],
     "path": "/ru/js/task/create-function-throttle"
   },
   {
     "title": "Реализуйте метод bind",
     "category": "js",
     "type": "task",
+    "tags": ["array", "bind"],
     "path": "/ru/js/task/create-method-bind"
   },
   {
     "title": "Реализуйте метод reduce",
     "category": "js",
     "type": "task",
+    "tags": ["array", "reduce"],
     "path": "/ru/js/task/create-method-reduce"
   },
   {
     "title": "Реализуйте аналог Promise.all",
     "category": "js",
     "type": "task",
+    "tags": ["promise"],
     "path": "/ru/js/task/create-promise-all"
   },
   {
     "title": "Реализовуйте аналог Function.prototype.bind",
     "category": "js",
     "type": "task",
+    "tags": ["prototype"],
     "path": "/ru/js/task/create-prototype-bind"
   },
   {
     "title": "Реализуйте делегирование",
     "category": "js",
     "type": "task",
+    "tags": ["event delegation"],
     "path": "/ru/js/task/how-to-delegation"
   },
   {
     "title": "Идентичный алфавит",
     "category": "js",
     "type": "task",
+    "tags": ["string", "sort"],
     "path": "/ru/js/task/is-pallindrom"
   },
   {
     "title": "Сделайте вложенный массив плоским",
     "category": "js",
     "type": "task",
+    "tags": ["array", "flat"],
     "path": "/ru/js/task/make-flat-array"
   },
   {
     "title": "Сортировка нечётных",
     "category": "js",
     "type": "task",
+    "tags": ["array", "sort"],
     "path": "/ru/js/task/odd-sort"
   },
   {
     "title": "Сумма вершин дерева",
     "category": "js",
     "type": "task",
+    "tags": ["array", "recursion"],
     "path": "/ru/js/task/sum-of-tree-vertices"
   },
   {
     "title": "Для чего нужен атрибут key при рендере списков?",
     "category": "react",
     "type": "question",
+    "tags": ["react key"],
     "path": "/ru/react/question/key"
   }
 ]

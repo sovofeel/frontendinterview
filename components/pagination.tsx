@@ -29,10 +29,18 @@ export const PaginationLink = props => {
 
 export const Pagination = ({ previous, next, ...rest }) => {
   return (
-    <SimpleGrid as="nav" aria-label="Pagination" spacing="40px" my="64px" columns={2} {...rest}>
+    <SimpleGrid
+      as="nav"
+      w="100%"
+      my="64px"
+      aria-label="Pagination"
+      spacing="40px"
+      columns={2}
+      {...rest}
+    >
       {previous ? (
         <PaginationLink textAlign="left" label="Прошлый" href={previous.path} rel="prev">
-          <ChevronLeftIcon mr="1" fontSize="1.2em" />
+          <ChevronLeftIcon mr="1" fontSize=".75em" />
           {previous.title}
         </PaginationLink>
       ) : (
@@ -41,7 +49,7 @@ export const Pagination = ({ previous, next, ...rest }) => {
       {next ? (
         <PaginationLink textAlign="right" label="Следующий" href={next.path} rel="next">
           {next.title}
-          <ChevronRightIcon ml="1" fontSize="1.2em" />
+          <ChevronRightIcon ml="1" fontSize=".75em" />
         </PaginationLink>
       ) : (
         <div />

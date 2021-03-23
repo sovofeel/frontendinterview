@@ -71,7 +71,7 @@ const Sidebar = ({ filters, setFilters }) => {
         overscrollBehavior: 'contain',
       }}
       w="300px"
-      h="calc(((100vh - 1.5rem) - 64px) - 42px);"
+      //h="calc(100vh - 72px - .8em)"
       pr="3"
       pb="8"
       pl="8"

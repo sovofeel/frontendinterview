@@ -1,0 +1,51 @@
+{
+  "filtersTree": {
+    "js": {
+      "question": [
+        "fundamental",
+        "prototype inheritance",
+        "event delegation",
+        "closure",
+        "function"
+      ],
+      "task": [
+        "array",
+        "recursion",
+        "sort",
+        "flat",
+        "string",
+        "event delegation",
+        "prototype",
+        "promise",
+        "reduce",
+        "bind",
+        "throttle",
+        "debounce",
+        "class"
+      ]
+    },
+    "react": { "question": ["react key"] }
+  },
+  "tags": [
+    "fundamental",
+    "closure",
+    "function",
+    "event delegation",
+    "prototype inheritance",
+    "array",
+    "prototype",
+    "class",
+    "promise",
+    "debounce",
+    "throttle",
+    "bind",
+    "reduce",
+    "string",
+    "sort",
+    "flat",
+    "recursion",
+    "react key"
+  ],
+  "types": ["question", "task"],
+  "categories": ["js", "react"]
+}

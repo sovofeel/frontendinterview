@@ -9,11 +9,11 @@ const pagesDir = path.join(process.cwd(), `/pages/`)
 
 async function createAppRoutes (file) {
   const {frontMatter} = await parseMarkdownFile(file)
-  const {title, category,  type } = frontMatter
+  const {title, category,  type, tags } = frontMatter
   const route = file.slice(file.indexOf('pages') + 5, -4)
   
   return {
-    title, category, type, path: route
+    title, category, type, tags, path: route
   }
 }
 
