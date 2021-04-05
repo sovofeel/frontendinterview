@@ -5,7 +5,8 @@ complexity: junior
 category: js
 lang: ru
 type: task
-tags: ['event delegation']
+tags: ['event delegation', 'DOM']
+description: Реализуйте функцию, принимающую название события, элемент родителя, селектор дочернего элемента и функцию callback, производящую действия над дочернем элементом
 source: https://habr.com/ru/post/488510/
 ---
 
@@ -34,6 +35,15 @@ source: https://habr.com/ru/post/488510/
 </div>
 ```
 
+```js example
+delegate(
+  'click',
+  document.querySelector('.wrapper'),
+  '.child',
+  el => (el.style.backgroundColor = 'blue')
+)
+```
+
 ```js answer
 const delegate = (eventName, el, selector, handler) => {
   el.addEventListener(eventName, event => {
@@ -54,11 +64,4 @@ const delegate = (eventName, el, selector, handler) => {
     }
   })
 }
-
-delegate(
-  'click',
-  document.querySelector('.wrapper'),
-  '.child',
-  el => (el.style.backgroundColor = 'blue')
-)
 ```

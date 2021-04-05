@@ -6,35 +6,35 @@
     "path": "/ru/js/example/code-examples"
   },
   {
-    "title": "Какие методы перебора массива есть?",
+    "title": "Методы перебора массива",
     "category": "js",
     "type": "question",
     "tags": ["array", "forEach", "filer", "map", "every", "some", "reduce"],
     "path": "/ru/js/question/array-iterate-methods"
   },
   {
-    "title": "Что такое замыкание и как/для чего его используют?",
+    "title": "Что такое замыкание",
     "category": "js",
     "type": "question",
     "tags": ["fundamental", "closure", "function"],
     "path": "/ru/js/question/clousure"
   },
   {
-    "title": "Объясните делегирование событий",
+    "title": "Что такое делегирование событий",
     "category": "js",
     "type": "question",
     "tags": ["fundamental", "event delegation"],
     "path": "/ru/js/question/event-delegation"
   },
   {
-    "title": "Как проверять значения на равенство null и undefined?",
+    "title": "Какие Ложные значния есть в JS",
     "category": "js",
     "type": "question",
     "tags": ["falsy values"],
     "path": "/ru/js/question/falsy-values"
   },
   {
-    "title": "Расскажите, как работает прототипное наследование",
+    "title": "Что такое прототипы",
     "category": "js",
     "type": "question",
     "tags": ["fundamental", "prototype inheritance"],
@@ -48,7 +48,7 @@
     "path": "/ru/js/task/array-unique-items"
   },
   {
-    "title": "Бомба",
+    "title": "Функция Bomb",
     "category": "js",
     "type": "task",
     "tags": ["prototype", "class"],
@@ -83,13 +83,6 @@
     "path": "/ru/js/task/create-function-throttle"
   },
   {
-    "title": "Реализуйте метод bind",
-    "category": "js",
-    "type": "task",
-    "tags": ["array", "bind"],
-    "path": "/ru/js/task/create-method-bind"
-  },
-  {
     "title": "Реализуйте метод reduce",
     "category": "js",
     "type": "task",
@@ -107,14 +100,14 @@
     "title": "Реализовуйте аналог Function.prototype.bind",
     "category": "js",
     "type": "task",
-    "tags": ["prototype"],
+    "tags": ["prototype", "bind"],
     "path": "/ru/js/task/create-prototype-bind"
   },
   {
     "title": "Реализуйте делегирование",
     "category": "js",
     "type": "task",
-    "tags": ["event delegation"],
+    "tags": ["event delegation", "DOM"],
     "path": "/ru/js/task/how-to-delegation"
   },
   {
@@ -143,31 +136,24 @@
     "category": "js",
     "type": "task",
     "tags": ["array", "recursion"],
-    "path": "/ru/js/task/sum-of-tree-vertices"
-  },
-  {
-    "title": "Сумма вершин дерева",
-    "category": "js",
-    "type": "task",
-    "tags": ["array", "recursion"],
     "path": "/ru/js/task/sum-of-tree"
   },
   {
-    "title": "Что такое props и state в React",
+    "title": "props и state в React",
     "category": "react",
     "type": "question",
     "tags": ["react state", "react state"],
     "path": "/ru/react/question/difference-between-props-and-state"
   },
   {
-    "title": "Для чего нужен атрибут key при рендере списков?",
+    "title": "Для чего нужен атрибут key в React?",
     "category": "react",
     "type": "question",
     "tags": ["react key"],
     "path": "/ru/react/question/key"
   },
   {
-    "title": "Какие основные типы компонент есть в React",
+    "title": "Типы компонентов есть в React",
     "category": "react",
     "type": "question",
     "tags": ["react component"],

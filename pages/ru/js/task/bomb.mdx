@@ -1,6 +1,6 @@
 ---
 id: 14
-title: Бомба
+title: Функция Bomb
 description: Надо реализовать «бомбу» (в виде функции-конструктора), которая получает на входе время, через которое взорвется и некоторый «звук взрыва» (строку, которую вернет через заданное время)
 complexity: junior
 category: js
@@ -9,6 +9,10 @@ type: task
 tags: ['prototype', 'class']
 source: https://habr.com/ru/post/488510/
 ---
+
+```js example
+new Bomb('Explosion!', 0.5) // Через 500ms выведет в консоль 'Explosion!'
+```
 
 ```js answer
 function Bomb(message, delay) {

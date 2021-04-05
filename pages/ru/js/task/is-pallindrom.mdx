@@ -10,6 +10,11 @@ tags: ['string', 'sort']
 source: https://habr.com/ru/post/488510/
 ---
 
+```js example
+isEqualSymbols('cat', 'tac') // => true
+isEqualSymbols('kit', 'tok') // => false
+```
+
 ```js answer
 function isEqualSymbols(str1, str2) {
   if (str1.length !== str2.length) {

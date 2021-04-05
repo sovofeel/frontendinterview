@@ -5,12 +5,26 @@ complexity: middle
 category: js
 lang: ru
 type: task
-tags: ['prototype']
+tags: ['prototype', 'bind']
 source: https://habr.com/ru/post/488510/
+description: Представьте что в JS отсуствует функция bind и реализуйте ее самостоятельно c помощью прототипов
 ---
 
-```js ansi
-Function.prototype.bind = function (context, ...argsBind) {
+```js example
+let user = {
+  firstName: "Арсений"
+};
+
+function func() {
+  retrun this.firstName;
+}
+
+let funcUser = func.binder(user);
+funcUser(); // Арсений
+```
+
+```js answer
+Function.prototype.binder = function (context, ...argsBind) {
   const fn = this
   return function (...args) {
     return fn.apply(context, argsBind.concat(args))

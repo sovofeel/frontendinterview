@@ -5,12 +5,19 @@ complexity: junior
 category: js
 lang: ru
 type: task
+description: Представьте что в JS отсуствует функция reduce и реализуйте ее самостоятельно c помощью прототипов
 tags: ['array', 'reduce']
-source: https://habr.com/ru/company/otus/blog/517560/
+source: https://habr.com/ru/company/otus/blog/
 ---
 
+```js example
+let arr = [1, 2, 3, 4, 5]
+
+arr.reducer((curr, next) => (curr += next), 0) // => 15
+```
+
 ```js answer
-Array.prototype.reduce = function (func, initState) {
+Array.prototype.reducer = function (func, initState) {
   const arr = this
   const callback = func
   let init = initState

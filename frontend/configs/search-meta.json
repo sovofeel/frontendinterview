@@ -1,67 +1,72 @@
 [
   {
     "content": "Что выведет код этот код?",
-    "id": "c0e50580-f74e-4e2a-a05c-b49751355bfa",
+    "id": "ca9279cd-4d75-4943-b827-c77b7e9fbb89",
     "type": "lvl1",
     "url": "/ru/js/example/code-examples",
     "hierarchy": {
       "lvl1": "Что выведет код этот код?",
-      "lvl2": "Подборка примеров кода"
+      "lvl2": "Набор примеров кода, проверьте, знаете ли вы что выведет код в примерах ниже"
     }
   },
   {
-    "content": "Какие методы перебора массива есть?",
-    "id": "9101daac-4d49-4045-99a4-229c2e2809c9",
+    "content": "Методы перебора массива",
+    "id": "c32e9b85-697f-44a8-ba66-0b3b66d743a5",
     "type": "lvl1",
     "url": "/ru/js/question/array-iterate-methods",
     "hierarchy": {
-      "lvl1": "Какие методы перебора массива есть?",
+      "lvl1": "Методы перебора массива",
+      "lvl2": "Назовите какими методами можно перебрать массив и что каждый из них делает",
       "lvl3": ["array", "forEach", "filer", "map", "every", "some", "reduce"]
     }
   },
   {
-    "content": "Что такое замыкание и как/для чего его используют?",
-    "id": "530e0937-53ce-44da-bf03-505c7feeb500",
+    "content": "Что такое замыкание",
+    "id": "cc2906df-e5b9-4743-828c-dc7e4544d24d",
     "type": "lvl1",
     "url": "/ru/js/question/clousure",
     "hierarchy": {
-      "lvl1": "Что такое замыкание и как/для чего его используют?",
+      "lvl1": "Что такое замыкание",
+      "lvl2": "Объясните что такое замыкание для чего его используют, и какие приемущества он дает.",
       "lvl3": ["fundamental", "closure", "function"]
     }
   },
   {
-    "content": "Объясните делегирование событий",
-    "id": "72126a3c-44a7-4383-88de-f26210e31298",
+    "content": "Что такое делегирование событий",
+    "id": "5d6c04f2-d0e8-45a0-8211-ef05ee5bffe7",
     "type": "lvl1",
     "url": "/ru/js/question/event-delegation",
     "hierarchy": {
-      "lvl1": "Объясните делегирование событий",
+      "lvl1": "Что такое делегирование событий",
+      "lvl2": "Объясните делегирование событий, в чем его смысл и основные приемущесива",
       "lvl3": ["fundamental", "event delegation"]
     }
   },
   {
-    "content": "Как проверять значения на равенство null и undefined?",
-    "id": "512ec447-9a45-4649-8c35-82d17502ba1e",
+    "content": "Какие Ложные значния есть в JS",
+    "id": "38b925fe-edc6-428b-9804-d38817f762aa",
     "type": "lvl1",
     "url": "/ru/js/question/falsy-values",
     "hierarchy": {
-      "lvl1": "Как проверять значения на равенство null и undefined?",
+      "lvl1": "Какие Ложные значния есть в JS",
+      "lvl2": "Перечислите какие ложные значения есть",
       "lvl3": ["falsy values"]
     }
   },
   {
-    "content": "Расскажите, как работает прототипное наследование",
-    "id": "ae09edb7-903b-43b1-8b72-76ddf4aaca5d",
+    "content": "Что такое прототипы",
+    "id": "db17f03a-b853-42b7-ad88-36b19f2dcc2d",
     "type": "lvl1",
     "url": "/ru/js/question/protorype-inheratence",
     "hierarchy": {
-      "lvl1": "Расскажите, как работает прототипное наследование",
+      "lvl1": "Что такое прототипы",
+      "lvl2": "Расскажите что такое прототипы и как работает прототипное наследование",
       "lvl3": ["fundamental", "prototype inheritance"]
     }
   },
   {
     "content": "Уникализация значений в массиве",
-    "id": "9628033f-f8e1-4104-bd2c-c73603c6e8bc",
+    "id": "cbf511eb-c0ec-4088-8a10-5dcad5256971",
     "type": "lvl1",
     "url": "/ru/js/task/array-unique-items",
     "hierarchy": {
@@ -71,19 +76,19 @@
     }
   },
   {
-    "content": "Бомба",
-    "id": "537b6550-8633-4f2a-a8f7-8877d2194daf",
+    "content": "Функция Bomb",
+    "id": "242bff80-ddaa-40d7-b61c-d48f6cc55875",
     "type": "lvl1",
     "url": "/ru/js/task/bomb",
     "hierarchy": {
-      "lvl1": "Бомба",
+      "lvl1": "Функция Bomb",
       "lvl2": "Надо реализовать «бомбу» (в виде функции-конструктора), которая получает на входе время, через которое взорвется и некоторый «звук взрыва» (строку, которую вернет через заданное время)",
       "lvl3": ["prototype", "class"]
     }
   },
   {
     "content": "Какие есть способы сколнировать объект",
-    "id": "a034911d-d53f-4bd1-9719-bb3e32923a57",
+    "id": "27135db6-4471-4660-bc53-f200f6bdc432",
     "type": "lvl1",
     "url": "/ru/js/task/clone-object",
     "hierarchy": {
@@ -94,24 +99,29 @@
   },
   {
     "content": "Создайте промис с нуля",
-    "id": "c2c3717a-ed2b-4a0b-8851-add48abd7e27",
+    "id": "953244fc-ff88-4a14-95d2-e7a61bdfa985",
     "type": "lvl1",
     "url": "/ru/js/task/create-custom-promise",
-    "hierarchy": { "lvl1": "Создайте промис с нуля", "lvl3": ["promise"] }
+    "hierarchy": {
+      "lvl1": "Создайте промис с нуля",
+      "lvl2": "Создайте класс CustomPromise, который реализует функционал new Promise",
+      "lvl3": ["promise"]
+    }
   },
   {
     "content": "Реализуйте функцию debounce",
-    "id": "4cb51904-77d1-402e-ab99-deadde0d734f",
+    "id": "1f035950-e925-431d-9285-eba2eee83331",
     "type": "lvl1",
     "url": "/ru/js/task/create-function-debounce",
     "hierarchy": {
       "lvl1": "Реализуйте функцию debounce",
+      "lvl2": "Результатом декоратора debounce(f, ms) должна быть обёртка, которая передаёт вызов f не более одного раза в ms миллисекунд. Другими словами, когда мы вызываем debounce, это гарантирует, что все остальные вызовы будут игнорироваться в течение ms.",
       "lvl3": ["array", "debounce"]
     }
   },
   {
     "content": "Реализуйте функцию throttle",
-    "id": "a7cc3d79-93e2-4d8c-9f11-49f57f0fac85",
+    "id": "9f53e786-cfc7-4a00-b1fe-5fcb81915263",
     "type": "lvl1",
     "url": "/ru/js/task/create-function-throttle",
     "hierarchy": {
@@ -120,55 +130,52 @@
     }
   },
   {
-    "content": "Реализуйте метод bind",
-    "id": "3d3a15f5-32d6-473d-bf7d-3625d0c1c615",
-    "type": "lvl1",
-    "url": "/ru/js/task/create-method-bind",
-    "hierarchy": { "lvl1": "Реализуйте метод bind", "lvl3": ["array", "bind"] }
-  },
-  {
     "content": "Реализуйте метод reduce",
-    "id": "39e854b7-c550-4dc6-899f-b02af7b27dc0",
+    "id": "5dea6b04-2c62-4d4d-a43a-e3e2a142eb99",
     "type": "lvl1",
     "url": "/ru/js/task/create-method-reduce",
     "hierarchy": {
       "lvl1": "Реализуйте метод reduce",
+      "lvl2": "Представьте что в JS отсуствует функция reduce и реализуйте ее самостоятельно c помощью прототипов",
       "lvl3": ["array", "reduce"]
     }
   },
   {
     "content": "Реализуйте аналог Promise.all",
-    "id": "b141cb7a-c20f-4287-9cc6-c409a621d363",
+    "id": "793b15ac-3106-4891-9844-6a5744545104",
     "type": "lvl1",
     "url": "/ru/js/task/create-promise-all",
     "hierarchy": {
       "lvl1": "Реализуйте аналог Promise.all",
+      "lvl2": "Добавьте функцию promiseAll, принимающую массив с промисами и выполняющую их по очереди",
       "lvl3": ["promise"]
     }
   },
   {
     "content": "Реализовуйте аналог Function.prototype.bind",
-    "id": "b708afb3-fb3c-404c-9114-d1fe7a550017",
+    "id": "3c7ddf38-ab4f-4b3a-8df2-9991ed05b620",
     "type": "lvl1",
     "url": "/ru/js/task/create-prototype-bind",
     "hierarchy": {
       "lvl1": "Реализовуйте аналог Function.prototype.bind",
-      "lvl3": ["prototype"]
+      "lvl2": "Представьте что в JS отсуствует функция bind и реализуйте ее самостоятельно c помощью прототипов",
+      "lvl3": ["prototype", "bind"]
     }
   },
   {
     "content": "Реализуйте делегирование",
-    "id": "8b67efc4-b90e-4b35-9f2a-371de026ff57",
+    "id": "590b3977-af3c-4009-b4ba-5aa894f4d07c",
     "type": "lvl1",
     "url": "/ru/js/task/how-to-delegation",
     "hierarchy": {
       "lvl1": "Реализуйте делегирование",
-      "lvl3": ["event delegation"]
+      "lvl2": "Реализуйте функцию, принимающую название события, элемент родителя, селектор дочернего элемента и функцию callback, производящую действия над дочернем элементом",
+      "lvl3": ["event delegation", "DOM"]
     }
   },
   {
     "content": "Идентичный алфавит",
-    "id": "439cb2f2-5b29-42c5-a703-69ea6c6c8510",
+    "id": "1728b31e-810b-4cf5-b90d-96ff81cc50b7",
     "type": "lvl1",
     "url": "/ru/js/task/is-pallindrom",
     "hierarchy": {
@@ -179,17 +186,18 @@
   },
   {
     "content": "Сделайте вложенный массив плоским",
-    "id": "8a4275c3-4868-4ddb-8d74-0fa576e1c1e5",
+    "id": "15d67850-6e74-4e81-ab81-a5d4b15949d2",
     "type": "lvl1",
     "url": "/ru/js/task/make-flat-array",
     "hierarchy": {
       "lvl1": "Сделайте вложенный массив плоским",
+      "lvl2": "Создайте функцию принимающую массив разных уровней вложенности, и возвращающую массив без вложенности",
       "lvl3": ["array", "flat"]
     }
   },
   {
     "content": "Сортировка нечётных",
-    "id": "fbff2aaf-02b0-4ace-b770-836565c2ec0a",
+    "id": "7511b2c6-ff6e-4f78-9541-1b0aa5af3426",
     "type": "lvl1",
     "url": "/ru/js/task/odd-sort",
     "hierarchy": {
@@ -200,52 +208,45 @@
   },
   {
     "content": "Сумма вершин дерева",
-    "id": "c36a5339-b9b9-4b66-af72-5ed3b54226c8",
-    "type": "lvl1",
-    "url": "/ru/js/task/sum-of-tree-vertices",
-    "hierarchy": {
-      "lvl1": "Сумма вершин дерева",
-      "lvl3": ["array", "recursion"]
-    }
-  },
-  {
-    "content": "Сумма вершин дерева",
-    "id": "6d25c57d-0a6b-4cd8-8343-a94002ddb611",
+    "id": "c6fe4353-000b-4f1a-8f96-63f6b6bde77d",
     "type": "lvl1",
     "url": "/ru/js/task/sum-of-tree",
     "hierarchy": {
       "lvl1": "Сумма вершин дерева",
-      "lvl2": "Найдите сумму вершин для дерева",
+      "lvl2": "Найдите сумму вершин для дерева, без ограничений по вложенности",
       "lvl3": ["array", "recursion"]
     }
   },
   {
-    "content": "Что такое props и state в React",
-    "id": "9454a081-b7c0-4f32-b362-a79e76f36629",
+    "content": "props и state в React",
+    "id": "f0bb0098-ff4f-4cd8-b1da-c1af57ce7411",
     "type": "lvl1",
     "url": "/ru/react/question/difference-between-props-and-state",
     "hierarchy": {
-      "lvl1": "Что такое props и state в React",
+      "lvl1": "props и state в React",
+      "lvl2": "Расскажите что такое props и state в React, в чем их отличия и для чего они нужны",
       "lvl3": ["react state", "react state"]
     }
   },
   {
-    "content": "Для чего нужен атрибут key при рендере списков?",
-    "id": "532ea07c-23da-49db-a00e-e28fb6cdb2e2",
+    "content": "Для чего нужен атрибут key в React?",
+    "id": "668b0f69-ff08-49c6-9059-7c04a071f7bd",
     "type": "lvl1",
     "url": "/ru/react/question/key",
     "hierarchy": {
-      "lvl1": "Для чего нужен атрибут key при рендере списков?",
+      "lvl1": "Для чего нужен атрибут key в React?",
+      "lvl2": "Расскажите чего нужен атрибут key при рендере в JSX списка элементов",
       "lvl3": ["react key"]
     }
   },
   {
-    "content": "Какие основные типы компонент есть в React",
-    "id": "a9118f30-e451-4bbc-8282-1e7ca5d3f5eb",
+    "content": "Типы компонентов есть в React",
+    "id": "14c21e33-90fb-48b4-9e62-6877bad3c94d",
     "type": "lvl1",
     "url": "/ru/react/question/type-or-react-component",
     "hierarchy": {
-      "lvl1": "Какие основные типы компонент есть в React",
+      "lvl1": "Типы компонентов есть в React",
+      "lvl2": "Расскажите какие основные типы компонентов есть в React, в чем их приемущества и недостатки",
       "lvl3": ["react component"]
     }
   }

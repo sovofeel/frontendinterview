@@ -141,6 +141,12 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/bomb.mdx": [
     {
+      "answer": false,
+      "example": true,
+      "children": "new Bomb('Explosion!', 0.5) // Через 500ms выведет в консоль 'Explosion!'",
+      "className": "js"
+    },
+    {
       "answer": true,
       "example": false,
       "children": "function Bomb(message, delay) {\n  this.message = message\n\n  setTimeout(this.blowUp.bind(this), delay * 1000)\n}\n\nBomb.prototype.blowUp = function () {\n  console.log(this.message)\n}\n\nnew Bomb('Explosion!', 0.5)",
@@ -165,21 +171,27 @@
     {
       "answer": false,
       "example": true,
-      "children": "const promise = new Promise((resolve, reject) => {\n  setTimeout(() => {\n    resolve('foo')\n  }, 300)\n})\n\npromise\n  .then(function (response) {\n    console.log(response)\n  })\n  .catch(function (error) {\n    console.log(error)\n  })",
+      "children": "let promise = new CustomPromise((resolver, reject) => {\n  setTimeout(() => {\n    const rand = Math.ceil(Math.random(1 * 1 + 6) * 6)\n    if (rand > 2) {\n      resolver('Success')\n    } else {\n      reject('Error')\n    }\n  }, 1000)\n})\n\npromise\n  .then(function (response) {\n    console.log(response)\n  })\n  .catch(function (error) {\n    console.log(error)\n  })",
       "className": "js"
     },
     {
       "answer": true,
       "example": false,
-      "children": "class CustomPromise {\n  state = 'PENDING'\n  value = undefined\n  thenCallbacks = []\n  errorCallbacks = []\n\n  constructor(action) {\n    action(this.resolver.bind(this), this.reject.bind(this))\n  }\n\n  resolver(value) {\n    this.state = 'RESOLVED'\n    this.value = value\n    this.thenCallbacks.forEach(callback => {\n      callback(this.value)\n    })\n  }\n\n  reject(value) {\n    this.state = 'REJECTED'\n    this.value = value\n    this.errorCallbacks.forEach(callback => {\n      callback(this.value)\n    })\n  }\n\n  then(callback) {\n    this.thenCallbacks.push(callback)\n    return this\n  }\n\n  catch(callback) {\n    this.errorCallbacks.push(callback)\n    return this\n  }\n}\n\nlet promise = new CustomPromise((resolver, reject) => {\n  setTimeout(() => {\n    const rand = Math.ceil(Math.random(1 * 1 + 6) * 6)\n    if (rand > 2) {\n      resolver('Success')\n    } else {\n      reject('Error')\n    }\n  }, 1000)\n})\n\npromise\n  .then(function (response) {\n    console.log(response)\n  })\n  .catch(function (error) {\n    console.log(error)\n  })",
+      "children": "class CustomPromise {\n  state = 'PENDING'\n  value = undefined\n  thenCallbacks = []\n  errorCallbacks = []\n\n  constructor(action) {\n    action(this.resolver.bind(this), this.reject.bind(this))\n  }\n\n  resolver(value) {\n    this.state = 'RESOLVED'\n    this.value = value\n    this.thenCallbacks.forEach(callback => {\n      callback(this.value)\n    })\n  }\n\n  reject(value) {\n    this.state = 'REJECTED'\n    this.value = value\n    this.errorCallbacks.forEach(callback => {\n      callback(this.value)\n    })\n  }\n\n  then(callback) {\n    this.thenCallbacks.push(callback)\n    return this\n  }\n\n  catch(callback) {\n    this.errorCallbacks.push(callback)\n    return this\n  }\n}",
       "className": "js"
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-function-debounce.mdx": [
     {
+      "answer": false,
+      "example": true,
+      "children": "let f = debounce(alert, 1000)\n\nf(1) // выполняется немедленно\nf(2) // проигнорирован\n\nsetTimeout(() => f(3), 100) // проигнорирован (прошло только 100 мс)\nsetTimeout(() => f(4), 1100) // выполняется\nsetTimeout(() => f(5), 1500) // проигнорирован (прошло только 400 мс от последнего вызова)",
+      "className": "js"
+    },
+    {
       "answer": true,
       "example": false,
-      "children": "const debounce = function (func, interval) {\n  let timerId\n  return function (e) {\n    clearTimeout(timerId)\n    timerId = setTimeout(function () {\n      func.apply()\n    }, interval)\n  }\n}\ndebounce(apiCall, 3000)",
+      "children": "const debounce = (f, ms) => {\n  let isCooldown = false\n\n  return function () {\n    if (isCooldown) return\n\n    f.apply(this, arguments)\n\n    isCooldown = true\n\n    setTimeout(() => (isCooldown = false), ms)\n  }\n}",
       "className": "js"
     }
   ],
@@ -191,35 +203,45 @@
       "className": "js"
     }
   ],
-  "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-method-bind.mdx": [
-    {
-      "answer": true,
-      "example": false,
-      "children": "if (!Function.prototype.bind) {\n  Function.prototype.bind = function (...arg) {\n    const func = this\n    const context = arg[0]\n    const params = arg.slice(1)\n    return function (...innerParam) {\n      func.apply(context, [...params, ...innerParam])\n    }\n  }\n}",
-      "className": "js"
-    }
-  ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-method-reduce.mdx": [
     {
+      "answer": false,
+      "example": true,
+      "children": "let arr = [1, 2, 3, 4, 5]\n\narr.reducer((curr, next) => (curr += next), 0) // => 15",
+      "className": "js"
+    },
+    {
       "answer": true,
       "example": false,
-      "children": "Array.prototype.reduce = function (func, initState) {\n  const arr = this\n  const callback = func\n  let init = initState\n\n  arr.forEach(function (value, index) {\n    init = callback(init, value)\n  })\n  return init\n}",
+      "children": "Array.prototype.reducer = function (func, initState) {\n  const arr = this\n  const callback = func\n  let init = initState\n\n  arr.forEach(function (value, index) {\n    init = callback(init, value)\n  })\n  return init\n}",
       "className": "js"
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-promise-all.mdx": [
     {
+      "answer": false,
+      "example": true,
+      "children": "promiseAll([\n  new Promise(resolve => {\n    setTimeout(() => resolve('foo'), 5000)\n  }),\n\n  new Promise((resolve, reject) => {\n    setTimeout(() => resolve('bar'), 1000)\n  }),\n\n  new Promise((resolve, reject) => {\n    setTimeout(() => {\n      Math.round(Math.random() * 10) % 2 === 0 ? resolve('baz') : reject(new Error())\n    }, 300)\n  }),\n])\n  .then(res => console.log('RESOLVED: ', res))\n  .catch(err => console.log('REJECTED: ', err))",
+      "className": "js"
+    },
+    {
       "answer": true,
       "example": false,
-      "children": "function promiseAll(promises) {\n  return new Promise((resolve, reject) => {\n    const results = []\n    let resolvedCount = 0\n\n    promises.forEach((promise, index) => {\n      promise\n        .then(result => {\n          results[index] = result\n\n          resolvedCount++\n\n          if (resolvedCount === promises.length) {\n            resolve(results)\n          }\n        })\n        .catch(err => reject(err))\n    })\n  })\n}\n\npromiseAll([\n  new Promise(resolve => {\n    setTimeout(() => resolve('foo'), 5000)\n  }),\n\n  new Promise((resolve, reject) => {\n    setTimeout(() => resolve('bar'), 1000)\n  }),\n\n  new Promise((resolve, reject) => {\n    setTimeout(() => {\n      Math.round(Math.random() * 10) % 2 === 0 ? resolve('baz') : reject(new Error())\n    }, 300)\n  }),\n])\n  .then(res => console.log('RESOLVED: ', res))\n  .catch(err => console.log('REJECTED: ', err))",
+      "children": "function promiseAll(promises) {\n  return new Promise((resolve, reject) => {\n    const results = []\n    let resolvedCount = 0\n\n    promises.forEach((promise, index) => {\n      promise\n        .then(result => {\n          results[index] = result\n\n          resolvedCount++\n\n          if (resolvedCount === promises.length) {\n            resolve(results)\n          }\n        })\n        .catch(err => reject(err))\n    })\n  })\n}",
       "className": "js"
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-prototype-bind.mdx": [
     {
       "answer": false,
+      "example": true,
+      "children": "let user = {\n  firstName: \"Арсений\"\n};\n\nfunction func() {\n  retrun this.firstName;\n}\n\nlet funcUser = func.binder(user);\nfuncUser(); // Арсений",
+      "className": "js"
+    },
+    {
+      "answer": true,
       "example": false,
-      "children": "Function.prototype.bind = function (context, ...argsBind) {\n  const fn = this\n  return function (...args) {\n    return fn.apply(context, argsBind.concat(args))\n  }\n}",
+      "children": "Function.prototype.binder = function (context, ...argsBind) {\n  const fn = this\n  return function (...args) {\n    return fn.apply(context, argsBind.concat(args))\n  }\n}",
       "className": "js"
     }
   ],
@@ -231,13 +253,25 @@
       "className": "html"
     },
     {
+      "answer": false,
+      "example": true,
+      "children": "delegate(\n  'click',\n  document.querySelector('.wrapper'),\n  '.child',\n  el => (el.style.backgroundColor = 'blue')\n)",
+      "className": "js"
+    },
+    {
       "answer": true,
       "example": false,
-      "children": "const delegate = (eventName, el, selector, handler) => {\n  el.addEventListener(eventName, event => {\n    let node = event.target\n    const items = [].slice.call(el.querySelectorAll(selector))\n\n    if (items.length) {\n      while (node !== el && node !== null) {\n        const isTarget = items.some(item => node === item)\n\n        if (isTarget) {\n          handler(node)\n          break\n        } else {\n          node = node.parentNode\n        }\n      }\n    }\n  })\n}\n\ndelegate(\n  'click',\n  document.querySelector('.wrapper'),\n  '.child',\n  el => (el.style.backgroundColor = 'blue')\n)",
+      "children": "const delegate = (eventName, el, selector, handler) => {\n  el.addEventListener(eventName, event => {\n    let node = event.target\n    const items = [].slice.call(el.querySelectorAll(selector))\n\n    if (items.length) {\n      while (node !== el && node !== null) {\n        const isTarget = items.some(item => node === item)\n\n        if (isTarget) {\n          handler(node)\n          break\n        } else {\n          node = node.parentNode\n        }\n      }\n    }\n  })\n}",
       "className": "js"
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/is-pallindrom.mdx": [
+    {
+      "answer": false,
+      "example": true,
+      "children": "isEqualSymbols('cat', 'tac') // => true\nisEqualSymbols('kit', 'tok') // => false",
+      "className": "js"
+    },
     {
       "answer": true,
       "example": false,
@@ -255,7 +289,7 @@
     {
       "answer": true,
       "example": false,
-      "children": "let arr = [1, 2, [3, 4, [5, 6, [7, [8, 9, 10]]]]]\n\nfunction flatten(arr) {\n  return arr.reduce(function (acc, next) {\n    let isArray = Array.isArray(next)\n    return acc.concat(isArray ? flatten(next) : next)\n  }, [])\n}\n\nif (!Array.prototype.flatten) {\n  Array.prototype.flatten = function () {\n    return flatten(this)\n  }\n}\nconsole.log(arr.flatten())",
+      "children": "let arr = [1, 2, [3, 4, [5, 6, [7, [8, 9, 10]]]]]\n\nfunction flatten(arr) {\n  return arr.reduce(function (acc, next) {\n    let isArray = Array.isArray(next)\n    return acc.concat(isArray ? flatten(next) : next)\n  }, [])\n}\n\nif (!Array.prototype.flatten) {\n  Array.prototype.flatten = function () {\n    return flatten(this)\n  }\n}",
       "className": "js"
     }
   ],
@@ -270,14 +304,6 @@
       "answer": true,
       "example": false,
       "children": "function oddSort(arr) {\n  arr.forEach((item, index) => {\n    if (item % 2 === 1) {\n      let sortNumber = item\n\n      for (let i = 0; i < index; i++) {\n        if (arr[i] % 2 === 1) {\n          if (arr[i] > sortNumber) {\n            const tmp = sortNumber\n\n            sortNumber = arr[i]\n            arr[i] = tmp\n          }\n        }\n      }\n      arr[index] = sortNumber\n    }\n  })\n\n  return arr\n}",
-      "className": "js"
-    }
-  ],
-  "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/sum-of-tree-vertices.mdx": [
-    {
-      "answer": true,
-      "example": false,
-      "children": "function getTreeSum(node) {\n  let sum = node.value\n\n  if (Array.isArray(node.children)) {\n    node.children.forEach(item => (sum += getTreeSum(item)))\n  }\n\n  return sum\n}",
       "className": "js"
     }
   ],
