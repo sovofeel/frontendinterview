@@ -6,6 +6,7 @@ const path = require('path')
 const remarkAutolink = require('remark-autolink-headings')
 const fs = require("graceful-fs")
 const prettier = require('prettier')
+const uuid = require("uuid")
 
 const toSrc = () => process.cwd()
 const pagesDir = path.join(process.cwd(), `/pages/`)
@@ -20,6 +21,7 @@ async function loadMDXData (filename) {
       tree.children.map(item => {
         if (item.type !== 'heading' && item.type !== 'thematicBreak') {
          const content = {
+           id: uuid.v4(),
           answer: item.meta === 'answer',
           example: item.meta === 'example',
           children: item.value,

@@ -27,7 +27,7 @@
     "path": "/ru/js/question/event-delegation"
   },
   {
-    "title": "Какие Ложные значния есть в JS",
+    "title": "Какие ложные значния есть в JS",
     "category": "js",
     "type": "question",
     "tags": ["falsy values"],
@@ -55,7 +55,7 @@
     "path": "/ru/js/task/bomb"
   },
   {
-    "title": "Какие есть способы сколнировать объект",
+    "title": "Функция клонирования объекта",
     "category": "js",
     "type": "question",
     "tags": ["spread", "assign", "object"],

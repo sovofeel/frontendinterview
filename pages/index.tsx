@@ -4,23 +4,13 @@ import PostPreview from 'components/post-preview'
 import Sidebar from 'components/sidebar/Sidebar'
 import React, { useState } from 'react'
 import { getFilters, getPosts } from 'frontend/utils/get-posts'
+import filterPosts from 'frontend/utils/filter-posts'
 
-const IndexPage = ({ posts: _posts, filters }) => {
-  const [posts, setPosts] = useState(_posts)
+const IndexPage = ({ initPosts, filters }) => {
+  const [posts, setPosts] = useState(initPosts)
 
-  const setFilters = filters => {
-    const newPosts = _posts
-      .filter(post => (filters?.category ? post.category === filters.category : true))
-      .filter(post => (filters?.type ? post.type === filters.type : true))
-      .filter(post => {
-        if (filters?.tags?.length) {
-          return post.tags.some(tag => filters.tags.includes(tag))
-        } else {
-          return true
-        }
-      })
-
-    setPosts(newPosts)
+  const setFilters = newFilters => {
+    setPosts(filterPosts(initPosts, newFilters))
   }
 
   return (
@@ -40,10 +30,10 @@ const IndexPage = ({ posts: _posts, filters }) => {
 
 export async function getStaticProps() {
   const filters = await getFilters()
-  const posts = await getPosts()
+  const initPosts = await getPosts()
   return {
     props: {
-      posts,
+      initPosts,
       filters,
     },
   }

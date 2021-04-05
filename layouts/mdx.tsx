@@ -10,6 +10,7 @@ import Pagination from 'components/pagination'
 import Sidebar from 'components/sidebar/Sidebar'
 import initFiltersData from '../frontend/configs/app-filters.json'
 import { useRouter } from 'next/router'
+import filterPosts from 'utils/filter-posts'
 
 function MDXLayout({ frontmatter, children }) {
   const { pathname } = useRouter()
@@ -19,21 +20,10 @@ function MDXLayout({ frontmatter, children }) {
   const [routeContext, setRouteContext] = useState(getRouteContext(route, routes))
 
   const setFilters = filters => {
-    const newRoutes = ruRoutes
-      .filter(post =>
-        filters?.category && post.path !== pathname ? post.category === filters.category : true
-      )
-      .filter(post => (filters?.type && post.path !== pathname ? post.type === filters.type : true))
-      .filter(post => {
-        if (filters?.tags?.length && post?.tags && post.path !== pathname) {
-          return post.tags.some(tag => filters.tags.includes(tag))
-        } else {
-          return true
-        }
-      })
+    const postsWithPath = filterPosts(ruRoutes, filters)
 
-    const route = findRouteByPath(pathname, newRoutes)
-    const newRoute = getRouteContext(route, newRoutes)
+    const route = findRouteByPath(pathname, postsWithPath)
+    const newRoute = getRouteContext(route, postsWithPath)
 
     setRouteContext(newRoute)
     setKey(key + 1)

@@ -1,138 +1,211 @@
 {
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/example/code-examples.mdx": [
     {
+      "id": "e1d720e5-4de0-470d-a17c-ee8525dac940",
       "answer": false,
       "example": true,
       "children": "// Какие будут значения\n1 + true\ntrue + true\n'1' + true\n'2' > '3'\n'two' > 'three'",
       "className": "js"
     },
     {
+      "id": "3f7ad9d0-4b2b-4a45-a197-e9d724218696",
       "answer": true,
       "example": false,
       "children": "2\n2\n;('1true')\nfalse\ntrue",
       "className": "js"
     },
     {
+      "id": "a76729f1-9aa9-45f8-94d2-d7be00aacf13",
       "answer": false,
       "example": true,
       "children": "  // В какой последовательности выведутся символы\n  console.log(\"A\");\n  setTimeout(() => console.log(\"B\"), 0);\n  setTimeout(() => console.log(\"C\"), 0);\n  console.log(\"D\");)",
       "className": "js"
     },
     {
+      "id": "9416f166-0454-4452-b7c3-8b1f996b3c07",
       "answer": true,
       "example": false,
       "children": "'A', 'D', 'B', 'C'",
       "className": "js"
     },
     {
+      "id": "015ed2ab-4349-47f2-a966-0546359fd4ce",
       "answer": false,
       "example": true,
       "children": "// На что будет сслаться \"this\"\nfunction Abc() {\n  console.log(this)\n}\nAbc()\nnew Abc()",
       "className": "js"
     },
     {
+      "id": "94e2be49-0ec0-44ab-bb7c-5d9a6fd1c604",
       "answer": true,
       "example": false,
       "children": "Window",
       "className": "js"
     },
     {
+      "id": "b7749557-6c8a-4f0e-aaa0-de22fd1a5798",
       "answer": false,
       "example": true,
       "children": "// Что выведется в консоль\nvar x = [1]\nvar y = x\n\nx = []\nconsole.log(x, y)",
       "className": "js"
     },
     {
+      "id": "f4c42f00-ba0f-4382-8646-4cf167a363b8",
       "answer": true,
       "example": false,
       "children": ";[][1]",
       "className": "js"
     },
     {
+      "id": "3c78ba16-efe6-4e1e-ac3d-fce298c50ba1",
       "answer": false,
       "example": true,
       "children": "// Что выведется в консоль\nvar x = 1\nvar y = x\n\nx = 0\nconsole.log(x, y)",
       "className": "js"
     },
-    { "answer": true, "example": false, "children": "0 1", "className": "js" },
     {
+      "id": "feb1e20d-c8b1-4adb-9bd0-ea28816ee3a7",
+      "answer": true,
+      "example": false,
+      "children": "0 1",
+      "className": "js"
+    },
+    {
+      "id": "db101c5c-19f2-40a6-b504-df260556a41f",
       "answer": false,
       "example": true,
       "children": "// Чему равен \"x\"\nvar x = 0.1 + 0.2 == 0.3",
       "className": "js"
     },
     {
+      "id": "ad1c519c-c684-4642-ae2f-7d1060d50549",
       "answer": true,
       "example": false,
       "children": "false",
       "className": "js"
     },
     {
+      "id": "3f63c2a5-4067-45c9-a6b3-ac0936a869f5",
       "answer": false,
       "example": true,
       "children": "// Какое значение возвращает данное выражение?\n\"i'm a lasagna hog\".split('').reverse().join('')",
       "className": "js"
     },
     {
+      "id": "484527f3-8fb5-4c30-86a4-289fe695e2a1",
       "answer": true,
       "example": false,
       "children": "\"goh angasal a m'i\"\n",
       "className": "js"
     },
     {
+      "id": "48904d5a-aa56-45aa-b9d1-2b39d12cdbec",
       "answer": false,
       "example": true,
       "children": "// Чему равно foo.length?\nvar foo = []\nfoo.push(1)\nfoo.push(2)",
       "className": "js"
     },
-    { "answer": true, "example": false, "children": "2", "className": "js" },
     {
+      "id": "00fb7ed4-6548-43dd-becd-fd31b0d65f15",
+      "answer": true,
+      "example": false,
+      "children": "2",
+      "className": "js"
+    },
+    {
+      "id": "559b1cc9-f57d-4e30-a996-0ce6ae1e94dc",
       "answer": false,
       "example": true,
       "children": "// Чему равно foo.x?\nvar foo = { n: 1 }\nvar bar = foo\nfoo.x = foo = { n: 2 }",
       "className": "js"
     },
     {
+      "id": "b1e6a19e-18a2-4beb-a3bb-c88d0546d251",
       "answer": true,
       "example": false,
       "children": "  Object { n: 2 }",
       "className": "js"
     },
     {
+      "id": "af66767c-59f3-4e53-aa26-06e76b6045c4",
       "answer": false,
       "example": true,
       "children": "// Чему равно foo?\nvar foo = 10 + '20'",
       "className": "js"
     },
-    { "answer": true, "example": false, "children": "1020", "className": "js" }
+    {
+      "id": "233716db-8f2c-497d-8c55-77cde0a906e2",
+      "answer": true,
+      "example": false,
+      "children": "1020",
+      "className": "js"
+    }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/array-iterate-methods.mdx": [
-    { "answer": false, "example": false }
+    {
+      "id": "1028cbcb-da27-4251-8a33-9b2a2b26d82f",
+      "answer": false,
+      "example": false
+    }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/clousure.mdx": [
-    { "answer": false, "example": false },
-    { "answer": false, "example": false },
-    { "answer": false, "example": false }
+    {
+      "id": "3145cd60-ed13-457a-96a4-91dec16e669f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "94e5e935-90b6-410f-a5ee-bf600629f0aa",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2103f03f-c289-47bf-ba5b-eb62de8abfad",
+      "answer": false,
+      "example": false
+    }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/event-delegation.mdx": [
-    { "answer": false, "example": false },
-    { "answer": false, "example": false }
+    {
+      "id": "e618010a-d06e-4ea4-8f58-4b5a6bc5d1fd",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "46382523-158e-409b-81e2-ff58421d8d6f",
+      "answer": false,
+      "example": false
+    }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/falsy-values.mdx": [
-    { "answer": false, "example": false },
-    { "answer": false, "example": false }
+    {
+      "id": "7baa2b1d-b396-4753-973b-d8e0c1db618d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e31fa6be-7b93-44f8-b156-78c97ae1a35f",
+      "answer": false,
+      "example": false
+    }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/protorype-inheratence.mdx": [
-    { "answer": false, "example": false }
+    {
+      "id": "726cb8d2-b6c6-4fcc-bf72-d32404b0dfd8",
+      "answer": false,
+      "example": false
+    }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/array-unique-items.mdx": [
     {
+      "id": "716ec756-8e5c-48ac-92b1-d908b70cdd15",
       "answer": false,
       "example": true,
       "children": "const list = [1, 1, 2, 2, 3, 4]\n\n// unique(list) => [1,2,3,4]",
       "className": "js"
     },
     {
+      "id": "7ae4a65b-ae4a-4bc9-96e0-0473b9cf454b",
       "answer": true,
       "example": false,
       "children": "function unique(arr) {\n  return arr.filter((item, index, self) => self.indexOf(item) === index)\n}",
@@ -141,12 +214,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/bomb.mdx": [
     {
+      "id": "ed72f9c5-e466-4f48-b4ca-d849c543d203",
       "answer": false,
       "example": true,
       "children": "new Bomb('Explosion!', 0.5) // Через 500ms выведет в консоль 'Explosion!'",
       "className": "js"
     },
     {
+      "id": "73a09176-23a9-4472-b88d-a5c95ba03b84",
       "answer": true,
       "example": false,
       "children": "function Bomb(message, delay) {\n  this.message = message\n\n  setTimeout(this.blowUp.bind(this), delay * 1000)\n}\n\nBomb.prototype.blowUp = function () {\n  console.log(this.message)\n}\n\nnew Bomb('Explosion!', 0.5)",
@@ -155,12 +230,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/clone-object.mdx": [
     {
+      "id": "b5f4ceff-36aa-427a-ba18-11d403512f6e",
       "answer": false,
       "example": true,
       "children": "const obj = { a: 1, b: 2, c: { d: 4 } }\n\nconst newObj = cloneObj(obj)\n\nnewObj.a = 2\n// newObj => { a:2, b:2, c: { d: 4 } }\n// obj => { a:1, b:2, c: { d: 4 } }",
       "className": "js"
     },
     {
+      "id": "854a9263-0093-4b48-a9a2-1f77fd6fd172",
       "answer": true,
       "example": false,
       "children": "// С помощью деструктуризации\nconst cloneObj = obj => ({ ...obj })\n\n// Через JSON.parse/stringify\nconst cloneObj = obj => JSON.parse(JSON.stringify(obj))\n\n// Помощью Object.assign\nconst cloneObj = obj => Object.assign({}, obj)\n\n// Через рекурсию\nconst cloneObj (o, i, r) => {\n  r = o\n  if (r && typeof o == 'object') {\n    r = o instanceof Array ? [] : {}\n    for (i in o) if (o.hasOwnProperty(i)) r[i] = dup(o[i])\n  }\n  return r\n}",
@@ -169,12 +246,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-custom-promise.mdx": [
     {
+      "id": "db1cac6d-d87c-40e9-985b-d8513b687353",
       "answer": false,
       "example": true,
       "children": "let promise = new CustomPromise((resolver, reject) => {\n  setTimeout(() => {\n    const rand = Math.ceil(Math.random(1 * 1 + 6) * 6)\n    if (rand > 2) {\n      resolver('Success')\n    } else {\n      reject('Error')\n    }\n  }, 1000)\n})\n\npromise\n  .then(function (response) {\n    console.log(response)\n  })\n  .catch(function (error) {\n    console.log(error)\n  })",
       "className": "js"
     },
     {
+      "id": "ce2dff23-fafa-457f-9c63-633fc7697a73",
       "answer": true,
       "example": false,
       "children": "class CustomPromise {\n  state = 'PENDING'\n  value = undefined\n  thenCallbacks = []\n  errorCallbacks = []\n\n  constructor(action) {\n    action(this.resolver.bind(this), this.reject.bind(this))\n  }\n\n  resolver(value) {\n    this.state = 'RESOLVED'\n    this.value = value\n    this.thenCallbacks.forEach(callback => {\n      callback(this.value)\n    })\n  }\n\n  reject(value) {\n    this.state = 'REJECTED'\n    this.value = value\n    this.errorCallbacks.forEach(callback => {\n      callback(this.value)\n    })\n  }\n\n  then(callback) {\n    this.thenCallbacks.push(callback)\n    return this\n  }\n\n  catch(callback) {\n    this.errorCallbacks.push(callback)\n    return this\n  }\n}",
@@ -183,12 +262,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-function-debounce.mdx": [
     {
+      "id": "d8853460-a78d-4e6d-a424-1df35b0b39ae",
       "answer": false,
       "example": true,
       "children": "let f = debounce(alert, 1000)\n\nf(1) // выполняется немедленно\nf(2) // проигнорирован\n\nsetTimeout(() => f(3), 100) // проигнорирован (прошло только 100 мс)\nsetTimeout(() => f(4), 1100) // выполняется\nsetTimeout(() => f(5), 1500) // проигнорирован (прошло только 400 мс от последнего вызова)",
       "className": "js"
     },
     {
+      "id": "3462839f-c77d-4836-8e4d-9f824035e59f",
       "answer": true,
       "example": false,
       "children": "const debounce = (f, ms) => {\n  let isCooldown = false\n\n  return function () {\n    if (isCooldown) return\n\n    f.apply(this, arguments)\n\n    isCooldown = true\n\n    setTimeout(() => (isCooldown = false), ms)\n  }\n}",
@@ -197,20 +278,30 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-function-throttle.mdx": [
     {
+      "id": "02973f22-9995-4fd6-92a4-18b7abdb6ac3",
+      "answer": false,
+      "example": true,
+      "children": "function f(a) {\n  console.log(a)\n}\n\n// f1000 передаёт вызовы f максимум раз в 1000 мс\nlet f1000 = throttle(f, 1000)\n\nf1000(1) // показывает 1\nf1000(2) // (ограничение, 1000 мс ещё нет)\nf1000(3) // (ограничение, 1000 мс ещё нет)\n\n// когда 1000 мс истекли ...\n// ...выводим 3, промежуточное значение 2 было проигнорировано",
+      "className": "js"
+    },
+    {
+      "id": "4ca7613f-6703-4319-b120-51613a735ce5",
       "answer": true,
       "example": false,
-      "children": "const throttle = (callback, interval) => {\n  let timerId\n  let allowEvents = true\n\n  return function () {\n    let context = this\n    let args = arguments\n\n    if (allowEvents) {\n      callback.apply(context, args)\n      allowEvents = false\n      timerId = setTimeOut(function () {\n        allowEvents = true\n      }, interval)\n    }\n  }\n}",
+      "children": "const throttle = (func, ms) => {\n  let isThrottled = false,\n    savedArgs,\n    savedThis\n\n  function wrapper() {\n    if (isThrottled) {\n      // (2)\n      savedArgs = arguments\n      savedThis = this\n      return\n    }\n\n    func.apply(this, arguments) // (1)\n\n    isThrottled = true\n\n    setTimeout(function () {\n      isThrottled = false // (3)\n      if (savedArgs) {\n        wrapper.apply(savedThis, savedArgs)\n        savedArgs = savedThis = null\n      }\n    }, ms)\n  }\n\n  return wrapper\n}",
       "className": "js"
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-method-reduce.mdx": [
     {
+      "id": "992699b7-8a75-4492-9cdd-50cd8e503893",
       "answer": false,
       "example": true,
       "children": "let arr = [1, 2, 3, 4, 5]\n\narr.reducer((curr, next) => (curr += next), 0) // => 15",
       "className": "js"
     },
     {
+      "id": "7f6fe77f-0902-4359-a0ab-35b998c41663",
       "answer": true,
       "example": false,
       "children": "Array.prototype.reducer = function (func, initState) {\n  const arr = this\n  const callback = func\n  let init = initState\n\n  arr.forEach(function (value, index) {\n    init = callback(init, value)\n  })\n  return init\n}",
@@ -219,12 +310,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-promise-all.mdx": [
     {
+      "id": "a15ba388-6294-466b-9759-29d6d93871fd",
       "answer": false,
       "example": true,
       "children": "promiseAll([\n  new Promise(resolve => {\n    setTimeout(() => resolve('foo'), 5000)\n  }),\n\n  new Promise((resolve, reject) => {\n    setTimeout(() => resolve('bar'), 1000)\n  }),\n\n  new Promise((resolve, reject) => {\n    setTimeout(() => {\n      Math.round(Math.random() * 10) % 2 === 0 ? resolve('baz') : reject(new Error())\n    }, 300)\n  }),\n])\n  .then(res => console.log('RESOLVED: ', res))\n  .catch(err => console.log('REJECTED: ', err))",
       "className": "js"
     },
     {
+      "id": "cd58260e-a843-4d8b-a108-225a0a85b6e8",
       "answer": true,
       "example": false,
       "children": "function promiseAll(promises) {\n  return new Promise((resolve, reject) => {\n    const results = []\n    let resolvedCount = 0\n\n    promises.forEach((promise, index) => {\n      promise\n        .then(result => {\n          results[index] = result\n\n          resolvedCount++\n\n          if (resolvedCount === promises.length) {\n            resolve(results)\n          }\n        })\n        .catch(err => reject(err))\n    })\n  })\n}",
@@ -233,12 +326,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-prototype-bind.mdx": [
     {
+      "id": "60e76e47-0cb3-4667-8a34-ce4e1f713959",
       "answer": false,
       "example": true,
       "children": "let user = {\n  firstName: \"Арсений\"\n};\n\nfunction func() {\n  retrun this.firstName;\n}\n\nlet funcUser = func.binder(user);\nfuncUser(); // Арсений",
       "className": "js"
     },
     {
+      "id": "b6874f09-1e3d-451b-a995-9ee4c255c6bf",
       "answer": true,
       "example": false,
       "children": "Function.prototype.binder = function (context, ...argsBind) {\n  const fn = this\n  return function (...args) {\n    return fn.apply(context, argsBind.concat(args))\n  }\n}",
@@ -247,18 +342,21 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/how-to-delegation.mdx": [
     {
+      "id": "eb96eacd-a937-4aab-9aee-edc4f8f1ec88",
       "answer": false,
       "example": true,
       "children": "<div class=\"wrapper\">\n  <div class=\"child\">\n    <div>\n      <div><div>click me</div></div>\n    </div>\n  </div>\n  <div class=\"child\">\n    <div>\n      <div><div>click me</div></div>\n    </div>\n  </div>\n  <div class=\"child\">\n    <div>\n      <div><div>click me</div></div>\n    </div>\n  </div>\n  <div class=\"other\">\n    <div>\n      <div><div>dont't click me</div></div>\n    </div>\n  </div>\n</div>",
       "className": "html"
     },
     {
+      "id": "6a64a630-dc69-43d7-a126-94d9e6f2d794",
       "answer": false,
       "example": true,
       "children": "delegate(\n  'click',\n  document.querySelector('.wrapper'),\n  '.child',\n  el => (el.style.backgroundColor = 'blue')\n)",
       "className": "js"
     },
     {
+      "id": "e352f8f6-2365-47ac-82f1-ab12b69ba853",
       "answer": true,
       "example": false,
       "children": "const delegate = (eventName, el, selector, handler) => {\n  el.addEventListener(eventName, event => {\n    let node = event.target\n    const items = [].slice.call(el.querySelectorAll(selector))\n\n    if (items.length) {\n      while (node !== el && node !== null) {\n        const isTarget = items.some(item => node === item)\n\n        if (isTarget) {\n          handler(node)\n          break\n        } else {\n          node = node.parentNode\n        }\n      }\n    }\n  })\n}",
@@ -267,12 +365,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/is-pallindrom.mdx": [
     {
+      "id": "018597d0-9e76-47c7-bbf5-0c46171782fe",
       "answer": false,
       "example": true,
       "children": "isEqualSymbols('cat', 'tac') // => true\nisEqualSymbols('kit', 'tok') // => false",
       "className": "js"
     },
     {
+      "id": "a7ea583b-4604-4ac9-b62e-e0d93c4e8f75",
       "answer": true,
       "example": false,
       "children": "function isEqualSymbols(str1, str2) {\n  if (str1.length !== str2.length) {\n    return false\n  }\n\n  if (str1.split('').sort().join('') === str2.split('').sort().join('')) {\n    return true\n  }\n\n  return false\n}",
@@ -281,12 +381,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/make-flat-array.mdx": [
     {
+      "id": "b4aa106e-9b93-4a1f-850c-17933b3e3f77",
       "answer": false,
       "example": true,
       "children": "/**\n * [1,2,[3,4]] -> [1,2,3,4]\n */",
       "className": "jx"
     },
     {
+      "id": "edf11b48-3aed-4f69-9985-d6d204252404",
       "answer": true,
       "example": false,
       "children": "let arr = [1, 2, [3, 4, [5, 6, [7, [8, 9, 10]]]]]\n\nfunction flatten(arr) {\n  return arr.reduce(function (acc, next) {\n    let isArray = Array.isArray(next)\n    return acc.concat(isArray ? flatten(next) : next)\n  }, [])\n}\n\nif (!Array.prototype.flatten) {\n  Array.prototype.flatten = function () {\n    return flatten(this)\n  }\n}",
@@ -295,12 +397,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/odd-sort.mdx": [
     {
+      "id": "133f2aaa-53ef-4042-ba0c-c05e1fa523ab",
       "answer": false,
       "example": true,
       "children": "oddSort([7, 3, 4, 9, 5, 2, 17]) // => [3, 5, 4, 7, 9, 2, 17]",
       "className": "js"
     },
     {
+      "id": "e446d317-d941-4ae5-b1e3-7db4973ad10c",
       "answer": true,
       "example": false,
       "children": "function oddSort(arr) {\n  arr.forEach((item, index) => {\n    if (item % 2 === 1) {\n      let sortNumber = item\n\n      for (let i = 0; i < index; i++) {\n        if (arr[i] % 2 === 1) {\n          if (arr[i] > sortNumber) {\n            const tmp = sortNumber\n\n            sortNumber = arr[i]\n            arr[i] = tmp\n          }\n        }\n      }\n      arr[index] = sortNumber\n    }\n  })\n\n  return arr\n}",
@@ -309,12 +413,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/sum-of-tree.mdx": [
     {
+      "id": "3c965422-1787-4d2f-ac17-43e4f14dc421",
       "answer": false,
       "example": true,
       "children": "const tree = {\n  value: 5,\n  right: {\n    value: 5,\n    right: {\n      value: 5,\n      right: {\n        value: 10,\n      },\n    },\n    left: {\n      value: 5,\n      left: {\n        value: 1,\n      },\n    },\n  },\n}\n\n// sumOftree(tree) => 31",
       "className": "js"
     },
     {
+      "id": "a59d9a11-bcc1-4ff3-bc56-45eb9999b87f",
       "answer": true,
       "example": false,
       "children": "function sumTree(tree) {\n  let count = tree.value\n  if (tree.left) {\n    count += sumTree(tree.left)\n  }\n  if (tree.right) {\n    count += sumTree(tree.right)\n  }\n\n  return count\n}",
@@ -322,17 +428,49 @@
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/difference-between-props-and-state.mdx": [
-    { "answer": false, "example": false }
+    {
+      "id": "95baa3df-3109-4da4-bdb3-cfe42ae0259c",
+      "answer": false,
+      "example": false
+    }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/key.mdx": [
-    { "answer": false, "example": false },
-    { "answer": false, "example": false }
+    {
+      "id": "1dfa675f-d17d-4d61-9846-1c843384825c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b5c0a11c-cdb2-4b78-918f-42c7c3b83f9d",
+      "answer": false,
+      "example": false
+    }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/type-or-react-component.mdx": [
-    { "answer": false, "example": false },
-    { "answer": false, "example": false },
-    { "answer": false, "example": false },
-    { "answer": false, "example": false },
-    { "answer": false, "example": false }
+    {
+      "id": "2da0a775-bf95-4585-ad03-451279aaf923",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c804d713-52b5-4b83-8d2a-ba17b5970354",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8e12a1b9-1f42-41dd-810f-d03e587b4b7d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4fedb142-605b-4264-8143-0012d4df6c07",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e7a5223c-b599-4498-8e35-d1ba9e1a2335",
+      "answer": false,
+      "example": false
+    }
   ]
 }
