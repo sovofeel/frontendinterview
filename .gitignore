@@ -16,6 +16,7 @@ packagehash.txt
 
 # production
 /build
+/frontend/configs
 
 # misc
 .DS_Store

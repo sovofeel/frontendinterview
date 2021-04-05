@@ -1,11 +1,11 @@
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Box, Badge, Flex, Link, Text } from '@chakra-ui/react'
 import React from 'react'
-import { Item } from '../types/content/Item'
+import { Post } from '../types/content/Post'
 
-type IProps = Item
+type IProps = Post
 
-const PostFooter = ({ tags, type, source, category }: IProps) => {
+const PostFooter = ({ tags, type, source }: IProps) => {
   return (
     <>
       <Box>

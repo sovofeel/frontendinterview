@@ -1,11 +1,11 @@
 import { Complexity } from "./Complexity";
 
-export type Task = {
+export type Post = {
   title: string;
-  description?: string;
-  complexity?: Complexity
   source?: string
+  description?: string
+  complexity?: Complexity
   category: string
   type: string
-  tags: string[]
-} 
+  tags?: string[]
+}

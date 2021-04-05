@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 import { getFilters, getPosts } from 'frontend/utils/get-posts'
 import filterPosts from 'frontend/utils/filter-posts'
 
-const IndexPage = ({ initPosts, filters }) => {
+const IndexPage = ({ initPosts, initFilters }) => {
   const [posts, setPosts] = useState(initPosts)
 
   const setFilters = newFilters => {
@@ -14,7 +14,7 @@ const IndexPage = ({ initPosts, filters }) => {
   }
 
   return (
-    <PageContainer sidebar={<Sidebar setFilters={setFilters} filters={filters} />}>
+    <PageContainer sidebar={<Sidebar setFilters={setFilters} filters={initFilters} />}>
       <Box display={{ base: 'block', md: 'flex' }}>
         <VStack width="100%" mt="10" spacing="6" align="stretch">
           {posts.map((post, index) => (
@@ -29,12 +29,12 @@ const IndexPage = ({ initPosts, filters }) => {
 }
 
 export async function getStaticProps() {
-  const filters = await getFilters()
+  const initFilters = await getFilters()
   const initPosts = await getPosts()
   return {
     props: {
       initPosts,
-      filters,
+      initFilters,
     },
   }
 }
