@@ -131,13 +131,7 @@ function Search() {
       if (query.length < 2) return []
       return matchSorter(searchData, query, {
         keys: ['content', 'hierarchy.lvl1', 'hierarchy.lvl2', 'hierarchy.lvl3'],
-      }).slice(0, 20)
-      // TODO: Добавить уровни и поиск по тегам
-      //.sort((a, b) => {
-      //  if (a.hierarchy.lvl2 == null && b.hierarchy != null) return -1
-      //  if (a.hierarchy.lvl2 != null && b.hierarchy == null) return 1
-      //  return 0
-      //})
+      })
     },
     [query]
   )

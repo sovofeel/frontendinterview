@@ -2,9 +2,6 @@
   "filtersTree": {
     "js": {
       "question": [
-        "spread",
-        "assign",
-        "object",
         "fundamental",
         "prototype inheritance",
         "falsy values",
@@ -33,6 +30,9 @@
         "reduce",
         "throttle",
         "debounce",
+        "spread",
+        "assign",
+        "object",
         "class"
       ]
     },

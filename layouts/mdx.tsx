@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import * as React from 'react'
 import * as chakraComponents from '@chakra-ui/react'
 import { MDXProvider } from '@mdx-js/react'
 import MDXComponents from 'components/mdx-components'
@@ -15,15 +15,19 @@ import filterPosts from 'utils/filter-posts'
 function MDXLayout({ frontmatter, children }) {
   const { pathname } = useRouter()
   const routes = ruRoutes
-  const [key, setKey] = useState(0)
+  const [key, setKey] = React.useState(0)
   const route = findRouteByPath(removeFromLast(frontmatter.slug, '#'), routes)
-  const [routeContext, setRouteContext] = useState(getRouteContext(route, routes))
+  const [routeContext, setRouteContext] = React.useState(getRouteContext(route, routes))
+  function isNotCurrentPostPath(post) {
+    return post.path !== pathname
+  }
+
+  const filterKeyList = ['category', 'type', 'tags']
 
   const setFilters = filters => {
-    const postsWithPath = filterPosts(ruRoutes, filters)
-
-    const route = findRouteByPath(pathname, postsWithPath)
-    const newRoute = getRouteContext(route, postsWithPath)
+    const newRoutes = filterPosts(ruRoutes, filters, filterKeyList, isNotCurrentPostPath)
+    const route = findRouteByPath(pathname, newRoutes)
+    const newRoute = getRouteContext(route, newRoutes)
 
     setRouteContext(newRoute)
     setKey(key + 1)

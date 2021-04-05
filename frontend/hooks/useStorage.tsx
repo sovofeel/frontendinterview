@@ -6,7 +6,6 @@ function useSessionStorage<T>(key: string, initialValue: T) {
       const item = window.sessionStorage.getItem(key)
 
       if (item && item !== 'undefined') {
-        console.log(item)
         return JSON.parse(item)
       } else {
         return initialValue

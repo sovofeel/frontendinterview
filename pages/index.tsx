@@ -2,15 +2,16 @@ import { Box, VStack } from '@chakra-ui/react'
 import PageContainer from 'components/page-container'
 import PostPreview from 'components/post-preview'
 import Sidebar from 'components/sidebar/Sidebar'
-import React, { useState } from 'react'
+import * as React from 'react'
 import { getFilters, getPosts } from 'frontend/utils/get-posts'
 import filterPosts from 'frontend/utils/filter-posts'
 
 const IndexPage = ({ initPosts, initFilters }) => {
-  const [posts, setPosts] = useState(initPosts)
+  const [posts, setPosts] = React.useState(initPosts)
+  const filterKeyList = ['category', 'type', 'tags']
 
   const setFilters = newFilters => {
-    setPosts(filterPosts(initPosts, newFilters))
+    setPosts(filterPosts(initPosts, newFilters, filterKeyList))
   }
 
   return (

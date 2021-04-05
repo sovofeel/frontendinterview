@@ -63,8 +63,7 @@ export const getRouteContext = (
   if (!_route) return ctx
 
   const { path } = _route
-  const allRoutes = getAllRoutes(routes)
-
+  let allRoutes = getAllRoutes(routes)
 
   for (let i = 0; i < allRoutes.length; i += 1) {
     const route = allRoutes[i]

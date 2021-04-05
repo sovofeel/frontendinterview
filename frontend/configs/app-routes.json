@@ -57,7 +57,7 @@
   {
     "title": "Функция клонирования объекта",
     "category": "js",
-    "type": "question",
+    "type": "task",
     "tags": ["spread", "assign", "object"],
     "path": "/ru/js/task/clone-object"
   },
