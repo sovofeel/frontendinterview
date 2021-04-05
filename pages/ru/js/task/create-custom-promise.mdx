@@ -9,6 +9,22 @@ tags: ['promise']
 source: https://habr.com/ru/company/otus/blog/517560/
 ---
 
+```js example
+const promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('foo')
+  }, 300)
+})
+
+promise
+  .then(function (response) {
+    console.log(response)
+  })
+  .catch(function (error) {
+    console.log(error)
+  })
+```
+
 ```js answer
 class CustomPromise {
   state = 'PENDING'

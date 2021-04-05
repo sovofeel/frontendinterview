@@ -13,7 +13,7 @@
     "gen:content": "node backend/utils/main-page-content.js",
     "gen:routes": "node backend/utils/app-routes.mjs",
     "gen:filters": "node backend/utils/app-filters.mjs",
-    "dev:start": "yarn gen:routes && yarn gen:search && yarn gen:content && yarn dev"
+    "dev:start": "yarn gen:routes && yarn gen:filters && yarn gen:search && yarn gen:content && yarn dev"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.6",

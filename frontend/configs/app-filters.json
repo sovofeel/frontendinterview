@@ -2,11 +2,22 @@
   "filtersTree": {
     "js": {
       "question": [
+        "spread",
+        "assign",
+        "object",
         "fundamental",
         "prototype inheritance",
+        "falsy values",
         "event delegation",
         "closure",
-        "function"
+        "function",
+        "array",
+        "forEach",
+        "filer",
+        "map",
+        "every",
+        "some",
+        "reduce"
       ],
       "task": [
         "array",
@@ -24,27 +35,38 @@
         "class"
       ]
     },
-    "react": { "question": ["react key"] }
+    "react": { "question": ["react component", "react key", "react state"] }
   },
   "tags": [
+    "array",
+    "forEach",
+    "filer",
+    "map",
+    "every",
+    "some",
+    "reduce",
     "fundamental",
     "closure",
     "function",
     "event delegation",
+    "falsy values",
     "prototype inheritance",
-    "array",
     "prototype",
     "class",
+    "spread",
+    "assign",
+    "object",
     "promise",
     "debounce",
     "throttle",
     "bind",
-    "reduce",
     "string",
     "sort",
     "flat",
     "recursion",
-    "react key"
+    "react state",
+    "react key",
+    "react component"
   ],
   "types": ["question", "task"],
   "categories": ["js", "react"]

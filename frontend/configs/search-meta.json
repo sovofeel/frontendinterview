@@ -1,7 +1,7 @@
 [
   {
     "content": "Что выведет код этот код?",
-    "id": "3865472b-692b-45df-b8c7-91435872dfa2",
+    "id": "c0e50580-f74e-4e2a-a05c-b49751355bfa",
     "type": "lvl1",
     "url": "/ru/js/example/code-examples",
     "hierarchy": {
@@ -10,8 +10,18 @@
     }
   },
   {
+    "content": "Какие методы перебора массива есть?",
+    "id": "9101daac-4d49-4045-99a4-229c2e2809c9",
+    "type": "lvl1",
+    "url": "/ru/js/question/array-iterate-methods",
+    "hierarchy": {
+      "lvl1": "Какие методы перебора массива есть?",
+      "lvl3": ["array", "forEach", "filer", "map", "every", "some", "reduce"]
+    }
+  },
+  {
     "content": "Что такое замыкание и как/для чего его используют?",
-    "id": "e1a12d58-0078-4d4a-a56c-8dd272ae3a5a",
+    "id": "530e0937-53ce-44da-bf03-505c7feeb500",
     "type": "lvl1",
     "url": "/ru/js/question/clousure",
     "hierarchy": {
@@ -21,7 +31,7 @@
   },
   {
     "content": "Объясните делегирование событий",
-    "id": "747cd410-ec49-4f16-8138-89cbe2b7cfe3",
+    "id": "72126a3c-44a7-4383-88de-f26210e31298",
     "type": "lvl1",
     "url": "/ru/js/question/event-delegation",
     "hierarchy": {
@@ -30,8 +40,18 @@
     }
   },
   {
+    "content": "Как проверять значения на равенство null и undefined?",
+    "id": "512ec447-9a45-4649-8c35-82d17502ba1e",
+    "type": "lvl1",
+    "url": "/ru/js/question/falsy-values",
+    "hierarchy": {
+      "lvl1": "Как проверять значения на равенство null и undefined?",
+      "lvl3": ["falsy values"]
+    }
+  },
+  {
     "content": "Расскажите, как работает прототипное наследование",
-    "id": "7e4ce273-0614-4a70-97ac-5198661d54d5",
+    "id": "ae09edb7-903b-43b1-8b72-76ddf4aaca5d",
     "type": "lvl1",
     "url": "/ru/js/question/protorype-inheratence",
     "hierarchy": {
@@ -41,7 +61,7 @@
   },
   {
     "content": "Уникализация значений в массиве",
-    "id": "1c9a4238-1856-4cc4-948a-d1232f7a55ad",
+    "id": "9628033f-f8e1-4104-bd2c-c73603c6e8bc",
     "type": "lvl1",
     "url": "/ru/js/task/array-unique-items",
     "hierarchy": {
@@ -52,7 +72,7 @@
   },
   {
     "content": "Бомба",
-    "id": "ffffc47c-d58b-4370-b591-12c7ad9f7d21",
+    "id": "537b6550-8633-4f2a-a8f7-8877d2194daf",
     "type": "lvl1",
     "url": "/ru/js/task/bomb",
     "hierarchy": {
@@ -62,15 +82,26 @@
     }
   },
   {
+    "content": "Какие есть способы сколнировать объект",
+    "id": "a034911d-d53f-4bd1-9719-bb3e32923a57",
+    "type": "lvl1",
+    "url": "/ru/js/task/clone-object",
+    "hierarchy": {
+      "lvl1": "Какие есть способы сколнировать объект",
+      "lvl2": "Склонировать объект можно минимум 4 разными способами",
+      "lvl3": ["spread", "assign", "object"]
+    }
+  },
+  {
     "content": "Создайте промис с нуля",
-    "id": "f20337d9-5ed4-4c20-b9c9-46a571d61723",
+    "id": "c2c3717a-ed2b-4a0b-8851-add48abd7e27",
     "type": "lvl1",
     "url": "/ru/js/task/create-custom-promise",
     "hierarchy": { "lvl1": "Создайте промис с нуля", "lvl3": ["promise"] }
   },
   {
     "content": "Реализуйте функцию debounce",
-    "id": "07bf0efd-9f8e-4ce3-b272-b62f7fd8917c",
+    "id": "4cb51904-77d1-402e-ab99-deadde0d734f",
     "type": "lvl1",
     "url": "/ru/js/task/create-function-debounce",
     "hierarchy": {
@@ -80,7 +111,7 @@
   },
   {
     "content": "Реализуйте функцию throttle",
-    "id": "a2343d59-a397-43bf-a128-21a2683c811c",
+    "id": "a7cc3d79-93e2-4d8c-9f11-49f57f0fac85",
     "type": "lvl1",
     "url": "/ru/js/task/create-function-throttle",
     "hierarchy": {
@@ -90,14 +121,14 @@
   },
   {
     "content": "Реализуйте метод bind",
-    "id": "5034ca25-03e5-4eca-87ca-0d5c757c8f42",
+    "id": "3d3a15f5-32d6-473d-bf7d-3625d0c1c615",
     "type": "lvl1",
     "url": "/ru/js/task/create-method-bind",
     "hierarchy": { "lvl1": "Реализуйте метод bind", "lvl3": ["array", "bind"] }
   },
   {
     "content": "Реализуйте метод reduce",
-    "id": "e7cb39a4-743e-4ba7-a96a-7b6b90134c2b",
+    "id": "39e854b7-c550-4dc6-899f-b02af7b27dc0",
     "type": "lvl1",
     "url": "/ru/js/task/create-method-reduce",
     "hierarchy": {
@@ -107,7 +138,7 @@
   },
   {
     "content": "Реализуйте аналог Promise.all",
-    "id": "f406447f-aacf-4aec-93f3-6cf012bc8564",
+    "id": "b141cb7a-c20f-4287-9cc6-c409a621d363",
     "type": "lvl1",
     "url": "/ru/js/task/create-promise-all",
     "hierarchy": {
@@ -117,7 +148,7 @@
   },
   {
     "content": "Реализовуйте аналог Function.prototype.bind",
-    "id": "6b993363-fffc-4285-9d06-0e9b758d7fe4",
+    "id": "b708afb3-fb3c-404c-9114-d1fe7a550017",
     "type": "lvl1",
     "url": "/ru/js/task/create-prototype-bind",
     "hierarchy": {
@@ -127,7 +158,7 @@
   },
   {
     "content": "Реализуйте делегирование",
-    "id": "add2bec1-d7b8-47fe-bbfd-b3963050aab5",
+    "id": "8b67efc4-b90e-4b35-9f2a-371de026ff57",
     "type": "lvl1",
     "url": "/ru/js/task/how-to-delegation",
     "hierarchy": {
@@ -137,7 +168,7 @@
   },
   {
     "content": "Идентичный алфавит",
-    "id": "b32772c0-1ac6-4e26-af2a-d0a4f592e3f6",
+    "id": "439cb2f2-5b29-42c5-a703-69ea6c6c8510",
     "type": "lvl1",
     "url": "/ru/js/task/is-pallindrom",
     "hierarchy": {
@@ -148,7 +179,7 @@
   },
   {
     "content": "Сделайте вложенный массив плоским",
-    "id": "8109c92b-7a95-43b3-9215-661e23e7aacb",
+    "id": "8a4275c3-4868-4ddb-8d74-0fa576e1c1e5",
     "type": "lvl1",
     "url": "/ru/js/task/make-flat-array",
     "hierarchy": {
@@ -158,7 +189,7 @@
   },
   {
     "content": "Сортировка нечётных",
-    "id": "c4a82ba7-d94e-4559-bcb3-85b8304e4ddd",
+    "id": "fbff2aaf-02b0-4ace-b770-836565c2ec0a",
     "type": "lvl1",
     "url": "/ru/js/task/odd-sort",
     "hierarchy": {
@@ -169,7 +200,7 @@
   },
   {
     "content": "Сумма вершин дерева",
-    "id": "10549477-cc9d-4028-984e-0f754d0148dd",
+    "id": "c36a5339-b9b9-4b66-af72-5ed3b54226c8",
     "type": "lvl1",
     "url": "/ru/js/task/sum-of-tree-vertices",
     "hierarchy": {
@@ -178,13 +209,44 @@
     }
   },
   {
+    "content": "Сумма вершин дерева",
+    "id": "6d25c57d-0a6b-4cd8-8343-a94002ddb611",
+    "type": "lvl1",
+    "url": "/ru/js/task/sum-of-tree",
+    "hierarchy": {
+      "lvl1": "Сумма вершин дерева",
+      "lvl2": "Найдите сумму вершин для дерева",
+      "lvl3": ["array", "recursion"]
+    }
+  },
+  {
+    "content": "Что такое props и state в React",
+    "id": "9454a081-b7c0-4f32-b362-a79e76f36629",
+    "type": "lvl1",
+    "url": "/ru/react/question/difference-between-props-and-state",
+    "hierarchy": {
+      "lvl1": "Что такое props и state в React",
+      "lvl3": ["react state", "react state"]
+    }
+  },
+  {
     "content": "Для чего нужен атрибут key при рендере списков?",
-    "id": "8efa1d26-1d54-45c4-a53d-666f5cc5daad",
+    "id": "532ea07c-23da-49db-a00e-e28fb6cdb2e2",
     "type": "lvl1",
     "url": "/ru/react/question/key",
     "hierarchy": {
       "lvl1": "Для чего нужен атрибут key при рендере списков?",
       "lvl3": ["react key"]
+    }
+  },
+  {
+    "content": "Какие основные типы компонент есть в React",
+    "id": "a9118f30-e451-4bbc-8282-1e7ca5d3f5eb",
+    "type": "lvl1",
+    "url": "/ru/react/question/type-or-react-component",
+    "hierarchy": {
+      "lvl1": "Какие основные типы компонент есть в React",
+      "lvl3": ["react component"]
     }
   }
 ]

@@ -60,7 +60,7 @@ function PageContainer(props: PageContainerProps) {
                 </Text>
               </Box>
             )}
-            <Box id="content">
+            <Box id="content" marginBottom={pagination ? '72px' : '0'}>
               {children}
               {pagination || null}
             </Box>

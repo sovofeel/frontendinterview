@@ -6,6 +6,13 @@
     "path": "/ru/js/example/code-examples"
   },
   {
+    "title": "Какие методы перебора массива есть?",
+    "category": "js",
+    "type": "question",
+    "tags": ["array", "forEach", "filer", "map", "every", "some", "reduce"],
+    "path": "/ru/js/question/array-iterate-methods"
+  },
+  {
     "title": "Что такое замыкание и как/для чего его используют?",
     "category": "js",
     "type": "question",
@@ -18,6 +25,13 @@
     "type": "question",
     "tags": ["fundamental", "event delegation"],
     "path": "/ru/js/question/event-delegation"
+  },
+  {
+    "title": "Как проверять значения на равенство null и undefined?",
+    "category": "js",
+    "type": "question",
+    "tags": ["falsy values"],
+    "path": "/ru/js/question/falsy-values"
   },
   {
     "title": "Расскажите, как работает прототипное наследование",
@@ -39,6 +53,13 @@
     "type": "task",
     "tags": ["prototype", "class"],
     "path": "/ru/js/task/bomb"
+  },
+  {
+    "title": "Какие есть способы сколнировать объект",
+    "category": "js",
+    "type": "question",
+    "tags": ["spread", "assign", "object"],
+    "path": "/ru/js/task/clone-object"
   },
   {
     "title": "Создайте промис с нуля",
@@ -125,10 +146,31 @@
     "path": "/ru/js/task/sum-of-tree-vertices"
   },
   {
+    "title": "Сумма вершин дерева",
+    "category": "js",
+    "type": "task",
+    "tags": ["array", "recursion"],
+    "path": "/ru/js/task/sum-of-tree"
+  },
+  {
+    "title": "Что такое props и state в React",
+    "category": "react",
+    "type": "question",
+    "tags": ["react state", "react state"],
+    "path": "/ru/react/question/difference-between-props-and-state"
+  },
+  {
     "title": "Для чего нужен атрибут key при рендере списков?",
     "category": "react",
     "type": "question",
     "tags": ["react key"],
     "path": "/ru/react/question/key"
+  },
+  {
+    "title": "Какие основные типы компонент есть в React",
+    "category": "react",
+    "type": "question",
+    "tags": ["react component"],
+    "path": "/ru/react/question/type-or-react-component"
   }
 ]

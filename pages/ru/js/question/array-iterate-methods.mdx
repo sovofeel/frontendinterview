@@ -1,0 +1,16 @@
+---
+id: 22
+title: Какие методы перебора массива есть?
+complexity: junior
+category: js
+lang: ru
+type: question
+tags: ['array', 'forEach', 'filer', 'map', 'every', 'some', 'reduce']
+---
+
+- forEach - Ничего не возвращает, его используют только для перебора, как более «элегантный» вариант, чем обычный цикл `for`.
+- filter - Он создаёт новый массив, в который войдут только те элементы `arr`, для которых вызов `callback(item, i, arr)` возвратит `true`
+- map - Он создаёт новый массив, который будет состоять из результатов вызова `callback(item, i, arr)` для каждого элемента `arr`.
+- every - Метод `arr.every(callback[, thisArg])` возвращает `true`, если вызов `callback` вернёт `true` для каждого элемента `arr`.
+- some - Метод `arr.every(callback[, thisArg])` возвращает `true`, если вызов `callback` вернёт `true` для какого-нибудь элемента `arr`.
+- reduce - Метод `arr.reduce(callback[, initialValue])` используется для последовательной обработки каждого элемента массива с сохранением промежуточного результата.

@@ -59,8 +59,6 @@ export const getRouteContext = (
   routes: RouteItem[],
 ): RouteContext => {
 
-  console.log('_route', _route);
-
   let ctx = {}
   if (!_route) return ctx
 

@@ -106,12 +106,19 @@
     },
     { "answer": true, "example": false, "children": "1020", "className": "js" }
   ],
+  "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/array-iterate-methods.mdx": [
+    { "answer": false, "example": false }
+  ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/clousure.mdx": [
     { "answer": false, "example": false },
     { "answer": false, "example": false },
     { "answer": false, "example": false }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/event-delegation.mdx": [
+    { "answer": false, "example": false },
+    { "answer": false, "example": false }
+  ],
+  "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/falsy-values.mdx": [
     { "answer": false, "example": false },
     { "answer": false, "example": false }
   ],
@@ -140,7 +147,27 @@
       "className": "js"
     }
   ],
+  "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/clone-object.mdx": [
+    {
+      "answer": false,
+      "example": true,
+      "children": "const obj = { a: 1, b: 2, c: { d: 4 } }\n\nconst newObj = cloneObj(obj)\n\nnewObj.a = 2\n// newObj => { a:2, b:2, c: { d: 4 } }\n// obj => { a:1, b:2, c: { d: 4 } }",
+      "className": "js"
+    },
+    {
+      "answer": true,
+      "example": false,
+      "children": "// С помощью деструктуризации\nconst cloneObj = obj => ({ ...obj })\n\n// Через JSON.parse/stringify\nconst cloneObj = obj => JSON.parse(JSON.stringify(obj))\n\n// Помощью Object.assign\nconst cloneObj = obj => Object.assign({}, obj)\n\n// Через рекурсию\nconst cloneObj (o, i, r) => {\n  r = o\n  if (r && typeof o == 'object') {\n    r = o instanceof Array ? [] : {}\n    for (i in o) if (o.hasOwnProperty(i)) r[i] = dup(o[i])\n  }\n  return r\n}",
+      "className": "js"
+    }
+  ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-custom-promise.mdx": [
+    {
+      "answer": false,
+      "example": true,
+      "children": "const promise = new Promise((resolve, reject) => {\n  setTimeout(() => {\n    resolve('foo')\n  }, 300)\n})\n\npromise\n  .then(function (response) {\n    console.log(response)\n  })\n  .catch(function (error) {\n    console.log(error)\n  })",
+      "className": "js"
+    },
     {
       "answer": true,
       "example": false,
@@ -254,7 +281,31 @@
       "className": "js"
     }
   ],
+  "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/sum-of-tree.mdx": [
+    {
+      "answer": false,
+      "example": true,
+      "children": "const tree = {\n  value: 5,\n  right: {\n    value: 5,\n    right: {\n      value: 5,\n      right: {\n        value: 10,\n      },\n    },\n    left: {\n      value: 5,\n      left: {\n        value: 1,\n      },\n    },\n  },\n}\n\n// sumOftree(tree) => 31",
+      "className": "js"
+    },
+    {
+      "answer": true,
+      "example": false,
+      "children": "function sumTree(tree) {\n  let count = tree.value\n  if (tree.left) {\n    count += sumTree(tree.left)\n  }\n  if (tree.right) {\n    count += sumTree(tree.right)\n  }\n\n  return count\n}",
+      "className": "js"
+    }
+  ],
+  "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/difference-between-props-and-state.mdx": [
+    { "answer": false, "example": false }
+  ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/key.mdx": [
+    { "answer": false, "example": false },
+    { "answer": false, "example": false }
+  ],
+  "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/type-or-react-component.mdx": [
+    { "answer": false, "example": false },
+    { "answer": false, "example": false },
+    { "answer": false, "example": false },
     { "answer": false, "example": false },
     { "answer": false, "example": false }
   ]

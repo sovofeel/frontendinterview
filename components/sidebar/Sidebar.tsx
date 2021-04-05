@@ -1,20 +1,21 @@
 import { Box, Stack, Tag, Select, Button } from '@chakra-ui/react'
+import useSessionStorage from 'frontend/hooks/useStorage'
 import React, { useEffect, useRef, useState } from 'react'
 
 const Sidebar = ({ filters, setFilters }) => {
   const [resetKey, setResetKey] = useState(0)
-  const [category, setCategory] = useState<string>()
-  const [types, setTypes] = useState<string[]>()
-  const [type, setType] = useState<string | null>()
-  const [tags, setTags] = useState<string[]>()
-  const [selectedTags, setSelectedTags] = useState([])
+  const [category, setCategory] = useSessionStorage<any>('category', '')
+  const [types, setTypes] = useState<any>()
+  const [type, setType] = useSessionStorage<any>('type', '')
+  const [tags, setTags] = useState<any>()
+  const [selectedTags, setSelectedTags] = useSessionStorage<any>('tags', [])
 
   useEffect(() => {
     setResetKey(resetKey + 1)
+    setFilters({ tags: selectedTags, type, category })
   }, [])
 
   useEffect(() => {
-    setType(null)
     if (category) {
       setTypes(Object.keys(filters.filtersTree[category]))
     } else {
@@ -27,16 +28,19 @@ const Sidebar = ({ filters, setFilters }) => {
       setTags(filters.filtersTree[category][type])
     } else if (!category) {
       setTags(filters.tags)
-    } else if (!type && category) {
+    } else if (!type && category && typeof category === 'string') {
       let newTags = [...Object.values(filters.filtersTree[category]).flat()] as string[]
       setTags(newTags)
     }
-
-    setSelectedTags([])
   }, [type, filters.tags, category])
 
   const onCategoryChange = event => {
     setCategory(event.target.value)
+    setType('')
+  }
+
+  const handleSetFilters = () => {
+    setFilters({ tags: selectedTags, type, category })
   }
 
   const resetFilters = () => {
@@ -44,7 +48,9 @@ const Sidebar = ({ filters, setFilters }) => {
     setTags(filters.tags)
     setResetKey(resetKey + 1)
     setSelectedTags([])
-    setFilters(null)
+    setCategory('')
+    setType('')
+    setFilters('')
   }
 
   const onTypeChange = event => {
@@ -85,7 +91,7 @@ const Sidebar = ({ filters, setFilters }) => {
           <Select onChange={event => onCategoryChange(event)} placeholder="Выберите категорию">
             {filters.categories.map(item => {
               return (
-                <option key={item} value={item}>
+                <option selected={item === category} key={item} value={item}>
                   {item}
                 </option>
               )
@@ -97,7 +103,7 @@ const Sidebar = ({ filters, setFilters }) => {
             {types &&
               types.map((item, index) => {
                 return (
-                  <option key={item + index + category} value={item}>
+                  <option selected={item === type} key={item + index + category} value={item}>
                     {item}
                   </option>
                 )
@@ -106,11 +112,7 @@ const Sidebar = ({ filters, setFilters }) => {
         )}
       </Stack>
       <Box mt={8}>
-        <Button
-          mr="24px"
-          colorScheme="teal"
-          onClick={() => setFilters({ tags: selectedTags, type, category })}
-        >
+        <Button mr="24px" colorScheme="teal" onClick={handleSetFilters}>
           Применить
         </Button>
         <Button colorScheme="red" onClick={resetFilters}>

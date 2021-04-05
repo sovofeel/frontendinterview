@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import * as chakraComponents from '@chakra-ui/react'
 import { MDXProvider } from '@mdx-js/react'
 import MDXComponents from 'components/mdx-components'
@@ -8,7 +8,7 @@ import { getRouteContext } from '../frontend/utils/get-route-context'
 import ruRoutes from '../frontend/configs/app-routes.json'
 import Pagination from 'components/pagination'
 import Sidebar from 'components/sidebar/Sidebar'
-import filters from '../frontend/configs/app-filters.json'
+import initFiltersData from '../frontend/configs/app-filters.json'
 import { useRouter } from 'next/router'
 
 function MDXLayout({ frontmatter, children }) {
@@ -46,7 +46,7 @@ function MDXLayout({ frontmatter, children }) {
         pagination={
           <Pagination key={key} next={routeContext.nextRoute} previous={routeContext.prevRoute} />
         }
-        sidebar={<Sidebar filters={filters} setFilters={setFilters} />}
+        sidebar={<Sidebar filters={initFiltersData} setFilters={setFilters} />}
       >
         {children}
         <MDXComponents.footer {...frontmatter} />

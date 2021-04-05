@@ -20,18 +20,23 @@ export async function getFilters() {
         const oldTags = curr[category][type] ? curr[category][type] : []
         curr[category] = {
           ...curr[category],
+          //@ts-ignore
           [type]: [...new Set([...tags, ...oldTags])],
         }
         return curr
       }
+      //@ts-ignore
       return { ...curr, ...{ [category]: { [type]: tags } } }
     }
   }, {})
 
   return {
     filtersTree,
+    //@ts-ignore
     tags: [...new Set(tagsData)],
+    //@ts-ignore
     types: [...new Set(typeData)],
+    //@ts-ignore
     categories: [...new Set(categoryData)],
   }
 }

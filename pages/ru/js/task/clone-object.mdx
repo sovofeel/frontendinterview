@@ -1,0 +1,41 @@
+---
+id: 4
+title: Какие есть способы сколнировать объект
+complexity: junior
+category: js
+lang: ru
+description: Склонировать объект можно минимум 4 разными способами
+type: question
+tags: ['spread', 'assign', 'object']
+---
+
+```js example
+const obj = { a: 1, b: 2, c: { d: 4 } }
+
+const newObj = cloneObj(obj)
+
+newObj.a = 2
+// newObj => { a:2, b:2, c: { d: 4 } }
+// obj => { a:1, b:2, c: { d: 4 } }
+```
+
+```js answer
+// С помощью деструктуризации
+const cloneObj = obj => ({ ...obj })
+
+// Через JSON.parse/stringify
+const cloneObj = obj => JSON.parse(JSON.stringify(obj))
+
+// Помощью Object.assign
+const cloneObj = obj => Object.assign({}, obj)
+
+// Через рекурсию
+const cloneObj (o, i, r) => {
+  r = o
+  if (r && typeof o == 'object') {
+    r = o instanceof Array ? [] : {}
+    for (i in o) if (o.hasOwnProperty(i)) r[i] = dup(o[i])
+  }
+  return r
+}
+```
