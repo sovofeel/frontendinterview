@@ -1,16 +1,17 @@
 [
   {
-    "title": "Что выведет код этот код?",
-    "category": "js",
-    "type": "example",
-    "path": "/ru/js/example/code-examples"
-  },
-  {
     "title": "Методы перебора массива",
     "category": "js",
     "type": "question",
     "tags": ["array", "forEach", "filer", "map", "every", "some", "reduce"],
     "path": "/ru/js/question/array-iterate-methods"
+  },
+  {
+    "title": "Как работают методы apply(), call() и bind()",
+    "category": "js",
+    "type": "question",
+    "tags": ["apply", "call", "bind"],
+    "path": "/ru/js/question/bind-call-apply"
   },
   {
     "title": "Что такое замыкание",
@@ -27,6 +28,13 @@
     "path": "/ru/js/question/event-delegation"
   },
   {
+    "title": "event loop",
+    "category": "js",
+    "type": "question",
+    "tags": ["fundamental", "event loop"],
+    "path": "/ru/js/question/event-loop"
+  },
+  {
     "title": "Какие ложные значния есть в JS",
     "category": "js",
     "type": "question",
@@ -34,11 +42,32 @@
     "path": "/ru/js/question/falsy-values"
   },
   {
+    "title": "Что такое Promise",
+    "category": "js",
+    "type": "question",
+    "tags": ["fundamental", "this"],
+    "path": "/ru/js/question/promise"
+  },
+  {
     "title": "Что такое прототипы",
     "category": "js",
     "type": "question",
-    "tags": ["fundamental", "prototype inheritance"],
+    "tags": ["fundamental", "prototype inheritance", "prototype"],
     "path": "/ru/js/question/protorype-inheratence"
+  },
+  {
+    "title": "Set, Map, WeakSet и WeakMap",
+    "category": "js",
+    "type": "question",
+    "tags": ["Set", "Map", "WeakSet", "WeakMap"],
+    "path": "/ru/js/question/set-map-weakset-weak-map"
+  },
+  {
+    "title": "Как работает this",
+    "category": "js",
+    "type": "question",
+    "tags": ["fundamental", "this"],
+    "path": "/ru/js/question/this-keyword"
   },
   {
     "title": "Уникализация значений в массиве",
@@ -142,7 +171,7 @@
     "title": "props и state в React",
     "category": "react",
     "type": "question",
-    "tags": ["react state", "react state"],
+    "tags": ["react state", "react props"],
     "path": "/ru/react/question/difference-between-props-and-state"
   },
   {
@@ -153,10 +182,24 @@
     "path": "/ru/react/question/key"
   },
   {
+    "title": "React Reconciliation",
+    "category": "react",
+    "type": "question",
+    "tags": ["react reconciliation"],
+    "path": "/ru/react/question/react-reconciliation"
+  },
+  {
     "title": "Типы компонентов есть в React",
     "category": "react",
     "type": "question",
     "tags": ["react component"],
     "path": "/ru/react/question/type-or-react-component"
+  },
+  {
+    "title": "Почему не работает setState",
+    "category": "react",
+    "type": "task",
+    "tags": ["setState"],
+    "path": "/ru/react/task/buggy-counter"
   }
 ]

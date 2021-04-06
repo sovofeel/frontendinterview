@@ -1,0 +1,67 @@
+---
+title: Почему не работает setState
+category: react
+lang: ru
+type: task
+tags: ['setState']
+description: Исправьте поведение счетчика, на каждый клик он должен увеличивать state на 5
+source: https://youtu.be/srpXEgvIzoQ?t=2325
+---
+
+```jsx example
+class BuggyCounter extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      counter: 0,
+    }
+  }
+
+  handleClick() {
+    this.setState({ counter: this.state.counter + 1 })
+    this.setState({ counter: this.state.counter + 1 })
+    this.setState({ counter: this.state.counter + 1 })
+    this.setState({ counter: this.state.counter + 1 })
+    this.setState({ counter: this.state.counter + 1 })
+  }
+
+  render() {
+    return (
+      <div>
+        <span>current state: {this.state.counter}</span>
+        <br />
+        <button onClick={this.handleClick}>count!</button>
+      </div>
+    )
+  }
+}
+```
+
+```jsx answer
+class BuggyCounter extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      counter: 0,
+    }
+  }
+
+  handleClick() {
+    this.setState(prev => ({ counter: prev.counter + 1 }))
+    this.setState(prev => ({ counter: prev.counter + 1 }))
+    this.setState(prev => ({ counter: prev.counter + 1 }))
+    this.setState(prev => ({ counter: prev.counter + 1 }))
+    this.setState(prev => ({ counter: prev.counter + 1 }))
+  }
+
+  render() {
+    return (
+      <div>
+        <span>current state: {this.state.counter}</span>
+        <br />
+        <button onClick={this.handleClick.bind(this)}>count!</button>
+      </div>
+    )
+  }
+}
+```

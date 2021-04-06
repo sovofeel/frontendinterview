@@ -1,0 +1,30 @@
+---
+title: Что такое Promise
+description: Расскажите что такое Promise и зачем он используется
+complexity: junior
+category: js
+lang: ru
+type: question
+tags: ['fundamental', 'this']
+source: https://tproger.ru/translations/javascript-cheatsheet/#sttcmthds
+---
+
+Promise – это специальный объект, который содержит своё состояние. Вначале pending («ожидание»), затем – одно из: fulfilled («выполнено успешно») или rejected («выполнено с ошибкой»).
+
+Синтаксис создания Promise:
+
+```js example
+class Repo {
+  static getName() {
+    return 'Repo name is modern-js-cheatsheet'
+  }
+}
+
+// нам не нужно создавать объект класса Repo
+console.log(Repo.getName()) // "Repo name is modern-js-cheatsheet"
+
+let r = new Repo()
+console.log(r.getName()) // необработанная ошибка TypeError: r.getName не является функцией
+```
+
+Cтатические методы вызываются через имя класса. Вызывать статические методы через имя объекта запрещено. Статические методы часто используются для создания вспомогательных функций приложения.

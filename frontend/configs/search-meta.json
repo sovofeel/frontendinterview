@@ -1,17 +1,7 @@
 [
   {
-    "content": "Что выведет код этот код?",
-    "id": "c02c52ee-1991-43c3-83ba-c1acecfa8e73",
-    "type": "lvl1",
-    "url": "/ru/js/example/code-examples",
-    "hierarchy": {
-      "lvl1": "Что выведет код этот код?",
-      "lvl2": "Набор примеров кода, проверьте, знаете ли вы что выведет код в примерах ниже"
-    }
-  },
-  {
     "content": "Методы перебора массива",
-    "id": "b535512c-9e56-47c7-b589-018a4b5d632b",
+    "id": "22189379-5fa8-43c1-919c-fffce9989e06",
     "type": "lvl1",
     "url": "/ru/js/question/array-iterate-methods",
     "hierarchy": {
@@ -21,8 +11,19 @@
     }
   },
   {
+    "content": "Как работают методы apply(), call() и bind()",
+    "id": "630dfa77-8290-459f-a51a-1bcd06e0a5b6",
+    "type": "lvl1",
+    "url": "/ru/js/question/bind-call-apply",
+    "hierarchy": {
+      "lvl1": "Как работают методы apply(), call() и bind()",
+      "lvl2": "Расскажите как работает привязка к контексту, и в чем отличие этих методов",
+      "lvl3": ["apply", "call", "bind"]
+    }
+  },
+  {
     "content": "Что такое замыкание",
-    "id": "a409a26c-d9e0-4212-bcb9-a4fc87ff0acb",
+    "id": "67a7dafd-4d04-4804-9aa1-56a9f99b4ead",
     "type": "lvl1",
     "url": "/ru/js/question/clousure",
     "hierarchy": {
@@ -33,7 +34,7 @@
   },
   {
     "content": "Что такое делегирование событий",
-    "id": "4ddf46ac-1899-47b5-ba93-94fe966308bb",
+    "id": "b035017d-66c8-4840-9bdc-63dc2fa973f5",
     "type": "lvl1",
     "url": "/ru/js/question/event-delegation",
     "hierarchy": {
@@ -43,8 +44,19 @@
     }
   },
   {
+    "content": "event loop",
+    "id": "3d625c3d-3cfc-42e9-aff7-9254d25cfa7d",
+    "type": "lvl1",
+    "url": "/ru/js/question/event-loop",
+    "hierarchy": {
+      "lvl1": "event loop",
+      "lvl2": "Что такое цикл событий (event loop) и как он работает?",
+      "lvl3": ["fundamental", "event loop"]
+    }
+  },
+  {
     "content": "Какие ложные значния есть в JS",
-    "id": "b20db6b7-5c86-46ba-833f-f022931ed464",
+    "id": "2406f176-f128-4260-8bbb-233cc343a6f8",
     "type": "lvl1",
     "url": "/ru/js/question/falsy-values",
     "hierarchy": {
@@ -54,19 +66,52 @@
     }
   },
   {
+    "content": "Что такое Promise",
+    "id": "8138f8dc-de96-4ce1-aa7e-614d65a7bacd",
+    "type": "lvl1",
+    "url": "/ru/js/question/promise",
+    "hierarchy": {
+      "lvl1": "Что такое Promise",
+      "lvl2": "Расскажите что такое Promise и зачем он используется",
+      "lvl3": ["fundamental", "this"]
+    }
+  },
+  {
     "content": "Что такое прототипы",
-    "id": "b13e194a-2e17-4ce8-96b9-0b104eb979f0",
+    "id": "e92ff6e6-3e9b-4242-90dd-1de7e5e1597e",
     "type": "lvl1",
     "url": "/ru/js/question/protorype-inheratence",
     "hierarchy": {
       "lvl1": "Что такое прототипы",
       "lvl2": "Расскажите что такое прототипы и как работает прототипное наследование",
-      "lvl3": ["fundamental", "prototype inheritance"]
+      "lvl3": ["fundamental", "prototype inheritance", "prototype"]
+    }
+  },
+  {
+    "content": "Set, Map, WeakSet и WeakMap",
+    "id": "09d07cdd-5c24-4423-a37f-6dc858f1a2c7",
+    "type": "lvl1",
+    "url": "/ru/js/question/set-map-weakset-weak-map",
+    "hierarchy": {
+      "lvl1": "Set, Map, WeakSet и WeakMap",
+      "lvl2": "Что такое Set, Map, WeakSet и WeakMap и в чем их особенности",
+      "lvl3": ["Set", "Map", "WeakSet", "WeakMap"]
+    }
+  },
+  {
+    "content": "Как работает this",
+    "id": "f4de4641-8b40-434e-86b8-68561160fa92",
+    "type": "lvl1",
+    "url": "/ru/js/question/this-keyword",
+    "hierarchy": {
+      "lvl1": "Как работает this",
+      "lvl2": "Расскажите как this работает с разными областями видимости, и какие особенности поведетия есть",
+      "lvl3": ["fundamental", "this"]
     }
   },
   {
     "content": "Уникализация значений в массиве",
-    "id": "c23397e3-5b07-4d91-91ec-3f56ed5974ac",
+    "id": "7c24446f-cc8c-456f-95a4-29b9d4c737f6",
     "type": "lvl1",
     "url": "/ru/js/task/array-unique-items",
     "hierarchy": {
@@ -77,7 +122,7 @@
   },
   {
     "content": "Функция Bomb",
-    "id": "4205e142-5098-4115-9361-c365491df951",
+    "id": "b29e95a0-68f8-45bc-b4da-377ee4572871",
     "type": "lvl1",
     "url": "/ru/js/task/bomb",
     "hierarchy": {
@@ -88,7 +133,7 @@
   },
   {
     "content": "Функция клонирования объекта",
-    "id": "87ebfb1d-db9b-4c27-b71e-cb9dd6f6eda8",
+    "id": "be0fd54d-7fb3-463c-863c-78e3784f6c00",
     "type": "lvl1",
     "url": "/ru/js/task/clone-object",
     "hierarchy": {
@@ -99,7 +144,7 @@
   },
   {
     "content": "Создайте промис с нуля",
-    "id": "e519ad28-bd51-4feb-96a8-b20507aee1fc",
+    "id": "b0d2c2d3-f369-466d-a38d-60ca5bc752e5",
     "type": "lvl1",
     "url": "/ru/js/task/create-custom-promise",
     "hierarchy": {
@@ -110,7 +155,7 @@
   },
   {
     "content": "Реализуйте функцию debounce",
-    "id": "d38eef17-0111-42c7-a9a9-3ad0527e431b",
+    "id": "8af21ee9-05f2-499c-8086-39848eb7b1b6",
     "type": "lvl1",
     "url": "/ru/js/task/create-function-debounce",
     "hierarchy": {
@@ -121,7 +166,7 @@
   },
   {
     "content": "Реализуйте функцию throttle",
-    "id": "5c9adbf0-8e5f-4b00-b10f-18c33093ccfe",
+    "id": "91a90c3a-9d9c-4e19-8772-5d7fd70f5f1b",
     "type": "lvl1",
     "url": "/ru/js/task/create-function-throttle",
     "hierarchy": {
@@ -132,7 +177,7 @@
   },
   {
     "content": "Реализуйте метод reduce",
-    "id": "50fd278a-45f0-43c7-a370-17b0588969d7",
+    "id": "db512687-4d8a-4ec0-b12a-35b552d582ab",
     "type": "lvl1",
     "url": "/ru/js/task/create-method-reduce",
     "hierarchy": {
@@ -143,7 +188,7 @@
   },
   {
     "content": "Реализуйте аналог Promise.all",
-    "id": "4d404b98-d088-4a08-8839-03d7608a51fd",
+    "id": "6aaf63ec-7af0-438a-b5c6-ada77a560a1c",
     "type": "lvl1",
     "url": "/ru/js/task/create-promise-all",
     "hierarchy": {
@@ -154,7 +199,7 @@
   },
   {
     "content": "Реализовуйте аналог Function.prototype.bind",
-    "id": "4e808ae5-546a-4509-b8f5-a8795fed5464",
+    "id": "b216b9bb-158d-4c81-a620-84b4a4815209",
     "type": "lvl1",
     "url": "/ru/js/task/create-prototype-bind",
     "hierarchy": {
@@ -165,7 +210,7 @@
   },
   {
     "content": "Реализуйте делегирование",
-    "id": "fe4e8ed8-c921-4244-8cad-227d5a0b691c",
+    "id": "683ef4c8-0288-4db6-81f8-f26f2c43ede6",
     "type": "lvl1",
     "url": "/ru/js/task/how-to-delegation",
     "hierarchy": {
@@ -176,7 +221,7 @@
   },
   {
     "content": "Идентичный алфавит",
-    "id": "537b81d4-02be-4a4d-bd65-6f7110abf754",
+    "id": "978528a4-3c04-4d81-b458-2bfeb5c3006d",
     "type": "lvl1",
     "url": "/ru/js/task/is-pallindrom",
     "hierarchy": {
@@ -187,7 +232,7 @@
   },
   {
     "content": "Сделайте вложенный массив плоским",
-    "id": "da0add0b-1862-450d-9257-00c774284741",
+    "id": "279eca06-0491-4c57-bdcf-83495ef0c512",
     "type": "lvl1",
     "url": "/ru/js/task/make-flat-array",
     "hierarchy": {
@@ -198,7 +243,7 @@
   },
   {
     "content": "Сортировка нечётных",
-    "id": "6efcc538-fed5-44ed-a34f-6e3c7e9b56bc",
+    "id": "388b3f97-7f4b-4a0f-8686-775b4791cceb",
     "type": "lvl1",
     "url": "/ru/js/task/odd-sort",
     "hierarchy": {
@@ -209,7 +254,7 @@
   },
   {
     "content": "Сумма вершин дерева",
-    "id": "44d2be8d-ac71-43cf-8986-501f1b08663f",
+    "id": "e573ecdb-4afb-467c-9543-5bfeb6dc5bbd",
     "type": "lvl1",
     "url": "/ru/js/task/sum-of-tree",
     "hierarchy": {
@@ -220,18 +265,18 @@
   },
   {
     "content": "props и state в React",
-    "id": "5987614e-a537-478b-be77-524e9c213213",
+    "id": "915d2433-4cb3-4765-9823-dc8cab23cbef",
     "type": "lvl1",
     "url": "/ru/react/question/difference-between-props-and-state",
     "hierarchy": {
       "lvl1": "props и state в React",
       "lvl2": "Расскажите что такое props и state в React, в чем их отличия и для чего они нужны",
-      "lvl3": ["react state", "react state"]
+      "lvl3": ["react state", "react props"]
     }
   },
   {
     "content": "Для чего нужен атрибут key в React?",
-    "id": "525704b6-d10e-4735-a936-784613b96c92",
+    "id": "db796aaf-5c44-42c3-a6cf-b01e986018f9",
     "type": "lvl1",
     "url": "/ru/react/question/key",
     "hierarchy": {
@@ -241,14 +286,36 @@
     }
   },
   {
+    "content": "React Reconciliation",
+    "id": "5cce1157-c1ba-4b38-8258-eb0cc1352885",
+    "type": "lvl1",
+    "url": "/ru/react/question/react-reconciliation",
+    "hierarchy": {
+      "lvl1": "React Reconciliation",
+      "lvl2": "то такое React Reconciliation (Cверка) и как он работает?",
+      "lvl3": ["react reconciliation"]
+    }
+  },
+  {
     "content": "Типы компонентов есть в React",
-    "id": "8d144ee7-c31c-499e-8cce-fb9aaa404f2f",
+    "id": "49aa15ac-27c8-4e67-aaa2-5716c150d2b0",
     "type": "lvl1",
     "url": "/ru/react/question/type-or-react-component",
     "hierarchy": {
       "lvl1": "Типы компонентов есть в React",
       "lvl2": "Расскажите какие основные типы компонентов есть в React, в чем их приемущества и недостатки",
       "lvl3": ["react component"]
+    }
+  },
+  {
+    "content": "Почему не работает setState",
+    "id": "5214563b-b7a9-4d5f-bba0-37b39580c7af",
+    "type": "lvl1",
+    "url": "/ru/react/task/buggy-counter",
+    "hierarchy": {
+      "lvl1": "Почему не работает setState",
+      "lvl2": "Исправьте поведение счетчика, на каждый клик он должен увеличивать state на 5",
+      "lvl3": ["setState"]
     }
   }
 ]

@@ -3,11 +3,21 @@
     "js": {
       "question": [
         "fundamental",
+        "this",
+        "Set",
+        "Map",
+        "WeakSet",
+        "WeakMap",
         "prototype inheritance",
+        "prototype",
         "falsy values",
+        "event loop",
         "event delegation",
         "closure",
         "function",
+        "apply",
+        "call",
+        "bind",
         "array",
         "forEach",
         "filer",
@@ -36,7 +46,16 @@
         "class"
       ]
     },
-    "react": { "question": ["react component", "react key", "react state"] }
+    "react": {
+      "question": [
+        "react component",
+        "react reconciliation",
+        "react key",
+        "react state",
+        "react props"
+      ],
+      "task": ["setState"]
+    }
   },
   "tags": [
     "array",
@@ -46,13 +65,22 @@
     "every",
     "some",
     "reduce",
+    "apply",
+    "call",
+    "bind",
     "fundamental",
     "closure",
     "function",
     "event delegation",
+    "event loop",
     "falsy values",
+    "this",
     "prototype inheritance",
     "prototype",
+    "Set",
+    "Map",
+    "WeakSet",
+    "WeakMap",
     "class",
     "spread",
     "assign",
@@ -60,15 +88,17 @@
     "promise",
     "debounce",
     "throttle",
-    "bind",
     "DOM",
     "string",
     "sort",
     "flat",
     "recursion",
     "react state",
+    "react props",
     "react key",
-    "react component"
+    "react reconciliation",
+    "react component",
+    "setState"
   ],
   "types": ["question", "task"],
   "categories": ["js", "react"]
