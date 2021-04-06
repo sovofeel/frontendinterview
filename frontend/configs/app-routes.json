@@ -182,6 +182,20 @@
     "path": "/ru/react/question/key"
   },
   {
+    "title": "Порталы в React",
+    "category": "react",
+    "type": "question",
+    "tags": ["react portal"],
+    "path": "/ru/react/question/portal"
+  },
+  {
+    "title": "PureComponent",
+    "category": "react",
+    "type": "question",
+    "tags": ["PureComponent"],
+    "path": "/ru/react/question/pure-component"
+  },
+  {
     "title": "React Reconciliation",
     "category": "react",
     "type": "question",

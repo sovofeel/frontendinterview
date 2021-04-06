@@ -1,4 +1,5 @@
 import { Box, Stack, Tag, Select, Button } from '@chakra-ui/react'
+import { AnimatePresence, motion } from 'framer-motion'
 import useSessionStorage from 'frontend/hooks/useStorage'
 import * as React from 'react'
 
@@ -26,6 +27,8 @@ const Sidebar = ({ filters, setFilters }) => {
   React.useEffect(() => {
     if (type && category) {
       setTags(filters.filtersTree[category][type])
+    } else if (type && !category) {
+      setTags(filters.filtersTree[type])
     } else if (!category) {
       setTags(filters.tags)
     } else if (!type && category && typeof category === 'string') {
@@ -116,22 +119,26 @@ const Sidebar = ({ filters, setFilters }) => {
         </Button>
       </Box>
       <Box maxW="300" mt={4} align="center">
-        {tags &&
-          tags.map((item, index) => {
-            return (
-              <Tag
-                onClick={event => handleSelectTag(event)}
-                cursor="pointer"
-                mr={2}
-                value={item}
-                mb={2}
-                colorScheme={selectedTags.indexOf(item) === -1 ? 'red' : 'teal'}
-                key={item + index + type}
-              >
-                {item}
-              </Tag>
-            )
-          })}
+        <motion.ul>
+          {tags &&
+            tags.map((item, index) => {
+              return (
+                <motion.li style={{ display: 'inline-flex' }} layout>
+                  <Tag
+                    onClick={event => handleSelectTag(event)}
+                    cursor="pointer"
+                    mr={2}
+                    value={item}
+                    mb={2}
+                    key={item}
+                    colorScheme={selectedTags.indexOf(item) === -1 ? 'red' : 'teal'}
+                  >
+                    {item}
+                  </Tag>
+                </motion.li>
+              )
+            })}
+        </motion.ul>
       </Box>
     </Box>
   )

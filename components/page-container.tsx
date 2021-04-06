@@ -3,6 +3,7 @@ import * as React from 'react'
 import { Box, Text, Heading } from '@chakra-ui/react'
 import Container from 'components/container'
 import Header from './header'
+import PageTransition from './page-transition'
 
 function useHeadingFocusOnRouteChange() {
   const router = useRouter()
@@ -61,7 +62,7 @@ function PageContainer(props: PageContainerProps) {
               </Box>
             )}
             <Box id="content" marginBottom={pagination ? '72px' : '0'}>
-              {children}
+              <PageTransition>{children}</PageTransition>
               {pagination || null}
             </Box>
           </div>

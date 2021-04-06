@@ -25,10 +25,12 @@ async function createFiltersTree(mdxData) {
 
       if (curr[category]) {
         const oldTags = curr[category][type] ? curr[category][type] : []
+        const oldTag1 = curr[type] ? curr[type] : []
         curr[category] = {
           ...curr[category],
           [type]: [...new Set([...tags, ...oldTags])],
         }
+        curr[type] = [ ...new Set([...tags, ...oldTag1])]
         return curr
       }
       return { ...curr, ...{ [category]: { [type]: tags } } }
