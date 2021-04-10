@@ -1,184 +1,184 @@
 {
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/array-iterate-methods.mdx": [
     {
-      "id": "e73de9a4-ab31-4609-9dd4-3ed9a5df8d6e",
+      "id": "806f9c1b-10cc-4f78-8681-f06101d1c819",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/bind-call-apply.mdx": [
     {
-      "id": "ced0d07c-5351-44fc-b9a8-f34fb5612c0d",
+      "id": "5fe9b862-1094-46f8-8564-5152b0b7ea2c",
       "answer": false,
       "example": false
     },
     {
-      "id": "da66526b-ecd4-4584-8825-07ba6d7f74c5",
+      "id": "5abc72b1-d392-4a38-b404-2de1a5594297",
       "answer": false,
       "example": false
     },
     {
-      "id": "cc6a3cf6-a72b-403c-8469-e8e5ce04908d",
+      "id": "5b826624-c8ea-49b5-9169-f7dfb9b25e71",
       "answer": false,
       "example": false
     },
     {
-      "id": "46126e6a-470d-4004-b899-89ae9cd344cc",
+      "id": "7ec8f1d2-87d9-4ef9-88ee-9a6ad8a1ea3f",
       "answer": false,
       "example": false
     },
     {
-      "id": "b21d9820-fab1-4542-9f96-32ec18a21f71",
+      "id": "851b1ee2-fed7-47f9-a2b7-330c6eff244a",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/clousure.mdx": [
     {
-      "id": "6fd79697-b8cf-4fac-9dc8-fd0ede7b93f4",
+      "id": "495df958-52c1-4090-bf3b-b6c797068770",
       "answer": false,
       "example": false
     },
     {
-      "id": "a7a5d2ec-e33a-4215-a61d-a29aa2e2e351",
+      "id": "47faa062-cb0c-47fc-aaf0-bc5a3445de24",
       "answer": false,
       "example": false
     },
     {
-      "id": "3612617e-a147-4d29-a8d0-8f26e2170b48",
+      "id": "ee550e87-0f8b-4ebb-9a95-400f961aff41",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/event-delegation.mdx": [
     {
-      "id": "5fd4f691-738c-464a-adb0-3bc0bc7370a7",
+      "id": "cc42a596-e67b-48fd-acef-4b78b5b37861",
       "answer": false,
       "example": false
     },
     {
-      "id": "66b4efc0-23ee-45d0-aa2b-26e5356c8349",
+      "id": "eb170105-3d28-44b4-a203-ecfb49d3927d",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/event-loop.mdx": [
     {
-      "id": "185c98f9-944c-422f-9fb6-0114b3c5716b",
+      "id": "fabdfccf-bf49-460e-a054-8b98c1bc6dbe",
       "answer": false,
       "example": false
     },
     {
-      "id": "c2c57867-de73-49f5-b009-7ee7b9002718",
+      "id": "a7374ebd-bee3-4e31-a28f-bb481910f5f4",
       "answer": false,
       "example": false
     },
     {
-      "id": "20d4441c-810d-4307-8977-90e4633f0634",
+      "id": "1693ff0c-78b8-4411-ad9f-a6328d502b50",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/falsy-values.mdx": [
     {
-      "id": "25209ea6-5965-491d-92e8-d412c9c21f98",
+      "id": "00c01073-a1b8-439a-98e1-9aefd18d998a",
       "answer": false,
       "example": false
     },
     {
-      "id": "a2f8558f-5c99-4a30-b7b3-ae272271c4dc",
+      "id": "05ff8d9a-a553-4aba-99a5-613d40186d01",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/promise.mdx": [
     {
-      "id": "760a859b-5897-4ef9-8d16-187e0933d0b6",
+      "id": "61e767c4-9c5a-4e0b-acaa-e1f7d03e9fe5",
       "answer": false,
       "example": false
     },
     {
-      "id": "1371c99a-7577-4b97-9ea4-cbcc32c819f2",
+      "id": "44a0651c-10fa-4772-9e0f-4a52ae581a4b",
       "answer": false,
       "example": false
     },
     {
-      "id": "360f7148-abe2-47f5-96ce-8f2e04dc6c39",
+      "id": "1141c908-7d6b-4402-b304-b7b2be441432",
       "answer": false,
       "example": true,
       "children": "class Repo {\n  static getName() {\n    return 'Repo name is modern-js-cheatsheet'\n  }\n}\n\n// нам не нужно создавать объект класса Repo\nconsole.log(Repo.getName()) // \"Repo name is modern-js-cheatsheet\"\n\nlet r = new Repo()\nconsole.log(r.getName()) // необработанная ошибка TypeError: r.getName не является функцией",
       "className": "js"
     },
     {
-      "id": "4761a430-d3e4-4a21-90e9-b7ace42bf71e",
+      "id": "be59c7d1-e4a4-4427-a409-ea373b207dda",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/protorype-inheratence.mdx": [
     {
-      "id": "1fc56384-81e9-4d68-8579-f7cde34fef00",
+      "id": "9fb3aa84-3c11-496b-914d-37be757112f0",
       "answer": false,
       "example": false
     },
     {
-      "id": "2a343bb8-e086-4c1e-9d6f-ae6e0aab99e8",
+      "id": "97eede6d-cf72-4e8a-9e1b-7f001620ae4c",
       "answer": false,
       "example": false
     },
     {
-      "id": "b12231f4-33aa-4144-bb36-27a47c6c7e82",
+      "id": "e399bafb-37c0-420e-90bd-f79edf9d0c92",
       "answer": false,
       "example": false
     },
     {
-      "id": "83809d54-b24f-4562-8004-c4c0180b5c5f",
+      "id": "20e9d452-fa9f-40e9-8a69-22f2e422e359",
       "answer": false,
       "example": false
     },
     {
-      "id": "b5c86690-ec7c-4719-bec9-e3df12ad0d31",
+      "id": "427205b8-06ed-43f6-970a-e86d91917096",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/set-map-weakset-weak-map.mdx": [
     {
-      "id": "93e75d42-fe12-4947-b1e5-2041c842205f",
+      "id": "65a34336-5188-457e-a090-b36d2b34e611",
       "answer": false,
       "example": false
     },
     {
-      "id": "d8f76f32-8278-49d3-8fdb-66be45730fb5",
+      "id": "d44d7cdf-db4d-4509-9b0c-b3c1c6aa9703",
       "answer": false,
       "example": false
     },
     {
-      "id": "a61a4b41-05d2-475a-a854-f6daba9e4ceb",
+      "id": "d14182a5-29fc-431d-b6a8-0c780345c311",
       "answer": false,
       "example": true,
       "children": "'use strict'\n\nlet map = new Map()\n\nmap.set('1', 'str1') // ключ-строка\nmap.set(1, 'num1') // число\nmap.set(true, 'bool1') // булевое значение\n\n// в обычном объекте это было бы одно и то же,\n// map сохраняет тип ключа\nalert(map.get(1)) // 'num1'\nalert(map.get('1')) // 'str1'\n\nalert(map.size) // 3",
       "className": "js"
     },
     {
-      "id": "8b7c7be9-e6da-4fba-b196-72fced8fb248",
+      "id": "6972e856-7626-459e-a26e-4c3cce07bc05",
       "answer": false,
       "example": false
     },
     {
-      "id": "de5991e9-6f37-45a6-99be-d28b0d940ca2",
+      "id": "e8011701-bae4-4911-99e5-adb5d847c599",
       "answer": false,
       "example": true,
       "children": "'use strict'\n\nlet set = new Set()\n\nlet vasya = { name: 'Вася' }\nlet petya = { name: 'Петя' }\nlet dasha = { name: 'Даша' }\n\n// посещения, некоторые пользователи заходят много раз\nset.add(vasya)\nset.add(petya)\nset.add(dasha)\nset.add(vasya)\nset.add(petya)\n\n// set сохраняет только уникальные значения\nalert(set.size) // 3\n\nset.forEach(user => alert(user.name)) // Вася, Петя, Даша",
       "className": "js"
     },
     {
-      "id": "8ca8c44c-981b-4b64-910a-7015ff70db78",
+      "id": "1673769c-87c5-471a-a5cd-679bca18a2b7",
       "answer": false,
       "example": false
     },
     {
-      "id": "abe5a1dd-9bf4-435c-8499-331790f97c10",
+      "id": "080a020c-b338-4e1f-8c90-685dbfdb925b",
       "answer": false,
       "example": true,
       "children": "// текущие активные пользователи\nlet activeUsers = [{ name: 'Вася' }, { name: 'Петя' }, { name: 'Маша' }]\n\n// вспомогательная информация о них,\n// которая напрямую не входит в объект юзера,\n// и потому хранится отдельно\nlet weakMap = new WeakMap()\n\nweakMap.set(activeUsers[0], 1)\nweakMap.set(activeUsers[1], 2)\nweakMap.set(activeUsers[2], 3)\nweakMap.set('Katya', 4) //Будет ошибка TypeError: \"Katya\" is not a non-null object\n\nalert(weakMap.get(activeUsers[0])) // 1\n\nactiveUsers.splice(0, 1) // Вася более не активный пользователь\n\n// weakMap теперь содержит только 2 элемента\n\nactiveUsers.splice(0, 1) // Петя более не активный пользователь\n\n// weakMap теперь содержит только 1 элемент",
@@ -187,31 +187,31 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/this-keyword.mdx": [
     {
-      "id": "844bbc7c-c369-4ff7-a90c-fc7a68fe8fa8",
+      "id": "3ac9180c-7a2a-407b-af38-1581413b7d05",
       "answer": false,
       "example": false
     },
     {
-      "id": "f3e16c6c-78d8-4c1e-9742-0fb309a5d52d",
+      "id": "cdec4b60-c86b-4a81-8cae-77ceeb5dfc3d",
       "answer": false,
       "example": false
     },
     {
-      "id": "e3274418-c81e-431e-98fe-bee888107f44",
+      "id": "7736760c-f41a-4f0e-905a-9a51d48639f5",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/array-unique-items.mdx": [
     {
-      "id": "e818daaa-88a6-46f1-ad3d-a8513cfccef4",
+      "id": "2366fd4f-1111-44a6-993d-baa2e4edb44e",
       "answer": false,
       "example": true,
       "children": "const list = [1, 1, 2, 2, 3, 4]\n\n// unique(list) => [1,2,3,4]",
       "className": "js"
     },
     {
-      "id": "bd16c79b-5275-4229-ae38-131d7d070330",
+      "id": "545119ad-f2ac-4ef6-b283-88584775b67f",
       "answer": true,
       "example": false,
       "children": "function unique(arr) {\n  return arr.filter((item, index, self) => self.indexOf(item) === index)\n}",
@@ -220,14 +220,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/bomb.mdx": [
     {
-      "id": "4b35f709-4356-42a8-92fc-5dfc3d6ff38e",
+      "id": "3d46f7f6-80d6-4e1e-bcbb-93089d48d969",
       "answer": false,
       "example": true,
       "children": "new Bomb('Explosion!', 0.5) // Через 500ms выведет в консоль 'Explosion!'",
       "className": "js"
     },
     {
-      "id": "d57617b8-664f-43a2-9881-34f916da47b1",
+      "id": "cad3993e-0947-45d8-8318-8de490b5058d",
       "answer": true,
       "example": false,
       "children": "function Bomb(message, delay) {\n  this.message = message\n\n  setTimeout(this.blowUp.bind(this), delay * 1000)\n}\n\nBomb.prototype.blowUp = function () {\n  console.log(this.message)\n}\n\nnew Bomb('Explosion!', 0.5)",
@@ -236,14 +236,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/clone-object.mdx": [
     {
-      "id": "5271ea4e-9a84-40e2-be87-03e261c4b085",
+      "id": "5dd06bd6-5201-4b11-a9ca-f3044c1cb527",
       "answer": false,
       "example": true,
       "children": "const obj = { a: 1, b: 2, c: { d: 4 } }\n\nconst newObj = cloneObj(obj)\n\nnewObj.a = 2\n// newObj => { a:2, b:2, c: { d: 4 } }\n// obj => { a:1, b:2, c: { d: 4 } }",
       "className": "js"
     },
     {
-      "id": "24ea8d6d-322f-40de-9849-6ff25dd5199a",
+      "id": "b7ae9b50-f7be-44a7-a06d-8cc25aa9b31e",
       "answer": true,
       "example": false,
       "children": "// С помощью деструктуризации\nconst cloneObj = obj => ({ ...obj })\n\n// Через JSON.parse/stringify\nconst cloneObj = obj => JSON.parse(JSON.stringify(obj))\n\n// Помощью Object.assign\nconst cloneObj = obj => Object.assign({}, obj)\n\n// Через рекурсию\nconst cloneObj (o, i, r) => {\n  r = o\n  if (r && typeof o == 'object') {\n    r = o instanceof Array ? [] : {}\n    for (i in o) if (o.hasOwnProperty(i)) r[i] = dup(o[i])\n  }\n  return r\n}",
@@ -252,14 +252,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-custom-promise.mdx": [
     {
-      "id": "68ba7511-a0ad-4745-91ad-50c79e33846f",
+      "id": "ce534931-25b0-401f-8d27-dc67a59c508f",
       "answer": false,
       "example": true,
       "children": "let promise = new CustomPromise((resolver, reject) => {\n  setTimeout(() => {\n    const rand = Math.ceil(Math.random(1 * 1 + 6) * 6)\n    if (rand > 2) {\n      resolver('Success')\n    } else {\n      reject('Error')\n    }\n  }, 1000)\n})\n\npromise\n  .then(function (response) {\n    console.log(response)\n  })\n  .catch(function (error) {\n    console.log(error)\n  })",
       "className": "js"
     },
     {
-      "id": "9fdd86b4-c08e-47f4-84d7-8dbf9f69bd5c",
+      "id": "028b0bba-63f6-4f16-8f0c-e858259362e9",
       "answer": true,
       "example": false,
       "children": "class CustomPromise {\n  state = 'PENDING'\n  value = undefined\n  thenCallbacks = []\n  errorCallbacks = []\n\n  constructor(action) {\n    action(this.resolver.bind(this), this.reject.bind(this))\n  }\n\n  resolver(value) {\n    this.state = 'RESOLVED'\n    this.value = value\n    this.thenCallbacks.forEach(callback => {\n      callback(this.value)\n    })\n  }\n\n  reject(value) {\n    this.state = 'REJECTED'\n    this.value = value\n    this.errorCallbacks.forEach(callback => {\n      callback(this.value)\n    })\n  }\n\n  then(callback) {\n    this.thenCallbacks.push(callback)\n    return this\n  }\n\n  catch(callback) {\n    this.errorCallbacks.push(callback)\n    return this\n  }\n}",
@@ -268,14 +268,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-function-debounce.mdx": [
     {
-      "id": "eecdcd68-e634-45c4-af5e-ab5134997af5",
+      "id": "0e3371aa-1327-45a5-b481-31f686880211",
       "answer": false,
       "example": true,
       "children": "let f = debounce(alert, 1000)\n\nf(1) // выполняется немедленно\nf(2) // проигнорирован\n\nsetTimeout(() => f(3), 100) // проигнорирован (прошло только 100 мс)\nsetTimeout(() => f(4), 1100) // выполняется\nsetTimeout(() => f(5), 1500) // проигнорирован (прошло только 400 мс от последнего вызова)",
       "className": "js"
     },
     {
-      "id": "cb67856d-7d51-454d-a01b-f89c4f57858b",
+      "id": "a47cf304-ad29-4506-8e7f-14e94caf1f7f",
       "answer": true,
       "example": false,
       "children": "const debounce = (f, ms) => {\n  let isCooldown = false\n\n  return function () {\n    if (isCooldown) return\n\n    f.apply(this, arguments)\n\n    isCooldown = true\n\n    setTimeout(() => (isCooldown = false), ms)\n  }\n}",
@@ -284,14 +284,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-function-throttle.mdx": [
     {
-      "id": "1ed224c3-f2c6-4658-ac27-a8a4f8a96609",
+      "id": "60c6ed08-f1a8-4e22-9ad1-bcf9703fdaed",
       "answer": false,
       "example": true,
       "children": "function f(a) {\n  console.log(a)\n}\n\n// f1000 передаёт вызовы f максимум раз в 1000 мс\nlet f1000 = throttle(f, 1000)\n\nf1000(1) // показывает 1\nf1000(2) // (ограничение, 1000 мс ещё нет)\nf1000(3) // (ограничение, 1000 мс ещё нет)\n\n// когда 1000 мс истекли ...\n// ...выводим 3, промежуточное значение 2 было проигнорировано",
       "className": "js"
     },
     {
-      "id": "4747a65e-fa8a-46a7-95ab-03627738aebc",
+      "id": "a476d855-1bef-4ece-8ca9-a13f0cb5a43e",
       "answer": true,
       "example": false,
       "children": "const throttle = (func, ms) => {\n  let isThrottled = false,\n    savedArgs,\n    savedThis\n\n  function wrapper() {\n    if (isThrottled) {\n      // (2)\n      savedArgs = arguments\n      savedThis = this\n      return\n    }\n\n    func.apply(this, arguments) // (1)\n\n    isThrottled = true\n\n    setTimeout(function () {\n      isThrottled = false // (3)\n      if (savedArgs) {\n        wrapper.apply(savedThis, savedArgs)\n        savedArgs = savedThis = null\n      }\n    }, ms)\n  }\n\n  return wrapper\n}",
@@ -300,14 +300,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-method-reduce.mdx": [
     {
-      "id": "ceeed76d-ce85-40d0-82b7-dcdda00a6c7f",
+      "id": "8151d04e-c1b6-463c-968a-5e6f9c511bac",
       "answer": false,
       "example": true,
       "children": "let arr = [1, 2, 3, 4, 5]\n\narr.reducer((curr, next) => (curr += next), 0) // => 15",
       "className": "js"
     },
     {
-      "id": "42e13e9b-f399-494c-afe9-07e792f9285f",
+      "id": "66d2128a-46c7-4252-965b-90c8618ce0bd",
       "answer": true,
       "example": false,
       "children": "Array.prototype.reducer = function (func, initState) {\n  const arr = this\n  const callback = func\n  let init = initState\n\n  arr.forEach(function (value, index) {\n    init = callback(init, value)\n  })\n  return init\n}",
@@ -316,14 +316,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-promise-all.mdx": [
     {
-      "id": "4e8cbbce-eae7-474e-b718-ae78859340a1",
+      "id": "b531a809-dbbb-46cf-a420-37b891c93a86",
       "answer": false,
       "example": true,
       "children": "promiseAll([\n  new Promise(resolve => {\n    setTimeout(() => resolve('foo'), 5000)\n  }),\n\n  new Promise((resolve, reject) => {\n    setTimeout(() => resolve('bar'), 1000)\n  }),\n\n  new Promise((resolve, reject) => {\n    setTimeout(() => {\n      Math.round(Math.random() * 10) % 2 === 0 ? resolve('baz') : reject(new Error())\n    }, 300)\n  }),\n])\n  .then(res => console.log('RESOLVED: ', res))\n  .catch(err => console.log('REJECTED: ', err))",
       "className": "js"
     },
     {
-      "id": "bb194f3f-825c-43a7-9cd8-b2b0339aacfa",
+      "id": "91f350ec-0865-4088-8771-1bad5c308182",
       "answer": true,
       "example": false,
       "children": "function promiseAll(promises) {\n  return new Promise((resolve, reject) => {\n    const results = []\n    let resolvedCount = 0\n\n    promises.forEach((promise, index) => {\n      promise\n        .then(result => {\n          results[index] = result\n\n          resolvedCount++\n\n          if (resolvedCount === promises.length) {\n            resolve(results)\n          }\n        })\n        .catch(err => reject(err))\n    })\n  })\n}",
@@ -332,14 +332,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-prototype-bind.mdx": [
     {
-      "id": "ad5a3481-d8b3-4dde-aecc-3811754bb262",
+      "id": "7eb7df47-1ab2-4a86-b078-71707da33a89",
       "answer": false,
       "example": true,
       "children": "let user = {\n  firstName: \"Арсений\"\n};\n\nfunction func() {\n  retrun this.firstName;\n}\n\nlet funcUser = func.binder(user);\nfuncUser(); // Арсений",
       "className": "js"
     },
     {
-      "id": "b5ea63cd-0302-4553-9ed9-58bcfae637fe",
+      "id": "29601bdd-d302-4bb7-a49d-88f2f67f53d9",
       "answer": true,
       "example": false,
       "children": "Function.prototype.binder = function (context, ...argsBind) {\n  const fn = this\n  return function (...args) {\n    return fn.apply(context, argsBind.concat(args))\n  }\n}",
@@ -348,21 +348,21 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/how-to-delegation.mdx": [
     {
-      "id": "c00cff67-ac34-49b8-b869-d387cbba706d",
+      "id": "818f07e8-b8a0-4cc0-b4d8-10ddef32cc50",
       "answer": false,
       "example": true,
       "children": "<div class=\"wrapper\">\n  <div class=\"child\">\n    <div>\n      <div><div>click me</div></div>\n    </div>\n  </div>\n  <div class=\"child\">\n    <div>\n      <div><div>click me</div></div>\n    </div>\n  </div>\n  <div class=\"child\">\n    <div>\n      <div><div>click me</div></div>\n    </div>\n  </div>\n  <div class=\"other\">\n    <div>\n      <div><div>dont't click me</div></div>\n    </div>\n  </div>\n</div>",
       "className": "html"
     },
     {
-      "id": "ffd04f83-b3b3-4c3f-8f46-92a55fae5958",
+      "id": "86dfe0bd-2daa-4796-a24a-f4e8bb7059b1",
       "answer": false,
       "example": true,
       "children": "delegate(\n  'click',\n  document.querySelector('.wrapper'),\n  '.child',\n  el => (el.style.backgroundColor = 'blue')\n)",
       "className": "js"
     },
     {
-      "id": "1b628b4d-ae7b-46ba-9b09-50065fe5f7ff",
+      "id": "8eb631f4-6d41-4795-b1bd-179443513202",
       "answer": true,
       "example": false,
       "children": "const delegate = (eventName, el, selector, handler) => {\n  el.addEventListener(eventName, event => {\n    let node = event.target\n    const items = [].slice.call(el.querySelectorAll(selector))\n\n    if (items.length) {\n      while (node !== el && node !== null) {\n        const isTarget = items.some(item => node === item)\n\n        if (isTarget) {\n          handler(node)\n          break\n        } else {\n          node = node.parentNode\n        }\n      }\n    }\n  })\n}",
@@ -371,14 +371,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/is-pallindrom.mdx": [
     {
-      "id": "7d397aa3-9ebc-40ce-9ee5-9ae73c4aed57",
+      "id": "ecd8ef0d-10e4-4df2-bc9c-3379c0b953da",
       "answer": false,
       "example": true,
       "children": "isEqualSymbols('cat', 'tac') // => true\nisEqualSymbols('kit', 'tok') // => false",
       "className": "js"
     },
     {
-      "id": "73fa1ae4-5658-4e67-b519-c95e537d2e54",
+      "id": "1c20be0a-bda4-4992-8486-5a77220eb203",
       "answer": true,
       "example": false,
       "children": "function isEqualSymbols(str1, str2) {\n  if (str1.length !== str2.length) {\n    return false\n  }\n\n  if (str1.split('').sort().join('') === str2.split('').sort().join('')) {\n    return true\n  }\n\n  return false\n}",
@@ -387,14 +387,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/make-flat-array.mdx": [
     {
-      "id": "1b9e65a9-fe1e-46ea-8c07-8b787876cb68",
+      "id": "c3d9d20f-70c4-4275-8e1e-f28d42a1b140",
       "answer": false,
       "example": true,
       "children": "let arr = [1, 2, [3, 4, [5, 6, [7, [8, 9, 10]]]]]\n\nflatten(arr) // => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
       "className": "js"
     },
     {
-      "id": "711edb7b-70a4-44e4-aa33-1358a0a78fc8",
+      "id": "7df09c54-83dd-4f00-890d-b6bf69f66c8d",
       "answer": true,
       "example": false,
       "children": "function flatten(arr) {\n  return arr.reduce(function (acc, next) {\n    let isArray = Array.isArray(next)\n    return acc.concat(isArray ? flatten(next) : next)\n  }, [])\n}\n\nif (!Array.prototype.flatten) {\n  Array.prototype.flatten = function () {\n    return flatten(this)\n  }\n}",
@@ -403,14 +403,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/odd-sort.mdx": [
     {
-      "id": "a01e58c2-3045-4f40-8445-1e670f9ff330",
+      "id": "d61612f1-9269-4f91-a117-641c3b4e10be",
       "answer": false,
       "example": true,
       "children": "oddSort([7, 3, 4, 9, 5, 2, 17]) // => [3, 5, 4, 7, 9, 2, 17]",
       "className": "js"
     },
     {
-      "id": "5a935572-9647-4a5b-809d-e5f79b735437",
+      "id": "9a52f7f2-6ab3-463f-8447-51b00082991e",
       "answer": true,
       "example": false,
       "children": "function oddSort(arr) {\n  arr.forEach((item, index) => {\n    if (item % 2 === 1) {\n      let sortNumber = item\n\n      for (let i = 0; i < index; i++) {\n        if (arr[i] % 2 === 1) {\n          if (arr[i] > sortNumber) {\n            const tmp = sortNumber\n\n            sortNumber = arr[i]\n            arr[i] = tmp\n          }\n        }\n      }\n      arr[index] = sortNumber\n    }\n  })\n\n  return arr\n}",
@@ -419,14 +419,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/sum-of-tree.mdx": [
     {
-      "id": "65e7b1b7-1654-491a-9437-452dcfd3717e",
+      "id": "f1996181-29e6-4d36-bb5f-492cc96e814b",
       "answer": false,
       "example": true,
       "children": "const tree = {\n  value: 5,\n  right: {\n    value: 5,\n    right: {\n      value: 5,\n      right: {\n        value: 10,\n      },\n    },\n    left: {\n      value: 5,\n      left: {\n        value: 1,\n      },\n    },\n  },\n}\n\n// sumOftree(tree) => 31",
       "className": "js"
     },
     {
-      "id": "76785624-46cd-46d9-a765-1b8109a2f506",
+      "id": "222cd379-af29-4378-ab02-e98092f655e3",
       "answer": true,
       "example": false,
       "children": "function sumTree(tree) {\n  let count = tree.value\n  if (tree.left) {\n    count += sumTree(tree.left)\n  }\n  if (tree.right) {\n    count += sumTree(tree.right)\n  }\n\n  return count\n}",
@@ -435,128 +435,128 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/difference-between-props-and-state.mdx": [
     {
-      "id": "d0c990d7-03a6-46cf-9e58-c0359a6f288c",
+      "id": "5b1638c8-efe8-4987-8960-eb2baaef6abd",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/key.mdx": [
     {
-      "id": "4919c4de-82f2-46bf-9909-fb37f97ca4ed",
+      "id": "7b2b7ead-2862-48b3-84ef-5d7aca99a699",
       "answer": false,
       "example": false
     },
     {
-      "id": "997aeaa9-8c44-480f-ab91-e5315e8a61b6",
+      "id": "05e28a27-2ac9-4efb-9eb4-c10de3badc5c",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/portal.mdx": [
     {
-      "id": "72cd33e5-ea42-416d-bccd-49b64cdabaed",
+      "id": "1dba579d-4789-4867-b584-7416bf48d44d",
       "answer": false,
       "example": false
     },
     {
-      "id": "167d3aaa-107f-4654-a5ae-e2f836eaa743",
+      "id": "67758205-22b1-4398-89a9-f9d7ead3f191",
       "answer": false,
       "example": true,
       "children": "ReactDOM.createPortal(child, container)",
       "className": "js"
     },
     {
-      "id": "7a88c627-dde7-475a-a957-d844d05f35ba",
+      "id": "88e11399-720a-48cb-9d72-69f482cd1154",
       "answer": false,
       "example": false
     },
     {
-      "id": "5bfce85d-e7e1-4a7a-b679-b51f27729c28",
+      "id": "335b9496-d09a-44f8-824b-8d5ac4321398",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/pure-component.mdx": [
     {
-      "id": "54cda0ea-7cd9-4024-826d-1b107dd05b2a",
+      "id": "8cbea05d-d7c6-49a7-8425-9a24ed32fb5a",
       "answer": false,
       "example": false
     },
     {
-      "id": "8075417d-140b-43c2-8300-5cabc50976e3",
+      "id": "31641b76-f85f-4606-bd1e-a3d03dbd46b4",
       "answer": false,
       "example": false
     },
     {
-      "id": "062a4315-7f31-454f-bf71-e076bf0c4f98",
+      "id": "437afff7-c7d5-449d-9126-89eea31fdd93",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/react-reconciliation.mdx": [
     {
-      "id": "3ef68fa1-1862-48ef-880e-33ab98b10cb6",
+      "id": "380b577a-dc9b-468c-a761-b7f109505405",
       "answer": false,
       "example": false
     },
     {
-      "id": "3f362260-1ba3-4271-a7a3-b070fadc586b",
+      "id": "206c5bc8-f02c-488d-bd5d-881575beb9c3",
       "answer": false,
       "example": false
     },
     {
-      "id": "676dbfe7-a3da-4eed-954f-e1c70865cdb9",
+      "id": "2e5168de-94ba-4704-9d5a-57a9ba4d871a",
       "answer": false,
       "example": false
     },
     {
-      "id": "310ec213-01f2-4184-86f3-c34de75adce5",
+      "id": "728c4ece-58d9-4f81-872d-a83c8023a2b1",
       "answer": false,
       "example": false
     },
     {
-      "id": "9df50f84-6233-4fff-ae3f-847759c02b3c",
+      "id": "8fc3faf0-3b18-41ce-a1cb-c645aa55452f",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/type-or-react-component.mdx": [
     {
-      "id": "6fab5a29-a4b1-472b-a234-b21deaf6a4ce",
+      "id": "53509ad0-ea64-4d2e-97a9-64a271ce8523",
       "answer": false,
       "example": false
     },
     {
-      "id": "1ae246fe-9f78-4756-bcac-3b36474e1c91",
+      "id": "b37973af-547b-41d5-ad19-47a055695c44",
       "answer": false,
       "example": false
     },
     {
-      "id": "09d04a95-83ec-4639-b0d6-b4199dfbdd5a",
+      "id": "4f99ff6c-6948-45c0-a2ec-ba0da1a21720",
       "answer": false,
       "example": false
     },
     {
-      "id": "8ccc8e9d-e3a9-459d-b25f-46b5f53df05e",
+      "id": "4ec2db7b-a1c3-4441-9eb3-063263dc482b",
       "answer": false,
       "example": false
     },
     {
-      "id": "521f6377-543e-4eaa-b339-c3aba265f1e8",
+      "id": "e17d7d0e-c9e8-4f4a-bbcc-dc0c3a0dba60",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/task/buggy-counter.mdx": [
     {
-      "id": "5602ffec-0ac5-4c9d-86d3-f59d6731ee73",
+      "id": "1ad0f839-8c97-4617-b858-67a3d21aa579",
       "answer": false,
       "example": true,
       "children": "class BuggyCounter extends React.Component {\n  constructor(props) {\n    super(props)\n    this.state = {\n      counter: 0,\n    }\n  }\n\n  handleClick() {\n    this.setState({ counter: this.state.counter + 1 })\n    this.setState({ counter: this.state.counter + 1 })\n    this.setState({ counter: this.state.counter + 1 })\n    this.setState({ counter: this.state.counter + 1 })\n    this.setState({ counter: this.state.counter + 1 })\n  }\n\n  render() {\n    return (\n      <div>\n        <span>current state: {this.state.counter}</span>\n        <br />\n        <button onClick={this.handleClick}>count!</button>\n      </div>\n    )\n  }\n}",
       "className": "jsx"
     },
     {
-      "id": "bb29d721-937c-4715-8640-a3554550c494",
+      "id": "af0e6f9e-8380-48ec-aadf-c39e97f81ba8",
       "answer": true,
       "example": false,
       "children": "class BuggyCounter extends React.Component {\n  constructor(props) {\n    super(props)\n    this.state = {\n      counter: 0,\n    }\n  }\n\n  handleClick() {\n    this.setState(prev => ({ counter: prev.counter + 1 }))\n    this.setState(prev => ({ counter: prev.counter + 1 }))\n    this.setState(prev => ({ counter: prev.counter + 1 }))\n    this.setState(prev => ({ counter: prev.counter + 1 }))\n    this.setState(prev => ({ counter: prev.counter + 1 }))\n  }\n\n  render() {\n    return (\n      <div>\n        <span>current state: {this.state.counter}</span>\n        <br />\n        <button onClick={this.handleClick.bind(this)}>count!</button>\n      </div>\n    )\n  }\n}",

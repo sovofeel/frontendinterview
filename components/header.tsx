@@ -18,7 +18,7 @@ const Header = () => {
     <>
       <chakra.header
         ref={ref}
-        shadow={y > height ? 'sm' : undefined}
+        shadow={y > height ? 'md' : undefined}
         transition="box-shadow 0.2s"
         pos="fixed"
         top="0"

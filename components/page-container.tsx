@@ -45,7 +45,7 @@ function PageContainer(props: PageContainerProps) {
       <Header />
       <Container mt="4.5rem" as="main" className="main-content">
         <Box display={{ base: 'block', md: 'flex' }}>
-          <div style={{ flex: 1 }}>
+          <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
             {title && (
               <Heading as="h1" size="md" mb={4}>
                 {title}
@@ -63,8 +63,8 @@ function PageContainer(props: PageContainerProps) {
             )}
             <Box id="content" marginBottom={pagination ? '72px' : '0'}>
               <PageTransition>{children}</PageTransition>
-              {pagination || null}
             </Box>
+            {pagination || null}
           </div>
           {sidebar || null}
         </Box>

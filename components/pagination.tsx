@@ -40,18 +40,12 @@ export const Pagination = ({ previous, next, ...rest }) => {
       position="fixed"
       aria-label="Pagination"
       spacing="40px"
-      boxShadow="12px 12px 10px 10px rgb(0 0 0 / 20%)"
+      boxShadow="dark-lg"
       columns={2}
       {...rest}
     >
       {previous ? (
-        <PaginationLink
-          padding="10px 20px"
-          textAlign="left"
-          label="Прошлый"
-          href={previous.path}
-          rel="prev"
-        >
+        <PaginationLink padding="10px 20px" textAlign="left" href={previous.path} rel="prev">
           <ChevronLeftIcon mr="1" fontSize=".75em" />
           {previous.title}
         </PaginationLink>
@@ -59,13 +53,7 @@ export const Pagination = ({ previous, next, ...rest }) => {
         <div />
       )}
       {next ? (
-        <PaginationLink
-          padding="10px 20px"
-          textAlign="right"
-          label="Следующий"
-          href={next.path}
-          rel="next"
-        >
+        <PaginationLink padding="10px 20px" textAlign="right" href={next.path} rel="next">
           {next.title}
           <ChevronRightIcon ml="1" fontSize=".75em" />
         </PaginationLink>

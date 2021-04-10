@@ -3,10 +3,11 @@ import PageContainer from 'components/page-container'
 import PostPreview from 'components/post-preview'
 import Sidebar from 'components/sidebar/Sidebar'
 import * as React from 'react'
-import { getFilters, getPosts } from 'frontend/utils/get-posts'
+import { getPosts } from 'frontend/utils/get-posts'
 import filterPosts from 'frontend/utils/filter-posts'
+import initFilters from '../frontend/configs/app-filters.json'
 
-const IndexPage = ({ initPosts, initFilters }) => {
+const IndexPage = ({ initPosts }) => {
   const [posts, setPosts] = React.useState(initPosts)
   const filterKeyList = ['category', 'type', 'tags']
 
@@ -30,12 +31,10 @@ const IndexPage = ({ initPosts, initFilters }) => {
 }
 
 export async function getStaticProps() {
-  const initFilters = await getFilters()
   const initPosts = await getPosts()
   return {
     props: {
       initPosts,
-      initFilters,
     },
   }
 }

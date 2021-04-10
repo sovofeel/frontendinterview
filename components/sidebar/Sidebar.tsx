@@ -1,5 +1,5 @@
-import { Box, Stack, Tag, Select, Button } from '@chakra-ui/react'
-import { AnimatePresence, motion } from 'framer-motion'
+import { Box, Stack, Tag, Select, Button, chakra, useColorModeValue } from '@chakra-ui/react'
+import { motion } from 'framer-motion'
 import useSessionStorage from 'frontend/hooks/useStorage'
 import * as React from 'react'
 
@@ -37,11 +37,6 @@ const Sidebar = ({ filters, setFilters }) => {
     }
   }, [type, filters.tags, category])
 
-  const onCategoryChange = event => {
-    setCategory(event.target.value)
-    setType('')
-  }
-
   const handleSetFilters = () => {
     setFilters({ tags: selectedTags, type, category })
   }
@@ -56,7 +51,14 @@ const Sidebar = ({ filters, setFilters }) => {
     setFilters('')
   }
 
+  const onCategoryChange = event => {
+    setSelectedTags([])
+    setCategory(event.target.value)
+    setType('')
+  }
+
   const onTypeChange = event => {
+    setSelectedTags([])
     setType(event.target.value)
   }
 
@@ -79,8 +81,10 @@ const Sidebar = ({ filters, setFilters }) => {
       sx={{
         overscrollBehavior: 'contain',
       }}
+      h="calc(((100vh - 1.5rem) - 64px) - 42px);"
       w="300px"
-      pr="3"
+      top="6.5rem"
+      pr="0"
       pb="8"
       pl="8"
       overflowY="auto"
@@ -88,6 +92,16 @@ const Sidebar = ({ filters, setFilters }) => {
       flexShrink={0}
       display={{ base: 'none', md: 'block' }}
     >
+      <chakra.h4
+        fontSize="sm"
+        fontWeight="bold"
+        mb="1.25rem"
+        textTransform="uppercase"
+        letterSpacing="wider"
+        color={useColorModeValue('gray.700', 'inherit')}
+      >
+        Фильтры
+      </chakra.h4>
       <Stack mt={8} spacing="6" align="stretch">
         <Select onChange={event => onCategoryChange(event)} placeholder="Выберите категорию">
           {filters.categories &&
@@ -119,8 +133,8 @@ const Sidebar = ({ filters, setFilters }) => {
         </Button>
       </Box>
       <Box maxW="300" mt={4} align="center">
-        <motion.ul>
-          {tags &&
+        <motion.ul layout>
+          {Array.isArray(tags) &&
             tags.map((item, index) => {
               return (
                 <motion.li style={{ display: 'inline-flex' }} layout>
