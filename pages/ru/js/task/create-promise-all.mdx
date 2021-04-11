@@ -9,24 +9,38 @@ source: https://habr.com/ru/post/488510/
 description: Добавьте функцию promiseAll, принимающую массив с промисами и выполняющую их по очереди
 ---
 
-```js example
-promiseAll([
-  new Promise(resolve => {
-    setTimeout(() => resolve('foo'), 5000)
-  }),
+```jsx example
+() => {
+  const [result, setTesult] = useState({})
+  function promiseAll(promises) {
+    // write your code here
+  }
 
-  new Promise((resolve, reject) => {
-    setTimeout(() => resolve('bar'), 1000)
-  }),
+  useEffect(() => {
+    if (promiseAll.then) {
+      promiseAll([
+        new Promise(resolve => {
+          setTimeout(() => resolve('foo'), 3000)
+        }),
 
-  new Promise((resolve, reject) => {
-    setTimeout(() => {
-      Math.round(Math.random() * 10) % 2 === 0 ? resolve('baz') : reject(new Error())
-    }, 300)
-  }),
-])
-  .then(res => console.log('RESOLVED: ', res))
-  .catch(err => console.log('REJECTED: ', err))
+        new Promise((resolve, reject) => {
+          setTimeout(() => resolve('bar'), 3000)
+        }),
+
+        new Promise((resolve, reject) => {
+          setTimeout(() => {
+            Math.round(Math.random() * 10) % 2 === 0 ? resolve('baz') : reject('Error')
+          }, 300)
+        }),
+      ])
+        .then(res => setTesult(res))
+        .catch(err => setTesult(err))
+    }
+  }, [])
+  return JSON.stringify(result) // => ["foo","bar","baz"] or "Error"
+}
+
+
 ```
 
 ```js answer

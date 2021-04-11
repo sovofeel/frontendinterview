@@ -9,10 +9,18 @@ tags: ['array']
 source: https://habr.com/ru/post/488510/
 ---
 
-```js example
-const list = [1, 1, 2, 2, 3, 4]
+```jsx example
+() => {
+  const list = [1, 1, 2, 2, 3, 4]
 
-// unique(list) => [1,2,3,4]
+  function unique(arr) {
+    // write your code here 
+    return arr
+  }
+
+  const result = unique(list) 
+  return JSON.stringify(result) // => [1,2,3,4]
+}
 ```
 
 ```js answer

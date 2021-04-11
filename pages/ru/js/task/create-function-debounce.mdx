@@ -8,16 +8,33 @@ tags: ['array', 'debounce']
 source: https://learn.javascript.ru/task/debounce
 description: Результатом декоратора debounce(f, ms) должна быть обёртка, которая передаёт вызов f не более одного раза в ms миллисекунд. Другими словами, когда мы вызываем debounce, это гарантирует, что все остальные вызовы будут игнорироваться в течение ms.
 ---
+```jsx example
+() => {
+  const calledRef = useRef([])
+  const [timesCalledList, setTimesCalledList] = useState([])
+  const timesCalled = (value) => {
+    calledRef.current = [...calledRef.current, value]
+    setTimesCalledList(...timesCalledList, value)
+  }
+  
+  const debounce = (f, ms) => {
+    // write your code here
+  }
 
-```js example
-let f = debounce(alert, 1000)
+  useEffect(() => {
+    let f = debounce(timesCalled, 1000)
+    if (f) {
+      f(1) // выполняется немедленно
+      f(2) // проигнорирован
+      setTimeout(() => f(4), 1100) // выполняется
+      setTimeout(() => f(5), 1500) // проигнорирован (прошло только 400 мс от последнего вызова) 
+    }
 
-f(1) // выполняется немедленно
-f(2) // проигнорирован
+  }, [])
 
-setTimeout(() => f(3), 100) // проигнорирован (прошло только 100 мс)
-setTimeout(() => f(4), 1100) // выполняется
-setTimeout(() => f(5), 1500) // проигнорирован (прошло только 400 мс от последнего вызова)
+  return JSON.stringify(calledRef.current) // => [1,4]
+}
+
 ```
 
 ```js answer

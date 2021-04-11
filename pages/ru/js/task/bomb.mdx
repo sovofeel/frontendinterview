@@ -9,20 +9,27 @@ tags: ['prototype', 'class']
 source: https://habr.com/ru/post/488510/
 ---
 
-```js example
-new Bomb('Explosion!', 0.5) // Через 500ms выведет в консоль 'Explosion!'
+```jsx example
+() => {
+  const [result, setResult] = useState('')
+  function Bomb(message, delay) {
+    // write your code here   
+  }
+  
+  new Bomb('Explosion!', 3)
+  return JSON.stringify(result) // => 'Explosion!'
+}
 ```
 
 ```js answer
 function Bomb(message, delay) {
   this.message = message
-
   setTimeout(this.blowUp.bind(this), delay * 1000)
 }
 
 Bomb.prototype.blowUp = function () {
-  console.log(this.message)
+  setResult(this.message) // or console.log(result)
 }
 
-new Bomb('Explosion!', 0.5)
+new Bomb('Explosion!', 3) // Через 3000ms выведет 'Explosion!'
 ```

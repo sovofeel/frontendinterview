@@ -9,14 +9,23 @@ tags: ['array', 'reduce']
 source: https://habr.com/ru/company/otus/blog/
 ---
 
-```js example
-let arr = [1, 2, 3, 4, 5]
+```jsx example
+() => {
+  let arr = [1, 2, 3, 4, 5]
 
-arr.reducer((curr, next) => (curr += next), 0) // => 15
+  Array.prototype.myReduce = function (func, initState) {
+    // write your code here
+    return initState
+  }
+
+  const result = arr.myReduce((curr, next) => (curr += next), 0) 
+
+  return result // => 15
+}
 ```
 
 ```js answer
-Array.prototype.reducer = function (func, initState) {
+Array.prototype.myReduce = function (func, initState) {
   const arr = this
   const callback = func
   let init = initState

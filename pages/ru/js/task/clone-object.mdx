@@ -5,35 +5,35 @@ category: js
 lang: ru
 description: Напишите функцию cloneObj, в результате которой создается новая копия объекта
 type: task
-tags: ['spread', 'assign', 'object']
+tags: ['object', 'deep clone object']
 ---
+```jsx example
+() => {
+  const obj = { a: 1, b: 2, c: { d: 4 } }
+  const cloneObj = obj => {
+    // write your code here 
+    return obj
+  }
 
-```js example
-const obj = { a: 1, b: 2, c: { d: 4 } }
+  const result = cloneObj(obj)
+  result.c.d = 10
 
-const newObj = cloneObj(obj)
+  return JSON.stringify(obj.c.d === 4) // => true
+}
 
-newObj.a = 2
-// newObj => { a:2, b:2, c: { d: 4 } }
-// obj => { a:1, b:2, c: { d: 4 } }
+
 ```
 
 ```js answer
-// С помощью деструктуризации
-const cloneObj = obj => ({ ...obj })
-
 // Через JSON.parse/stringify
 const cloneObj = obj => JSON.parse(JSON.stringify(obj))
 
-// Помощью Object.assign
-const cloneObj = obj => Object.assign({}, obj)
-
 // Через рекурсию
-const cloneObj (o, i, r) => {
+const cloneObj = (o, i, r) => {
   r = o
   if (r && typeof o == 'object') {
     r = o instanceof Array ? [] : {}
-    for (i in o) if (o.hasOwnProperty(i)) r[i] = dup(o[i])
+    for (i in o) if (o.hasOwnProperty(i)) r[i] = cloneObj(o[i])
   }
   return r
 }

@@ -87,7 +87,7 @@
     "title": "Функция клонирования объекта",
     "category": "js",
     "type": "task",
-    "tags": ["spread", "assign", "object"],
+    "tags": ["object", "deep clone object"],
     "path": "/ru/js/task/clone-object"
   },
   {

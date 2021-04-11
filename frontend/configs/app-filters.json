@@ -40,9 +40,8 @@
         "reduce",
         "throttle",
         "debounce",
-        "spread",
-        "assign",
         "object",
+        "deep clone object",
         "class"
       ]
     },
@@ -84,9 +83,8 @@
       "reduce",
       "throttle",
       "debounce",
-      "spread",
-      "assign",
       "object",
+      "deep clone object",
       "class"
     ],
     "react": {
@@ -127,9 +125,8 @@
     "WeakSet",
     "WeakMap",
     "class",
-    "spread",
-    "assign",
     "object",
+    "deep clone object",
     "promise",
     "debounce",
     "throttle",

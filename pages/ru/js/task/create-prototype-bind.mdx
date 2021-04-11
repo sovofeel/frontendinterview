@@ -9,21 +9,29 @@ source: https://habr.com/ru/post/488510/
 description: Представьте что в JS отсуствует функция bind и реализуйте ее самостоятельно c помощью прототипов
 ---
 
-```js example
-let user = {
-  firstName: "Арсений"
-};
+```jsx example
+() => {
+  let user = {
+    firstName: "Арсений"
+  };
 
-function func() {
-  retrun this.firstName;
+  Function.prototype.myBind = function (context, ...argsBind) {
+    // write your code here
+    return () => ''
+  }
+  
+  function func() {
+    return this.firstName;
+  }
+  
+  let funcUser = func.myBind(user)
+
+  return JSON.stringify(funcUser()) // => Арсений
 }
-
-let funcUser = func.binder(user);
-funcUser(); // Арсений
 ```
 
 ```js answer
-Function.prototype.binder = function (context, ...argsBind) {
+Function.prototype.myBind = function (context, ...argsBind) {
   const fn = this
   return function (...args) {
     return fn.apply(context, argsBind.concat(args))

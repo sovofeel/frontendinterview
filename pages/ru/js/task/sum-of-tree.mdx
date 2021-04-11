@@ -9,27 +9,34 @@ tags: ['array', 'recursion']
 source: https://habr.com/ru/post/488510/
 ---
 
-```js example
-const tree = {
-  value: 5,
-  right: {
+```jsx example
+() => {
+  function sumTree(tree) {
+    // write your code here
+   return null
+  }
+
+  const tree = {
     value: 5,
     right: {
       value: 5,
       right: {
-        value: 10,
+        value: 5,
+        right: {
+          value: 10,
+        },
       },
-    },
-    left: {
-      value: 5,
       left: {
-        value: 1,
+        value: 5,
+        left: {
+          value: 1,
+        },
       },
     },
-  },
-}
+  }
 
-// sumOftree(tree) => 31
+  return JSON.stringify(sumTree(tree)) // => 31
+}
 ```
 
 ```js answer
