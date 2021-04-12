@@ -40,7 +40,8 @@ export const Pagination = ({ previous, next, ...rest }) => {
       position="fixed"
       aria-label="Pagination"
       spacing="40px"
-      boxShadow="dark-lg"
+      borderTop="1px solid var(--chakra-colors-gray-200)"
+      boxShadow="lg"
       columns={2}
       {...rest}
     >

@@ -81,12 +81,14 @@ const Sidebar = ({ filters, setFilters }) => {
       sx={{
         overscrollBehavior: 'contain',
       }}
-      h="calc(((100vh - 1.5rem) - 64px) - 42px);"
-      w="300px"
-      top="6.5rem"
-      pr="0"
+      h="calc(((100vh - 1.5rem) - 64px) - 36px);"
+      w="280px"
+      top="72px"
+      placeSelf="0"
+      pt="var(--chakra-space-3)"
       pb="8"
-      pl="8"
+      pr="6"
+      mr="4"
       overflowY="auto"
       className="sidebar-content"
       flexShrink={0}
@@ -124,8 +126,8 @@ const Sidebar = ({ filters, setFilters }) => {
             })}
         </Select>
       </Stack>
-      <Box mt={8}>
-        <Button mr="24px" colorScheme="teal" onClick={handleSetFilters}>
+      <Box mt={8} display="flex" justifyContent="space-between">
+        <Button colorScheme="teal" onClick={handleSetFilters}>
           Применить
         </Button>
         <Button colorScheme="red" onClick={resetFilters}>

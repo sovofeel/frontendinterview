@@ -18,7 +18,9 @@ source: https://habr.com/ru/company/otus/blog/517560/
     return arr
   }
 
-  return JSON.stringify(flatten(arr)) // => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  const result = flatten(arr)
+
+  return JSON.stringify(result) // => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 }
 ```
 

@@ -3,7 +3,7 @@
     "title": "Методы перебора массива",
     "category": "js",
     "type": "question",
-    "tags": ["array", "forEach", "filer", "map", "every", "some", "reduce"],
+    "tags": ["array", "forEach", "filter", "map", "every", "some", "reduce"],
     "path": "/ru/js/question/array-iterate-methods"
   },
   {
@@ -196,6 +196,13 @@
     "path": "/ru/react/question/pure-component"
   },
   {
+    "title": "Методы жизненного цикла React",
+    "category": "react",
+    "type": "question",
+    "tags": ["react lifecycle methods"],
+    "path": "/ru/react/question/react-lifecycle"
+  },
+  {
     "title": "React Reconciliation",
     "category": "react",
     "type": "question",
@@ -210,7 +217,7 @@
     "path": "/ru/react/question/type-or-react-component"
   },
   {
-    "title": "Почему не работает setState",
+    "title": "Почините setState",
     "category": "react",
     "type": "task",
     "tags": ["setState"],

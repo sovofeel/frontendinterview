@@ -17,10 +17,8 @@ const defaultConfig = {
     externals: [...config.externals, "sharp"],
   }),
   experimental: {
-    optimizeFonts: true,
     modern: true,
   },
-  //redirects: require("./next-redirect"),
 }
 
 const mdxConfig = {

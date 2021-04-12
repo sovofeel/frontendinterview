@@ -16,6 +16,7 @@ export const liveErrorStyle: React.CSSProperties = {
   fontFamily: 'SF Mono, Menlo, monospace',
   fontSize: 14,
   padding: '1em',
+  marginBottom: '3em',
   overflowX: 'auto',
   color: 'white',
   backgroundColor: 'red',
@@ -119,12 +120,7 @@ function CodeBlock(props) {
     <CodeWrapper answer={answer}>
       <Box position="relative" zIndex="0">
         <CodeContainer px="0" overflow="hidden">
-          <Highlight
-            codeString={editorCode}
-            language={language}
-            metastring={ln}
-            showLines={viewlines}
-          />
+          <Highlight codeString={editorCode} language={language} showLines={viewlines} />
         </CodeContainer>
         <CopyButton top="4" onClick={onCopy}>
           {hasCopied ? 'copied' : 'copy'}

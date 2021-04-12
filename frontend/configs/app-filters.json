@@ -20,7 +20,7 @@
         "bind",
         "array",
         "forEach",
-        "filer",
+        "filter",
         "map",
         "every",
         "some",
@@ -48,6 +48,7 @@
     "question": [
       "react component",
       "react reconciliation",
+      "react lifecycle methods",
       "PureComponent",
       "react portal",
       "react key",
@@ -91,6 +92,7 @@
       "question": [
         "react component",
         "react reconciliation",
+        "react lifecycle methods",
         "PureComponent",
         "react portal",
         "react key",
@@ -103,7 +105,7 @@
   "tags": [
     "array",
     "forEach",
-    "filer",
+    "filter",
     "map",
     "every",
     "some",
@@ -140,6 +142,7 @@
     "react key",
     "react portal",
     "PureComponent",
+    "react lifecycle methods",
     "react reconciliation",
     "react component",
     "setState"

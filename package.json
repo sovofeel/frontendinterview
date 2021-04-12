@@ -7,7 +7,7 @@
     "build": "next build",
     "start:prod": "next start",
     "type-check": "tsc",
-    "clean": "rm -rf .next .mdx-data",
+    "clean": "rm -rf .next",
     "analyze": "ANALYZE=true next build",
     "gen:search": "node  ./backend/utils/search-meta.mjs --experimental-modules",
     "gen:content": "node backend/utils/main-page-content.js",

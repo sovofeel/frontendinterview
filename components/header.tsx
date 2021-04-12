@@ -27,6 +27,7 @@ const Header = () => {
         left="0"
         right="0"
         width="full"
+        borderBottom="1px solid var(--chakra-colors-gray-200)"
       >
         <chakra.div height="4.5rem" mx="auto" maxW="1200px">
           <Flex w="100%" h="100%" px="6" align="center" justify="center">

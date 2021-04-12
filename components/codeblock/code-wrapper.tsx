@@ -13,14 +13,21 @@ const CodeWrapper = ({ children, answer }) => {
     return (
       <Accordion allowToggle mb={2}>
         <AccordionItem border={0}>
-          <AccordionButton border="1px solid var(--chakra-colors-gray-200)" w="200px">
+          <AccordionButton
+            borderRadius="var(--chakra-radii-md)"
+            border="none"
+            background="var(--chakra-colors-teal-500)"
+            color="var(--chakra-colors-white)"
+            w="200px"
+            _hover={{
+              background: 'var(--chakra-colors-teal-600)',
+            }}
+          >
             <Box flex="1" textAlign="left">
-              {' '}
-              Показать ответ{' '}
+              Показать ответ
             </Box>
             <AccordionIcon />
           </AccordionButton>
-
           <AccordionPanel pr={0} pl={0} pb={4}>
             {children}
           </AccordionPanel>

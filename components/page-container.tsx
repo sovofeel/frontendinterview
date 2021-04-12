@@ -43,9 +43,17 @@ function PageContainer(props: PageContainerProps) {
   return (
     <>
       <Header />
-      <Container mt="4.5rem" as="main" className="main-content">
+      <Container mt="4.5rem" pt="0" pb="var(--chakra-space-10)" as="main" className="main-content">
         <Box display={{ base: 'block', md: 'flex' }}>
-          <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+          {sidebar || null}
+          <div
+            style={{
+              flex: 1,
+              display: 'flex',
+              flexDirection: 'column',
+              paddingTop: 'var(--chakra-space-3)',
+            }}
+          >
             {title && (
               <Heading as="h1" size="md" mb={4}>
                 {title}
@@ -66,7 +74,6 @@ function PageContainer(props: PageContainerProps) {
             </Box>
             {pagination || null}
           </div>
-          {sidebar || null}
         </Box>
       </Container>
     </>

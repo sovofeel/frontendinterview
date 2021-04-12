@@ -1,3 +1,7 @@
 .main-content ul {
   margin: 0.75rem 1rem;
 }
+
+.main-content p {
+  margin-bottom: 0.75rem;
+}
