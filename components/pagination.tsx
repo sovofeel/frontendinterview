@@ -1,25 +1,30 @@
-import { Link, SimpleGrid, Text } from '@chakra-ui/react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons'
+import { Kbd, Link, SimpleGrid, Text, useEventListener } from '@chakra-ui/react'
 import NextLink from 'next/link'
+import { useRouter } from 'next/router'
 import React from 'react'
 
 export const PaginationLink = props => {
-  const { label, href, children, ...rest } = props
+  const { href, children } = props
 
   return (
     <NextLink href={href} passHref>
       <Link
+        py="3"
         _hover={{
           textDecor: 'none',
         }}
         flex="1"
         borderRadius="md"
-        {...rest}
+        border="1px solid var(--chakra-colors-gray-200)"
       >
-        <Text fontSize="sm" px="2">
-          {label}
-        </Text>
-        <Text mt="1" fontSize="lg" fontWeight="bold" color="teal.400">
+        <Text
+          display="flex"
+          justifyContent="space-between"
+          fontSize="md"
+          fontWeight="bold"
+          color="teal.400"
+        >
           {children}
         </Text>
       </Link>
@@ -28,6 +33,17 @@ export const PaginationLink = props => {
 }
 
 export const Pagination = ({ previous, next, ...rest }) => {
+  const router = useRouter()
+  useEventListener('keydown', event => {
+    if (event.altKey && event?.key?.toLowerCase() === 'arrowright' && previous?.path) {
+      router.push(previous.path)
+    }
+
+    if (event.altKey && event?.key?.toLowerCase() === 'arrowleft' && next?.path) {
+      router.push(next.path)
+    }
+  })
+
   return (
     <SimpleGrid
       as="nav"
@@ -37,26 +53,44 @@ export const Pagination = ({ previous, next, ...rest }) => {
       left="0"
       right="0"
       bottom="0"
-      position="fixed"
+      position="sticky"
       aria-label="Pagination"
-      spacing="40px"
-      borderTop="1px solid var(--chakra-colors-gray-200)"
-      boxShadow="lg"
+      spacing="10px"
       columns={2}
       {...rest}
     >
       {previous ? (
-        <PaginationLink padding="10px 20px" textAlign="left" href={previous.path} rel="prev">
-          <ChevronLeftIcon mr="1" fontSize=".75em" />
-          {previous.title}
+        <PaginationLink href={previous.path} rel="prev">
+          <span>
+            <ChevronLeftIcon mx="1" fontSize="1em" />
+            {previous.title.toLowerCase()}
+          </span>
+          <span style={{ padding: '0 10px', display: 'flex-inline', alignItems: 'center' }}>
+            <Kbd color="gray.500" rounded="2px">
+              ←
+            </Kbd>{' '}
+            <Kbd color="gray.500" rounded="2px">
+              alt
+            </Kbd>
+          </span>
         </PaginationLink>
       ) : (
         <div />
       )}
       {next ? (
-        <PaginationLink padding="10px 20px" textAlign="right" href={next.path} rel="next">
-          {next.title}
-          <ChevronRightIcon ml="1" fontSize=".75em" />
+        <PaginationLink href={next.path} rel="next">
+          <span style={{ padding: '0 10px', display: 'flex-inline', alignItems: 'center' }}>
+            <Kbd color="gray.500" rounded="2px">
+              alt
+            </Kbd>{' '}
+            <Kbd color="gray.500" rounded="2px">
+              →
+            </Kbd>
+          </span>
+          <span>
+            {next.title.toLowerCase()}
+            <ChevronRightIcon mx="1" fontSize="1em" />
+          </span>
         </PaginationLink>
       ) : (
         <div />

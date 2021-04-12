@@ -7,7 +7,7 @@
     "path": "/ru/js/question/array-iterate-methods"
   },
   {
-    "title": "Как работают методы apply(), call() и bind()",
+    "title": "Как работают методы apply, call и bind",
     "category": "js",
     "type": "question",
     "tags": ["apply", "call", "bind"],
@@ -42,6 +42,13 @@
     "path": "/ru/js/question/falsy-values"
   },
   {
+    "title": "Что такое hosting",
+    "category": "js",
+    "type": "question",
+    "tags": ["fundamental", "hosting"],
+    "path": "/ru/js/question/hoisting"
+  },
+  {
     "title": "Что такое Promise",
     "category": "js",
     "type": "question",
@@ -54,6 +61,13 @@
     "type": "question",
     "tags": ["fundamental", "prototype inheritance", "prototype"],
     "path": "/ru/js/question/protorype-inheratence"
+  },
+  {
+    "title": "Область видимости Переменных",
+    "category": "js",
+    "type": "question",
+    "tags": ["scope"],
+    "path": "/ru/js/question/scope"
   },
   {
     "title": "Set, Map, WeakSet и WeakMap",
@@ -126,7 +140,7 @@
     "path": "/ru/js/task/create-promise-all"
   },
   {
-    "title": "Реализовуйте аналог Function.prototype.bind",
+    "title": "Реализовуйте аналог bind",
     "category": "js",
     "type": "task",
     "tags": ["prototype", "bind"],
@@ -215,6 +229,13 @@
     "type": "question",
     "tags": ["react component"],
     "path": "/ru/react/question/type-or-react-component"
+  },
+  {
+    "title": "Виртуальный DOM",
+    "category": "react",
+    "type": "question",
+    "tags": ["Virtual DOM"],
+    "path": "/ru/react/question/v-dom"
   },
   {
     "title": "Почините setState",

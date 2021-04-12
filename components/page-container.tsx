@@ -43,12 +43,13 @@ function PageContainer(props: PageContainerProps) {
   return (
     <>
       <Header />
-      <Container mt="4.5rem" pt="0" pb="var(--chakra-space-10)" as="main" className="main-content">
+      <Container mt="4.5rem" pt="0" pb="0" as="main" className="main-content">
         <Box display={{ base: 'block', md: 'flex' }}>
           {sidebar || null}
           <div
             style={{
               flex: 1,
+              marginBottom: '36px',
               display: 'flex',
               flexDirection: 'column',
               paddingTop: 'var(--chakra-space-3)',
@@ -69,7 +70,7 @@ function PageContainer(props: PageContainerProps) {
                 </Text>
               </Box>
             )}
-            <Box id="content" marginBottom={pagination ? '72px' : '0'}>
+            <Box id="content" marginBottom={pagination ? '36px' : '0'}>
               <PageTransition>{children}</PageTransition>
             </Box>
             {pagination || null}

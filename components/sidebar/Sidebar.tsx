@@ -81,7 +81,7 @@ const Sidebar = ({ filters, setFilters }) => {
       sx={{
         overscrollBehavior: 'contain',
       }}
-      h="calc(((100vh - 1.5rem) - 64px) - 36px);"
+      h={`calc((100vh - 1.5rem) - 48px);`}
       w="280px"
       top="72px"
       placeSelf="0"
@@ -105,21 +105,31 @@ const Sidebar = ({ filters, setFilters }) => {
         Фильтры
       </chakra.h4>
       <Stack mt={8} spacing="6" align="stretch">
-        <Select onChange={event => onCategoryChange(event)} placeholder="Выберите категорию">
-          {filters.categories &&
+        <Select
+          key={category}
+          defaultValue={category}
+          onChange={event => onCategoryChange(event)}
+          placeholder="Выберите категорию"
+        >
+          {Array.isArray(filters.categories) &&
             filters.categories.map(item => {
               return (
-                <option selected={item === category} key={item} value={item}>
+                <option key={item} value={item}>
                   {item}
                 </option>
               )
             })}
         </Select>
-        <Select onChange={event => onTypeChange(event)} placeholder="Выберите тип">
-          {types &&
+        <Select
+          key={type}
+          defaultValue={type}
+          onChange={event => onTypeChange(event)}
+          placeholder="Выберите тип"
+        >
+          {Array.isArray(types) &&
             types.map((item, index) => {
               return (
-                <option selected={item === type} key={item + index + category} value={item}>
+                <option key={item + index + category} value={item}>
                   {item}
                 </option>
               )
@@ -139,7 +149,7 @@ const Sidebar = ({ filters, setFilters }) => {
           {Array.isArray(tags) &&
             tags.map((item, index) => {
               return (
-                <motion.li style={{ display: 'inline-flex' }} layout>
+                <motion.li key={index} style={{ display: 'inline-flex' }} layout>
                   <Tag
                     onClick={event => handleSelectTag(event)}
                     cursor="pointer"

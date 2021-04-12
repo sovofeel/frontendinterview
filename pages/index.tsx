@@ -19,8 +19,8 @@ const IndexPage = ({ initPosts }) => {
     <PageContainer sidebar={<Sidebar setFilters={setFilters} filters={initFilters} />}>
       <Box display={{ base: 'block', md: 'flex' }}>
         <VStack width="100%" spacing="6" align="stretch">
-          {posts.map((post, index) => (
-            <React.Fragment key={index}>
+          {posts.map(post => (
+            <React.Fragment key={post.id}>
               <PostPreview post={post} />
             </React.Fragment>
           ))}

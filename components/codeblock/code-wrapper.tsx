@@ -13,6 +13,9 @@ const CodeWrapper = ({ children, answer }) => {
     return (
       <Accordion allowToggle mb={2}>
         <AccordionItem border={0}>
+          <AccordionPanel pr={0} pl={0} pb={4}>
+            {children}
+          </AccordionPanel>
           <AccordionButton
             borderRadius="var(--chakra-radii-md)"
             border="none"
@@ -28,9 +31,6 @@ const CodeWrapper = ({ children, answer }) => {
             </Box>
             <AccordionIcon />
           </AccordionButton>
-          <AccordionPanel pr={0} pl={0} pb={4}>
-            {children}
-          </AccordionPanel>
         </AccordionItem>
       </Accordion>
     )

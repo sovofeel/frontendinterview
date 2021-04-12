@@ -8,8 +8,10 @@
         "Map",
         "WeakSet",
         "WeakMap",
+        "scope",
         "prototype inheritance",
         "prototype",
+        "hosting",
         "falsy values",
         "event loop",
         "event delegation",
@@ -46,6 +48,7 @@
       ]
     },
     "question": [
+      "Virtual DOM",
       "react component",
       "react reconciliation",
       "react lifecycle methods",
@@ -58,8 +61,10 @@
       "Map",
       "WeakSet",
       "WeakMap",
+      "scope",
       "prototype inheritance",
       "prototype",
+      "hosting",
       "falsy values",
       "event loop",
       "event delegation",
@@ -90,6 +95,7 @@
     ],
     "react": {
       "question": [
+        "Virtual DOM",
         "react component",
         "react reconciliation",
         "react lifecycle methods",
@@ -119,9 +125,11 @@
     "event delegation",
     "event loop",
     "falsy values",
+    "hosting",
     "this",
     "prototype inheritance",
     "prototype",
+    "scope",
     "Set",
     "Map",
     "WeakSet",
@@ -145,6 +153,7 @@
     "react lifecycle methods",
     "react reconciliation",
     "react component",
+    "Virtual DOM",
     "setState"
   ],
   "types": ["question", "task"],
