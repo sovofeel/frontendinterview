@@ -19,7 +19,7 @@ const PostFooter = ({ tags, type, source }: IProps) => {
           ))}
       </Box>
       <Flex justifyContent="space-between">
-        <Text>Тип: {type}</Text>
+        {type && <Text>Тип: {type}</Text>}
         {source && (
           <Link color="blue.400" href={source} isExternal>
             Источник <ExternalLinkIcon mx="2px" />

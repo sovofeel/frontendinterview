@@ -1,5 +1,11 @@
 [
   {
+    "title": "Проверка знаний JS на примерах кода",
+    "category": "js",
+    "type": "examples",
+    "path": "/ru/js/examples"
+  },
+  {
     "title": "Методы перебора массива",
     "category": "js",
     "type": "question",

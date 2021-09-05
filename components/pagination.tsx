@@ -35,12 +35,12 @@ export const PaginationLink = props => {
 export const Pagination = ({ previous, next, ...rest }) => {
   const router = useRouter()
   useEventListener('keydown', event => {
-    if (event.altKey && event?.key?.toLowerCase() === 'arrowright' && previous?.path) {
-      router.push(previous.path)
+    if (event.altKey && event?.key?.toLowerCase() === 'arrowright' && next?.path) {
+      router.push(next.path)
     }
 
-    if (event.altKey && event?.key?.toLowerCase() === 'arrowleft' && next?.path) {
-      router.push(next.path)
+    if (event.altKey && event?.key?.toLowerCase() === 'arrowleft' && previous?.path) {
+      router.push(previous.path)
     }
   })
 
@@ -53,7 +53,6 @@ export const Pagination = ({ previous, next, ...rest }) => {
       left="0"
       right="0"
       bottom="0"
-      position="sticky"
       aria-label="Pagination"
       spacing="10px"
       columns={2}

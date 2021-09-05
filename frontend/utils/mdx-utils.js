@@ -1,4 +1,3 @@
-const path = require("path")
 const { addLeadingSlash } = require("@docusaurus/utils")
 
 function fileToPath(str) {

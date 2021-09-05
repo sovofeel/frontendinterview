@@ -2,6 +2,19 @@
   margin: 0.75rem 1rem;
 }
 
-#content p {
+.content p {
   margin-bottom: 0.75rem;
+}
+
+.content h6 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content details {
+  margin-bottom: 16px;
+}
+
+.content hr {
+  margin: 10px 0;
 }

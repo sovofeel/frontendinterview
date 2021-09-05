@@ -2,6 +2,7 @@ import { Box, Stack, Tag, Select, Button, chakra, useColorModeValue } from '@cha
 import { motion } from 'framer-motion'
 import useSessionStorage from 'frontend/hooks/useStorage'
 import * as React from 'react'
+import { useRouter } from 'next/router'
 
 const Sidebar = ({ filters, setFilters }) => {
   const [resetKey, setResetKey] = React.useState(0)
@@ -10,6 +11,7 @@ const Sidebar = ({ filters, setFilters }) => {
   const [type, setType] = useSessionStorage<any>('type', '')
   const [tags, setTags] = React.useState<any>()
   const [selectedTags, setSelectedTags] = useSessionStorage<any>('tags', [])
+  const router = useRouter()
 
   React.useEffect(() => {
     setResetKey(resetKey + 1)
@@ -39,6 +41,7 @@ const Sidebar = ({ filters, setFilters }) => {
 
   const handleSetFilters = () => {
     setFilters({ tags: selectedTags, type, category })
+    router.push('/')
   }
 
   const resetFilters = () => {
@@ -49,6 +52,7 @@ const Sidebar = ({ filters, setFilters }) => {
     setCategory('')
     setType('')
     setFilters('')
+    router.push('/')
   }
 
   const onCategoryChange = event => {
@@ -87,7 +91,7 @@ const Sidebar = ({ filters, setFilters }) => {
       placeSelf="0"
       pt="var(--chakra-space-3)"
       pb="8"
-      pr="6"
+      pr="4"
       mr="4"
       overflowY="auto"
       className="sidebar-content"
@@ -106,7 +110,7 @@ const Sidebar = ({ filters, setFilters }) => {
       </chakra.h4>
       <Stack mt={8} spacing="6" align="stretch">
         <Select
-          key={category}
+          //key={category}
           defaultValue={category}
           onChange={event => onCategoryChange(event)}
           placeholder="Выберите категорию"
@@ -121,7 +125,7 @@ const Sidebar = ({ filters, setFilters }) => {
             })}
         </Select>
         <Select
-          key={type}
+          //key={type}
           defaultValue={type}
           onChange={event => onTypeChange(event)}
           placeholder="Выберите тип"

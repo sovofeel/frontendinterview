@@ -1,233 +1,5284 @@
 {
+  "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/examples.mdx": [
+    {
+      "id": "fd12f2d0-6ee2-4084-9be9-9f4a66bd12e2",
+      "answer": false,
+      "example": false,
+      "children": "function sayHi() {\n  console.log(name);\n  console.log(age);\n  var name = \"Lydia\";\n  let age = 21;\n}\n\nsayHi();",
+      "className": "javascript"
+    },
+    {
+      "id": "ea7d2771-7450-4fbb-97ff-b01174789b18",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "72abcab8-1e5e-47e2-8a55-3210741025bb",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "cb7d729d-5d08-41af-af9c-f5176f2db164",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "142983c1-f4bd-40a4-97d4-c58d640b07ca",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5817745e-df36-42d1-99b7-5684bb328d8c",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "a6dcf9fd-9221-4afe-9c57-c477094fb32d",
+      "answer": false,
+      "example": false,
+      "children": "for (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 1);\n}\n\nfor (let i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 1);\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "bc9f2c54-6691-4ea1-9423-0c5028869220",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "07bfc065-4509-458f-9873-8230ab41634b",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "cd0e2ebb-4c19-4fdd-980a-a9f6a0113e13",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2b4cf8c9-ca2b-4704-b69d-6dd7762cc63f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a53e865e-2ba9-45ac-bb39-c6f8ee232926",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "13e54bd2-8518-483f-856e-78e6576b90e4",
+      "answer": false,
+      "example": false,
+      "children": "const shape = {\n  radius: 10,\n  diameter() {\n    return this.radius * 2;\n  },\n  perimeter: () => 2 * Math.PI * this.radius\n};\n\nshape.diameter();\nshape.perimeter();",
+      "className": "javascript"
+    },
+    {
+      "id": "bc14ffe8-dacf-4d87-9d63-0e49fd64f718",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "497269a9-f893-4835-b616-92fe57527138",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "d2706c91-f383-4f0a-8241-ce192f27ed03",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0b45114d-b5c3-4a64-ba36-8f632ca6e354",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4258fa1a-a3b7-498e-b1b6-3839614ef0d7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ed1e087a-1e55-40fb-a982-145390fc6230",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "66095762-dd2c-4018-a716-5d4494c55c27",
+      "answer": false,
+      "example": false,
+      "children": "+true;\n!\"Lydia\";",
+      "className": "javascript"
+    },
+    {
+      "id": "5a5f633b-84d9-4e30-9c24-a5cdab3b3c14",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "38ca3a44-3bdb-4413-b846-31981c790729",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "6c7bc2c8-69b3-4feb-8fe5-1d8bf0aa137d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "fa65e519-8c63-45e5-83da-e586625aa2bd",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b14f7909-c65d-44a7-971a-8fd76fbb7d3a",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "8c96ffd9-1d7e-4113-83bd-c5e02206ce41",
+      "answer": false,
+      "example": false,
+      "children": "const bird = {\n  size: \"small\"\n};\n\nconst mouse = {\n  name: \"Mickey\",\n  small: true\n};",
+      "className": "javascript"
+    },
+    {
+      "id": "97bf4088-857a-4e44-8450-0f664163be48",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8729ca90-933b-49ea-9ed3-b840e56b5261",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "3923edd5-9d2c-4e1c-a227-d1c55e85ed1b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "20f6ccac-de9d-477e-b518-b52c34b5a1c7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "03c93fb4-a717-4baf-86ed-0e1c2ceab4e4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9a9a90db-dff9-481a-867e-76d30e2a3560",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "50e6b4c8-1b88-44a1-b06d-0d14a6f6bd4b",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "b27d39ab-a454-4d5b-b619-7570d63b4898",
+      "answer": false,
+      "example": false,
+      "children": "let c = { greeting: \"Hey!\" };\nlet d;\n\nd = c;\nc.greeting = \"Hello\";\nconsole.log(d.greeting);",
+      "className": "javascript"
+    },
+    {
+      "id": "b2ddaa74-5b81-4635-8d40-00d0077d238a",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b6e92d06-0761-41d5-b319-cce91172b251",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "5c3d63eb-e0e9-4f26-aea6-3e9bcb5810c1",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d0779e4c-a4bc-4105-9940-766b86fea4ee",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "133b9320-921f-4026-8970-54621f9bbc42",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/ko5k0fs.png\" width=\"200\" />"
+    },
+    {
+      "id": "16116b8f-325c-4c3b-a9e3-5bd5acb00fa4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "120b6571-3e65-4f31-aad1-fed514ee4da1",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "16eaf056-2b8e-4a39-a030-397aa53e214a",
+      "answer": false,
+      "example": false,
+      "children": "let a = 3;\nlet b = new Number(3);\nlet c = 3;\n\nconsole.log(a == b);\nconsole.log(a === b);\nconsole.log(b === c);",
+      "className": "javascript"
+    },
+    {
+      "id": "977f555d-85fa-4c40-bb42-0173bdac0164",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "71730d2d-7e1c-4141-a2b8-9af5085ebf5d",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "64be1ef0-e945-4e5f-a577-9470cdd2d95b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "18e7fac5-1461-4c06-bbe4-0d00be5fffe2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "98df9ce6-b63e-47f9-8c83-70ff6e8f129c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "980ba0d9-b3a2-4d18-b9ec-9a1d97bdde19",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "0784543b-47f2-4211-b0ed-9bf3cbddf50d",
+      "answer": false,
+      "example": false,
+      "children": "class Chameleon {\n  static colorChange(newColor) {\n    this.newColor = newColor;\n    return this.newColor;\n  }\n\n  constructor({ newColor = \"green\" } = {}) {\n    this.newColor = newColor;\n  }\n}\n\nconst freddie = new Chameleon({ newColor: \"purple\" });\nfreddie.colorChange(\"orange\");",
+      "className": "javascript"
+    },
+    {
+      "id": "d4127bdd-2b13-495b-8124-1e2f5ac58dd4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d8062d7f-708a-48fe-86aa-1b77cb211ce7",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "256f5042-4f7f-4fea-9e6e-7a7858d40b24",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2ef09996-5fce-4ea8-b92c-844e7e55b5ac",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "11d1a589-fe23-46a0-afb1-0a2ab5f08cc6",
+      "answer": false,
+      "example": false,
+      "children": "let greeting;\ngreetign = {}; // Опечатка!\nconsole.log(greetign);",
+      "className": "javascript"
+    },
+    {
+      "id": "38941e8f-0d11-467d-a935-34637800d892",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4fe34b38-c377-46e4-ac7d-7971b9fcc8eb",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "ae6c22e1-23e2-4503-8758-699f7c32abf0",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7e6c2d7d-c57d-4bd2-a8b5-8ce9efefc2e6",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6272e116-9dc4-4f15-8d4d-2f3b603c13cb",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "4039fbb7-9c10-41f0-ad7b-ea67fc677f0c",
+      "answer": false,
+      "example": false,
+      "children": "function bark() {\n  console.log(\"Woof!\");\n}\n\nbark.animal = \"dog\";",
+      "className": "javascript"
+    },
+    {
+      "id": "4c7b71c8-18c4-4e47-ab6c-1d92f9e063d3",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d969dba6-d390-41b2-91a2-a5ceeaf81cf4",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "6bdb9f4f-cbfc-4092-a03a-1eeb070d9033",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0af6d093-b538-48be-953e-55e7926e8b3f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "40c8c532-2327-4f3a-ae05-fa149d8969c6",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "c05d98a0-938e-44b4-9bec-90ebf4b9bf32",
+      "answer": false,
+      "example": false,
+      "children": "function Person(firstName, lastName) {\n  this.firstName = firstName;\n  this.lastName = lastName;\n}\n\nconst member = new Person(\"Lydia\", \"Hallie\");\nPerson.getFullName = function () {\n  return `${this.firstName} ${this.lastName}`;\n}\n\nconsole.log(member.getFullName());",
+      "className": "javascript"
+    },
+    {
+      "id": "06cdd785-914c-44ec-81da-663dced08ec6",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ccb6cc02-bed4-4e6a-97ec-73ce93f5e31f",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "bbf1c13a-c74d-450f-9331-87cf65a258bc",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "aa12d272-7809-4d57-ad11-92f98844b556",
+      "answer": false,
+      "example": false,
+      "children": "Person.prototype.getFullName = function () {\n  return `${this.firstName} ${this.lastName}`;\n}",
+      "className": "js"
+    },
+    {
+      "id": "cf75f293-b66a-43f8-8fd4-26253e2ddbcc",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a6ec4a7d-e5f5-4630-8f57-bc507877aaa1",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "6e00b9d0-fff2-4cc1-944f-d988d2bafcf5",
+      "answer": false,
+      "example": false,
+      "children": "function Person(firstName, lastName) {\n  this.firstName = firstName;\n  this.lastName = lastName;\n}\n\nconst lydia = new Person(\"Lydia\", \"Hallie\");\nconst sarah = Person(\"Sarah\", \"Smith\");\n\nconsole.log(lydia);\nconsole.log(sarah);",
+      "className": "javascript"
+    },
+    {
+      "id": "e88bda45-3ad3-4c39-b79b-53ae06e49649",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "078a93a5-3568-4da7-af19-012f2d1f8542",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "e4bc2332-32e5-41d1-a23a-97e38c5a4d07",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "36a7f2c5-c259-447d-966c-ae8343ee5e8d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e9b25c76-27b4-4035-ba47-ea814bbb2a7b",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "82919c3f-5735-41da-80fd-f6c3c29c2cdf",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "17756ab1-b2fe-4cb0-b3eb-e370859358ff",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "3d499c6e-cbf9-4fa8-9d06-35bfef10dab5",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "52113cdc-c7c3-451c-a28b-e6a6748360a1",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/N18oRgd.png\" width=\"200\" />"
+    },
+    {
+      "id": "10a34a11-a63f-4f6f-bf3a-b4e7a43ef9a0",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "962dbcf3-321b-46bc-b2e9-be055bf89e20",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "927c9d94-2505-4173-969a-b3022d364996",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "de76da6d-f76b-41a0-b2f3-ed585fc7d3bd",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ba18e8ea-450c-42f1-bb19-79fc6771d69e",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "092c430f-982f-4eb4-b189-98bb7bab5519",
+      "answer": false,
+      "example": false,
+      "children": "function sum(a, b) {\n  return a + b;\n}\n\nsum(1, \"2\");",
+      "className": "javascript"
+    },
+    {
+      "id": "f9273801-944f-46c7-aba6-0c8583d3fc87",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "419569a6-10aa-4680-9880-d40dc3684e4e",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "7e18779f-bfd8-4e2d-9d06-17ee1d2aa4a0",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5d616952-9d35-4326-804e-669905f68dd3",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3e447fcd-336c-4274-9ee2-b3db236578b3",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "b68a38d3-dc1e-4255-9fb3-ec0b146344bc",
+      "answer": false,
+      "example": false,
+      "children": "let number = 0;\nconsole.log(number++);\nconsole.log(++number);\nconsole.log(number);",
+      "className": "javascript"
+    },
+    {
+      "id": "9d085306-8c6e-4f4b-bf38-35721ace6ab0",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "bf051459-9d8b-42cf-990c-eacc8356abb1",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "34c64087-7ceb-4c3d-96ef-b88ae81babd7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ce7faea0-f3d5-4c5a-8166-f3cccccfdd26",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "adcbfb06-91d1-49f7-b16e-821b438c0ac8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f99722c5-054c-450b-bfa7-960697e08c5f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "64a1dcde-0a75-4e9d-897f-8fc2b89cb218",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "abc34fd7-a1cb-409a-a44e-8245e497b02b",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "be73d468-1391-4e15-857e-051ce3bc6bb7",
+      "answer": false,
+      "example": false,
+      "children": "function getPersonInfo(one, two, three) {\n  console.log(one);\n  console.log(two);\n  console.log(three);\n}\n\nconst person = \"Lydia\";\nconst age = 21;\n\ngetPersonInfo`${person} is ${age} years old`;",
+      "className": "javascript"
+    },
+    {
+      "id": "eb741ce2-bba4-4f36-a68d-f6f1840c02b0",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a1fb3bcb-4994-4a71-be1b-97579835de2e",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "34b1ee5a-af56-414d-a6a3-9fa48db09e09",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3e0fc290-0763-4473-aa75-a567b9a6c95b",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "39580568-c2ea-4acb-959b-b92443478678",
+      "answer": false,
+      "example": false,
+      "children": "function checkAge(data) {\n  if (data === { age: 18 }) {\n    console.log(\"Ты взрослый!\");\n  } else if (data == { age: 18 }) {\n    console.log(\"Ты все еще взрослый.\");\n  } else {\n    console.log(`Хмм.. Кажется, у тебя нет возраста.`);\n  }\n}\n\ncheckAge({ age: 18 });",
+      "className": "javascript"
+    },
+    {
+      "id": "37869f00-68c7-45ef-865b-257edc95d5fb",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "30087ea7-513c-4816-a3fe-6168e3156e9d",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "ccd84eec-783b-4bc7-b60c-0dc1a0cfd508",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6054174b-fda0-4271-ab53-8fe809d192bc",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "44cc4602-b53b-41e8-b827-7f0d1d557b06",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "825aaf46-d555-471f-9bed-64959d4fcb3a",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "53a75e3d-9437-4f3d-9438-ad58371d3775",
+      "answer": false,
+      "example": false,
+      "children": "function getAge(...args) {\n  console.log(typeof args);\n}\n\ngetAge(21);",
+      "className": "javascript"
+    },
+    {
+      "id": "50d730fb-ba85-4745-a042-7d33fc06ac3e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a2d91267-21a6-4899-a910-60e0b5341ca4",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "fd56c67f-e669-403a-a35d-393aa0731ec8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "11fa79f2-b4fa-41c5-bda0-e5ca36842a6c",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "6724cae0-1583-4072-89ec-761246c8d617",
+      "answer": false,
+      "example": false,
+      "children": "function getAge() {\n  \"use strict\";\n  age = 21;\n  console.log(age);\n}\n\ngetAge();",
+      "className": "javascript"
+    },
+    {
+      "id": "e6cb85ec-7c9c-4bbc-9ffe-8da7c17fbd04",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3a52e6ec-4f5d-4645-a320-71dfd87248e8",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "295958a6-ebdf-4f68-8e26-ecf1c672644b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c32978d6-8a20-4da5-83f1-88f9277f5531",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "6d4dfc51-34b6-41ec-841b-d50220e74af4",
+      "answer": false,
+      "example": false,
+      "children": "const sum = eval(\"10*10+5\");",
+      "className": "javascript"
+    },
+    {
+      "id": "0ff8bb7e-d8b5-4921-951f-8452a1cb8aff",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2fed5a92-b356-49d4-95ee-df2524ffa192",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "44f1504d-db6e-4ec3-adb9-8df5f7f835d2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4c809db5-e9ba-4a93-8e1e-efa67fe5bcc8",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "4c5f9a6f-add6-4621-b1d8-97e162b907b7",
+      "answer": false,
+      "example": false,
+      "children": "sessionStorage.setItem(\"cool_secret\", 123);",
+      "className": "javascript"
+    },
+    {
+      "id": "5bd0da34-11f7-4e91-9b03-313e00c3f628",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a951e01a-912b-436f-a410-6d0527b52aed",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "4758411b-3aa0-4691-a78c-ad78b073ac10",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0acab95c-1e83-4664-a5ab-b4c4c49e5d28",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b19d182c-4da9-4cf3-bd91-2c670675a863",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "b822e8e5-55e7-4c2c-bff8-0b64182347ae",
+      "answer": false,
+      "example": false,
+      "children": "var num = 8;\nvar num = 10;\n\nconsole.log(num);",
+      "className": "javascript"
+    },
+    {
+      "id": "b7bd4166-647e-4ae8-a6af-46e2b288ee83",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "1b6a6252-45b8-4fb0-9554-fdf8cc8f204a",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "fb48be02-3b26-4dee-bd1e-980e33733d40",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "698c4e96-61dd-48c8-9bf1-58a559d8b494",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "55f6d0d5-9be9-4955-bd60-e8d0fad7bb7b",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "aaa09533-f8da-4708-83b1-54129c3d3187",
+      "answer": false,
+      "example": false,
+      "children": "const obj = { 1: \"a\", 2: \"b\", 3: \"c\" };\nconst set = new Set([1, 2, 3, 4, 5]);\n\nobj.hasOwnProperty(\"1\");\nobj.hasOwnProperty(1);\nset.has(\"1\");\nset.has(1);",
+      "className": "javascript"
+    },
+    {
+      "id": "28139d7b-a33f-4b79-8335-dbf85c7287c0",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7ceb9605-7940-4c68-8bc0-2d301b40dc6d",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "06e65df5-9a55-4658-96b3-5f3bdd17f728",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7c98dff1-54a6-49fa-b0ab-70a2759e536a",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "77d35b92-0b30-4374-97d5-b456bed0f821",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "51f748c4-803e-448a-ac91-6d9d3786dc3a",
+      "answer": false,
+      "example": false,
+      "children": "const obj = { a: \"one\", b: \"two\", a: \"three\" };\nconsole.log(obj);",
+      "className": "javascript"
+    },
+    {
+      "id": "ca58a8df-9118-4d55-9c3a-36d5e32fc0e2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4a991cf8-7ec9-46d7-89d2-e97d84070258",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "ab2bd3f9-df57-475e-8151-4613c9596465",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6f5ab230-efaa-46de-9bb8-f4dcb9726f79",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "c107759b-fba7-464e-972c-3177c891025e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ea86a5cf-5618-46c4-8b20-4cce0f3ede52",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "d8b7d993-be82-489f-8dc0-44294e90ad73",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "84d15861-6325-45e3-af43-b8b3f49e4316",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "9a081f85-ec3c-4840-8759-e370a8abf8ab",
+      "answer": false,
+      "example": false,
+      "children": "for (let i = 1; i < 5; i++) {\n  if (i === 3) continue;\n  console.log(i);\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "994bad5f-7ec3-4c10-af3f-246a692f7700",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8d933236-f049-4856-b7bc-c4d090a2989e",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "d6151e5c-a7f5-4a18-b4af-ca9ab3bd7fbb",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "52370511-aec2-4522-839a-f00191837f0c",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "45eaf743-5a70-4054-814b-69abd02224ca",
+      "answer": false,
+      "example": false,
+      "children": "String.prototype.giveLydiaPizza = () => {\n  return \"Just give Lydia pizza already!\";\n};\n\nconst name = \"Lydia\";\n\nname.giveLydiaPizza();",
+      "className": "javascript"
+    },
+    {
+      "id": "428eb569-ae82-4b72-9b03-50b7229dbd7e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6eeadcef-4b98-4296-9597-03a83d0d18a0",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "03ff708b-08aa-421a-9864-3c60e0f3d8ce",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5d8bf545-a5fb-4c91-b2ac-ba6b3335d0e1",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "2e87d49d-b049-476e-9cf4-deeb696af9e3",
+      "answer": false,
+      "example": false,
+      "children": "const a = {};\nconst b = { key: \"b\" };\nconst c = { key: \"c\" };\n\na[b] = 123;\na[c] = 456;\n\nconsole.log(a[b]);",
+      "className": "javascript"
+    },
+    {
+      "id": "da6a13a1-30f3-45b3-9d70-56c45f7471be",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "491132c2-24f2-4dcb-b800-f380e70ba88a",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "52e84c69-71c3-46b6-8320-c3d560069b0f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "138d872f-2b56-4c74-b064-2c8b9b96af3a",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b6184522-bf0c-44d0-b669-8d666438a86d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b67d93f4-d89b-4fad-845a-e78a741bda8b",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "a6fed024-bc75-4c15-8c26-79c9eee46ff6",
+      "answer": false,
+      "example": false,
+      "children": "const foo = () => console.log(\"First\");\nconst bar = () => setTimeout(() => console.log(\"Second\"));\nconst baz = () => console.log(\"Third\");\n\nbar();\nfoo();\nbaz();",
+      "className": "javascript"
+    },
+    {
+      "id": "50fb3368-bb39-4aef-b095-a6c29e49d406",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5d887735-c7cc-4657-a0e5-e60cd182dfdb",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "feb58435-2a84-458a-a8fd-17d6c93664a4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "838794ce-e91c-48ad-bde1-e55981521e92",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9e7fc21d-7f9e-4e37-9c6e-a4faa1a66acb",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "41c702ff-184e-4a0a-b267-8fb3baadd708",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/X5wsHOg.png\" width=\"200\" />"
+    },
+    {
+      "id": "7fe2c4a7-fe6b-4ef0-bfd6-fee506e71f54",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f37ad353-9edc-46a7-95ea-d911955931d6",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/Pvc0dGq.png\" width=\"200\" />"
+    },
+    {
+      "id": "1f1172ae-5a63-4a90-8e24-ac3a67390835",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9b36c608-30fe-4215-b657-db0c21248b59",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/WhA2bCP.png\" width=\"200\" />"
+    },
+    {
+      "id": "3193b239-a1ce-49cb-a8c3-680e2e6eea05",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d935c9d3-2f93-439d-ad84-040c36b44561",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/NSnDZmU.png\" width=\"200\" />"
+    },
+    {
+      "id": "41cd0da9-d9cf-431a-af18-92ce2b0409e8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "02db2ba7-a914-475b-a1a1-815db83d967d",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/uyiScAI.png\" width=\"200\" />"
+    },
+    {
+      "id": "50316f26-1a83-4d1c-8e12-0ad2b672e8c9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "435f6932-a964-4c05-a178-3cdac47c1358",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "3ee59728-f6d7-4e14-be3a-753fe0f91b9e",
+      "answer": false,
+      "example": false,
+      "children": "<div onclick=\"console.log('first div')\">\n  <div onclick=\"console.log('second div')\">\n    <button onclick=\"console.log('button')\">\n      Кликни!\n    </button>\n  </div>\n</div>",
+      "className": "html"
+    },
+    {
+      "id": "61f4bc0e-a736-48dd-a9e2-a717e1647211",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a9fe9c45-2e78-4772-87be-0d6b758b296d",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "cd5ea623-2a36-4c92-a902-738e2b0469b7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4bad2398-5cca-4403-ba8f-2506a8354c38",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "643faae9-3144-4cdc-9a88-a028f1245719",
+      "answer": false,
+      "example": false,
+      "children": "<div onclick=\"console.log('div')\">\n  <p onclick=\"console.log('p')\">\n    Кликни меня!\n  </p>\n</div>",
+      "className": "html"
+    },
+    {
+      "id": "8c5f81e0-48f8-4586-94ff-ed8836d1f54f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "44231acd-58af-427b-8c75-1bdb8994644a",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "994c434c-50f7-4656-8e4c-4787e3781675",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "60ca2a9e-7bbe-4bbc-852e-2d7c2022c619",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "2ba42e4a-d82b-40bd-8d36-cd57d25da21e",
+      "answer": false,
+      "example": false,
+      "children": "const person = { name: \"Lydia\" };\n\nfunction sayHi(age) {\n  console.log(`${this.name} is ${age}`);\n}\n\nsayHi.call(person, 21);\nsayHi.bind(person, 21);",
+      "className": "javascript"
+    },
+    {
+      "id": "636ca584-20a5-4a9c-8a3e-753a663d1607",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "97238394-2d35-4ef0-812f-ef8ae6287277",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "09cf3c38-bb48-4636-9360-10c6dc125551",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "38e06514-d39f-4e7b-a1a4-e067b7fd09d7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "85588259-63ad-4189-afa8-aee6eeaa54d2",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "7b50938b-ad32-4f1b-b10c-05cbc7930d45",
+      "answer": false,
+      "example": false,
+      "children": "function sayHi() {\n  return (() => 0)();\n}\n\ntypeof sayHi();",
+      "className": "javascript"
+    },
+    {
+      "id": "daac0c3d-51c2-4efc-a602-e71ed1eab82e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0cdca50a-ceef-4a3a-8d2d-4db90958cf46",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "b1d408eb-771d-445b-ab73-09a65ec326d7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "dab0574a-6fa3-4882-9f13-58ffd486c476",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4f248818-3e98-4d8b-821b-8f0305611759",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "f72a60ea-5fcd-4d81-ae6f-3ccaf59480b8",
+      "answer": false,
+      "example": false,
+      "children": "0;\nnew Number(0);\n(\"\");\n(\" \");\nnew Boolean(false);\nundefined;",
+      "className": "javascript"
+    },
+    {
+      "id": "0972b5b4-8747-4ec7-b184-970ec4e1cc52",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4b645af8-abec-4418-9a5e-4b6c9ef732ca",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "18b7719e-21c1-4215-9494-8875b53fa068",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b612951a-13e8-4314-ab23-68bc07c76352",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2ced53d2-0d0e-4110-a649-ae8e5a7a2726",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7f8f2d73-5e11-45e3-96b6-d83baa75e9e2",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "9e7ad691-6194-48ec-b379-da85e7367a6c",
+      "answer": false,
+      "example": false,
+      "children": "console.log(typeof typeof 1);",
+      "className": "javascript"
+    },
+    {
+      "id": "c6b110e4-7b9e-4a41-bc62-c33fc512d5f7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "12675a22-266a-43c8-839a-039f95432d91",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "4089a0a1-775e-4c8f-bee6-d28919914a4d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "01d23ff7-58a4-4f0a-8089-f57a3606681b",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "258b2bf5-7738-49c5-8748-942d03217965",
+      "answer": false,
+      "example": false,
+      "children": "const numbers = [1, 2, 3];\nnumbers[10] = 11;\nconsole.log(numbers);",
+      "className": "javascript"
+    },
+    {
+      "id": "c9c2eaef-fb67-4a7b-9f83-2a3063044f0f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5a4c2268-a4e0-4f21-b91d-d80e79cb2a56",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "a7c94dce-f388-494c-96c1-334895909d80",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "485b6722-a45d-498c-afb1-099d27b790cc",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9470ce66-2314-4e8f-8a33-ea34837f784b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5609178c-c6cc-4567-aca4-238af4cae682",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "d820939e-b26c-4b6e-8326-7e3d89487e8d",
+      "answer": false,
+      "example": false,
+      "children": "(() => {\n  let x, y;\n  try {\n    throw new Error();\n  } catch (x) {\n    (x = 1), (y = 2);\n    console.log(x);\n  }\n  console.log(x);\n  console.log(y);\n})();",
+      "className": "javascript"
+    },
+    {
+      "id": "56fa8b9d-c5f4-4ada-9e02-6f802419e70f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "1419fe0e-0772-4f52-8485-2dab172fee68",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "a4eab221-e0ab-4289-9660-dfa2ba431306",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a1318e99-1d42-442b-8251-ccd0b087e325",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5e3a6047-3926-4f15-b1a5-89dfdb450b66",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7bf61692-e1ff-4a6b-8211-881852fd7197",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "c323ecd1-abfe-4b43-a40f-6ade409bddd8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "162b072a-6ad5-45ff-9f45-b10996fd86b0",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "eddf0f98-be9b-492f-bda0-c1aeefc35a3f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f9dade6a-126e-4edc-b33f-0676a86c553f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "69a96545-6f38-4608-9aef-34f1c55f29e5",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ddeb1a6c-4d81-4583-b9db-1f9f8faee2f1",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "12ee021c-7534-4f4b-9825-2edabc10132f",
+      "answer": false,
+      "example": false,
+      "children": "[[0, 1], [2, 3]].reduce(\n  (acc, cur) => {\n    return acc.concat(cur);\n  },\n  [1, 2]\n);",
+      "className": "javascript"
+    },
+    {
+      "id": "7e81302c-5c05-45e2-baba-4284dfb3a805",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "203a4cf7-c8f7-453c-858c-3f48fd84baea",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "a8764342-22c6-4d47-80dd-2bb8d6b82663",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f9d7aed6-e42e-4e70-ba56-862f4e14fcd6",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "17d30ed7-a29d-49e7-b585-e54a620c1781",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "661a8026-6108-4e63-a802-ecf49175cff3",
+      "answer": false,
+      "example": false,
+      "children": "!!null;\n!!\"\";\n!!1;",
+      "className": "javascript"
+    },
+    {
+      "id": "99c5c664-12a9-4548-ac37-0177982dd4a3",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f5989140-ab8b-4ed1-859e-5bc466db2fb5",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "a2041811-3417-4fae-9c55-a32dea390ab3",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "58d932f5-893c-4972-bf41-ee5bb0fa18c2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0e658269-7cd1-411d-8d0f-9c22eca31db0",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9c3bcf67-ad57-49ab-b669-462d82261995",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "c47e5721-d7c6-4fe1-a510-a14da2f8145e",
+      "answer": false,
+      "example": false,
+      "children": "setInterval(() => console.log(\"Hi\"), 1000);",
+      "className": "javascript"
+    },
+    {
+      "id": "a043cfc3-5e69-4c5b-b343-0765981acb5d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "cbb3c914-ef1c-4997-905d-45c742f9afa4",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "0665cc50-8043-4136-be8f-9720181425f2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "67aa5235-acb0-4a1a-8078-45b4ff6678e0",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "1ad16592-e42f-4f2f-84c7-39f5da868996",
+      "answer": false,
+      "example": false,
+      "children": "[...\"Lydia\"];",
+      "className": "javascript"
+    },
+    {
+      "id": "5f80a4ba-8adf-4fe7-b4e5-61ebd9c461dd",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "be792207-497b-4538-8608-4b490a4a4d1c",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "b1c5dd26-a4ba-47cb-bdce-167df89e356f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "fe6422a2-19ea-4fe1-bb95-da7e72b04161",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "620658c5-1408-4078-be9b-f63e578cf7d8",
+      "answer": false,
+      "example": false,
+      "children": "function* generator(i) {\n  yield i;\n  yield i * 2;\n}\n\nconst gen = generator(10);\n\nconsole.log(gen.next().value);\nconsole.log(gen.next().value);",
+      "className": "javascript"
+    },
+    {
+      "id": "c9654810-60c1-43d5-b1aa-5387a7d31e38",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "533aa9d0-e7cc-4028-8cef-f45a499d561a",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "ff00cf52-6077-47a5-9d35-00a134f40a53",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d8ecee73-4e7f-4d0f-b0e8-06180a009319",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8276652f-af9e-4376-a2dd-1946dc39d677",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "00ee70ca-0a38-44af-b524-de7c230e6390",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "ccbc646b-1136-4190-82ed-a6811e179eea",
+      "answer": false,
+      "example": false,
+      "children": "const firstPromise = new Promise((res, rej) => {\n  setTimeout(res, 500, \"один\");\n});\n\nconst secondPromise = new Promise((res, rej) => {\n  setTimeout(res, 100, \"два\");\n});\n\nPromise.race([firstPromise, secondPromise]).then(res => console.log(res));",
+      "className": "javascript"
+    },
+    {
+      "id": "2958fada-4c61-4d77-b533-9d58f3603c31",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7f2e008a-6bed-4d46-8b1b-f82cab87281d",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "dff08623-ed6c-4f5f-9b14-90441e96a8f4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "bb0074d8-5e2f-4527-9162-6a911f842b9c",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "a24de398-9a18-401b-b760-fb69a3a28f91",
+      "answer": false,
+      "example": false,
+      "children": "let person = { name: \"Lydia\" };\nconst members = [person];\nperson = null;\n\nconsole.log(members);",
+      "className": "javascript"
+    },
+    {
+      "id": "9249bec8-1ace-4ff9-bd95-c5ba96ec7b45",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "37c70538-0ab6-457e-848d-242060d0dd33",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "ab21c9ac-11ea-4163-b7c7-35b9e6ed0a67",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "83763649-cd2e-4cd5-af63-718037719ed3",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/TML1MbS.png\" width=\"200\" />"
+    },
+    {
+      "id": "626e9913-00f2-4bd8-a3f7-244ef3079205",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f4fd4082-7135-4c49-984b-b86e15ea918b",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/FSG5K3F.png\" width=\"300\" />"
+    },
+    {
+      "id": "ca2476f1-5c89-45e5-afe9-9162970baa0c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d4cba32b-65d1-4882-b16e-cb5c5d1edf05",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/sYjcsMT.png\" width=\"300\" />"
+    },
+    {
+      "id": "96805d0d-b917-4a6e-82da-73e90dd61ebe",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c29eb870-40b7-428d-81e4-503552cc8163",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "05902788-f55c-4351-95ef-1a8e346aa15f",
+      "answer": false,
+      "example": false,
+      "children": "const person = {\n  name: \"Lydia\",\n  age: 21\n};\n\nfor (const item in person) {\n  console.log(item);\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "a64e7f0b-912f-4f39-83bf-656f7e006dab",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c2daec2e-d15f-46e0-803d-a20c9062195e",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "264eea37-afdf-4b56-a69b-186dc43cd49a",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "70cf38d8-76e1-41ae-9bbc-c288672b0df8",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "0aafa328-84a2-4ac1-b75a-53eb92ecccbb",
+      "answer": false,
+      "example": false,
+      "children": "console.log(3 + 4 + \"5\");",
+      "className": "javascript"
+    },
+    {
+      "id": "5e1036cf-c086-4e66-9e2e-b7547730152e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "621a82c7-24d7-4dea-9ecb-4d865a427790",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "a9d42986-a224-4f23-8cd8-10bd937e4d9c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d7ef50b3-1251-4b48-b464-f1aac99b839f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "19efdfb3-25f7-45ec-bb23-7149a7a1d934",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6d709b37-74c5-4040-a6bd-6721e1de9475",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "fa675615-fd4b-4f92-b8de-75e72187ab4d",
+      "answer": false,
+      "example": false,
+      "children": "const num = parseInt(\"7*6\", 10);",
+      "className": "javascript"
+    },
+    {
+      "id": "8c1dd675-cbcf-4dd3-8599-94adb982412b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4b2d9caf-88a0-4c9e-929b-d72f6f74eec8",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "8ba15812-3dd9-4db8-aefa-1560904e1b35",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "584322be-9fb4-4fb2-9d6b-5e3ea00703d4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9e96d86b-aa2b-4745-9372-1c1b8cd966e6",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "3d5de1e6-3f7d-4faa-8243-1a02c8dfab45",
+      "answer": false,
+      "example": false,
+      "children": "[1, 2, 3].map(num => {\n  if (typeof num === \"number\") return;\n  return num * 2;\n});",
+      "className": "javascript"
+    },
+    {
+      "id": "10312882-13bf-4c50-861e-e921fd6a8fc1",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ecac1cae-5b1e-43f3-a28b-ab3cee877940",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "b922d974-5a00-472c-9a00-91acc53e3241",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "238f792c-6d6f-48ee-983c-dc91fd2dcc35",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "26426b5d-edb6-4a11-af23-95ba669e9115",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "b01b47e7-1e6a-4f2e-b51d-c76db3841c51",
+      "answer": false,
+      "example": false,
+      "children": "function getInfo(member, year) {\n  member.name = \"Lydia\";\n  year = 1998;\n}\n\nconst person = { name: \"Sarah\" };\nconst birthYear = \"1997\";\n\ngetInfo(person, birthYear);\n\nconsole.log(person, birthYear);",
+      "className": "javascript"
+    },
+    {
+      "id": "f9e7a0c6-fd0f-4c4e-93cf-46a02f12d5dd",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "539447e5-31bc-4ee2-afdb-401216768ac0",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "4637687d-6ae4-4294-a124-e385a03470fe",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f29d8bf0-386a-4add-affd-abfe5882445a",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "03bc1998-7d26-4b0e-83f0-de006e9b71b7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5bcf0530-c698-4631-9752-2148f659024e",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "50f42741-2ffa-4b8f-b30c-b92c5dfade14",
+      "answer": false,
+      "example": false,
+      "children": "function greeting() {\n  throw \"Hello world!\";\n}\n\nfunction sayHi() {\n  try {\n    const data = greeting();\n    console.log(\"It worked!\", data);\n  } catch (e) {\n    console.log(\"Oh no an error:\", e);\n  }\n}\n\nsayHi();",
+      "className": "javascript"
+    },
+    {
+      "id": "71fb7523-4968-4a5d-8fd0-5cec61e73f45",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f6465b56-d4b1-4bcc-a3c0-7e7a63fc0110",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "0d6e5564-8247-4870-9fe7-c1f51cfc6276",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8e596cd7-ac48-493e-8c91-755177bc57a9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "1f63c64a-5a28-40e2-8947-8ca60256a3ee",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "da4d51ff-734d-4b4f-a830-c3567fe6c6f9",
+      "answer": false,
+      "example": false,
+      "children": "function Car() {\n  this.make = \"Lamborghini\";\n  return { make: \"Maserati\" };\n}\n\nconst myCar = new Car();\nconsole.log(myCar.make);",
+      "className": "javascript"
+    },
+    {
+      "id": "398f19e9-3de0-43ad-9421-89973c85415c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f011823c-b2e1-4b52-b305-6bf48c6257d2",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "91724e13-9f40-47e2-84de-78605b6ddecc",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "71619717-ef06-414c-bab6-d6056a8ceaf6",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "79627725-7c64-405f-9dc4-2c8cb8b16a59",
+      "answer": false,
+      "example": false,
+      "children": "(() => {\n  let x = (y = 10);\n})();\n\nconsole.log(typeof x);\nconsole.log(typeof y);",
+      "className": "javascript"
+    },
+    {
+      "id": "a338fd6a-ce21-49ec-9956-62facdee3817",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "1b950816-341d-47e6-bd1a-f8992e4ce888",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "b9496fc8-46e8-48c6-a84c-0ed9f628a0e5",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f43707f5-65b1-4933-a35d-46bb95288c79",
+      "answer": false,
+      "example": false,
+      "children": "y = 10;\nlet x = y;",
+      "className": "javascript"
+    },
+    {
+      "id": "a41f794c-e738-41d3-8b63-299b513fdef5",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9892fc4a-889f-4b6d-83c6-53a51aae77db",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e9206ed6-e785-4364-ac10-90582b7f55d5",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3096549a-7774-42fe-9395-30104d6910d1",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "d16dc376-2fd6-4b58-9047-139c7c87d44b",
+      "answer": false,
+      "example": false,
+      "children": "class Dog {\n  constructor(name) {\n    this.name = name;\n  }\n}\n\nDog.prototype.bark = function() {\n  console.log(`Woof I am ${this.name}`);\n};\n\nconst pet = new Dog(\"Mara\");\n\npet.bark();\n\ndelete Dog.prototype.bark;\n\npet.bark();",
+      "className": "javascript"
+    },
+    {
+      "id": "2bf6363e-6654-434c-a7bf-5a48d7a17a8f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "72ed652e-c078-45fb-aaaa-6d242579009d",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "726646cb-8903-426e-a4ed-64057877b9c6",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "255c3187-7ddc-4b10-8f19-ad6491cc198c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "15dbc799-4f02-45f8-bd9b-afe46132d8a6",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "ef36552b-234f-4705-aacd-46b7081f0c21",
+      "answer": false,
+      "example": false,
+      "children": "const set = new Set([1, 1, 2, 3, 4]);\n\nconsole.log(set);",
+      "className": "javascript"
+    },
+    {
+      "id": "e0459c08-6b7e-4b88-8d84-08a9dd7a6c86",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "93a944b7-7a5f-4f90-a90d-624758f6685b",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "741b4127-caac-4ef2-9686-f8fb495fcaa9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3eba53ff-72fb-438e-9b22-317b9aa6a0cb",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a48a9549-ae84-479d-b47d-c61f54ca31ff",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "8559d991-cdd9-4c61-b63a-92357398c3ec",
+      "answer": false,
+      "example": false,
+      "children": "// counter.js\nlet counter = 10;\nexport default counter;",
+      "className": "javascript"
+    },
+    {
+      "id": "bda6e25b-d7aa-422d-b5a5-3ce564df7d53",
+      "answer": false,
+      "example": false,
+      "children": "// index.js\nimport myCounter from \"./counter\";\n\nmyCounter += 1;\n\nconsole.log(myCounter);",
+      "className": "javascript"
+    },
+    {
+      "id": "0c76d272-60f4-4730-9a77-3912cfd7174a",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "962b6e6e-00e6-4058-ba24-008bb91e085c",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "39dfbe1c-052e-44eb-8b04-eb6b4c69763e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "28dcc871-837c-43eb-b4af-f7d1fd5c7ac5",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ccfcc83f-9b93-45e8-bdef-a14d71e317dc",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "3a28a96c-2c9d-4c4e-bb96-91f6a6b2a771",
+      "answer": false,
+      "example": false,
+      "children": "const name = \"Lydia\";\nage = 21;\n\nconsole.log(delete name);\nconsole.log(delete age);",
+      "className": "javascript"
+    },
+    {
+      "id": "025d4910-36be-4593-8bda-9a928c5e4ddf",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c8ea66d5-c27b-4d18-8e2e-d47200e08d00",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "2a2d5063-a6c1-4b97-9713-a9ed9b2429ab",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "1cb2c25d-fcfb-4380-9b59-152b5bbdcc25",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "09fa27ce-b9e0-47b7-a356-415afb9e84a8",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "97195fdf-69f1-4979-9fe9-b9b15c11dace",
+      "answer": false,
+      "example": false,
+      "children": "const numbers = [1, 2, 3, 4, 5];\nconst [y] = numbers;\n\nconsole.log(y);",
+      "className": "javascript"
+    },
+    {
+      "id": "4e41c980-a404-4788-a0a9-ce54e0fda3fd",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "bbaf16c9-70dd-4d2e-8544-c0932682e793",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "48a82784-0b91-460b-8f92-f7bd52d726f5",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "57ef93e9-9f1b-4322-8417-ddd462db3593",
+      "answer": false,
+      "example": false,
+      "children": "[a, b] = [1, 2];",
+      "className": "javascript"
+    },
+    {
+      "id": "cdc264cd-f6ba-4e8f-a365-1057697b10bc",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/ADFpVop.png\" width=\"200\" />"
+    },
+    {
+      "id": "b4ccee15-4fe4-4aea-98a1-f1da4acfba87",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "24e5c5eb-99be-4bc7-99ac-02624e4056f6",
+      "answer": false,
+      "example": false,
+      "children": "[y] = [1, 2, 3, 4, 5];",
+      "className": "javascript"
+    },
+    {
+      "id": "0a74f0b3-622b-4572-9b25-69b7b12d0742",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/NzGkMNk.png\" width=\"200\" />"
+    },
+    {
+      "id": "16ad2cd4-0618-41cf-ac62-6a4ad312db3f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "281c011e-045c-42be-9a84-c6093f204373",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "0d7749e9-b79f-4277-8f5f-418f9c050449",
+      "answer": false,
+      "example": false,
+      "children": "const user = { name: \"Lydia\", age: 21 };\nconst admin = { admin: true, ...user };\n\nconsole.log(admin);",
+      "className": "javascript"
+    },
+    {
+      "id": "c0a9718d-40f8-4378-a858-f0c4a24db029",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "fcde7f7d-8385-42e7-9fd4-069a9df1cf45",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "501b78b4-3219-4ad9-974d-e1987244966b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "df40c604-8ac9-4c20-9143-d119ce24297b",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "8504e386-3f41-40c2-a9a1-67d8e387e92c",
+      "answer": false,
+      "example": false,
+      "children": "const person = { name: \"Lydia\" };\n\nObject.defineProperty(person, \"age\", { value: 21 });\n\nconsole.log(person);\nconsole.log(Object.keys(person));",
+      "className": "javascript"
+    },
+    {
+      "id": "88c75cd1-a979-46d1-9007-a3806e49a364",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e44f6343-2997-40c0-be0c-5521b495d7ce",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "e9798433-5fed-45ed-88d0-577ab13b538c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8ab90f7b-6173-4e23-8ca7-b072c53b9df2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d2eb0fd1-54ea-486a-97f3-a4356dc9d554",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "df735364-7518-4f68-9021-28d4a22a3ad7",
+      "answer": false,
+      "example": false,
+      "children": "const settings = {\n  username: \"lydiahallie\",\n  level: 19,\n  health: 90\n};\n\nconst data = JSON.stringify(settings, [\"level\", \"health\"]);\nconsole.log(data);",
+      "className": "javascript"
+    },
+    {
+      "id": "dc4947a3-2059-4774-85fe-0323803dba05",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d6852103-bb89-4b1a-bfc6-3a1f89f68c5f",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "a95c9669-c3c9-441f-8527-bad41cf816d8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "85bf2950-d072-4fe1-901a-9d5a3140b72f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "272d497f-0aa4-4d7c-b701-9c7c875a7cd6",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f38129c5-e915-43bf-9abb-6681086a1777",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "ca2c8abb-c1b4-4218-9339-0ff8778d6504",
+      "answer": false,
+      "example": false,
+      "children": "let num = 10;\n\nconst increaseNumber = () => num++;\nconst increasePassedNumber = number => number++;\n\nconst num1 = increaseNumber();\nconst num2 = increasePassedNumber(num1);\n\nconsole.log(num1);\nconsole.log(num2);",
+      "className": "javascript"
+    },
+    {
+      "id": "093ecc41-1ba6-45b6-8169-7e18ea7f32f7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "1629b21f-b444-4af8-b6bd-53a795260e6f",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "7ef45d92-3d9c-43ed-845a-4961368ecc90",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4ec74890-0c11-47ab-8a47-a575fbfbdb08",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a3742bb1-984b-40ff-9a2c-d95532226468",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "034e8d2f-9bae-47df-a739-4427772248a7",
+      "answer": false,
+      "example": false,
+      "children": "const value = { number: 10 };\n\nconst multiply = (x = { ...value }) => {\n  console.log((x.number *= 2));\n};\n\nmultiply();\nmultiply();\nmultiply(value);\nmultiply(value);",
+      "className": "javascript"
+    },
+    {
+      "id": "64b8849d-fbb5-48f6-ab9e-6299c44e0464",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "10974c21-dd99-41f2-9ebf-176c0271a7d5",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "b81d322c-6c2b-4655-957b-8729ffa609e9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d416c6b1-8aae-41d8-a410-841075abc248",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0b30dda5-24a9-4526-ae7b-9d674b5bbd51",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "58c3195d-c193-476d-afe5-22a98846e169",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8c522fa0-da15-4149-bed0-5c2185d959d6",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "c9c9d031-9ab2-40ef-8d74-1fa8214fe6f7",
+      "answer": false,
+      "example": false,
+      "children": "[1, 2, 3, 4].reduce((x, y) => console.log(x, y));",
+      "className": "javascript"
+    },
+    {
+      "id": "7de23ca4-91bd-47eb-9391-ee3470073785",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a2ddfe5e-9ea1-4b49-8532-95399cca5a25",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "ec01bae7-3be0-4b55-95ff-b9c5c09edda9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ab074281-9eaa-436c-8fb0-c4282b596d6f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f69f78fb-34ab-413e-800d-b0d22cf1e98a",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "cb1de695-69ae-4724-a0a5-b5533d0a14a2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "12510ca6-394d-4f80-b891-72fad2b299c1",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9c0b0f82-f7ee-4343-a6dd-2d7fecbae53f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "052fa352-510c-4bb3-8a63-294515eda9e3",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "d453fd84-7c31-476a-b02f-c57d844f5d7c",
+      "answer": false,
+      "example": false,
+      "children": "class Dog {\n  constructor(name) {\n    this.name = name;\n  }\n};\n\nclass Labrador extends Dog {\n  // 1\n  constructor(name, size) {\n    this.size = size;\n  }\n  // 2\n  constructor(name, size) {\n    super(name);\n    this.size = size;\n  }\n  // 3\n  constructor(size) {\n    super(name);\n    this.size = size;\n  }\n  // 4\n  constructor(name, size) {\n    this.name = name;\n    this.size = size;\n  }\n\n};",
+      "className": "javascript"
+    },
+    {
+      "id": "8bb0c828-f400-4fe8-96a1-ca4017a5da47",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "868bb1eb-b5a4-4b45-adf5-3875f0e5eefe",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "0d26c0ab-7fac-4ee5-b650-9b004e3413d7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8d411f90-6e76-4476-8562-24b1932498c2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "24af5013-2837-4cb8-882b-2c7041973553",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f5aa591d-884a-4ac4-9d8a-0452b45f8f00",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "4ab42e2b-0b2e-4d8a-95b3-5090cf268035",
+      "answer": false,
+      "example": false,
+      "children": "// index.js\nconsole.log('running index.js');\nimport { sum } from './sum.js';\nconsole.log(sum(1, 2));\n\n// sum.js\nconsole.log('running sum.js');\nexport const sum = (a, b) => a + b;",
+      "className": "javascript"
+    },
+    {
+      "id": "c686ce2c-ca5d-40a3-8cdd-4b852771738b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e253c63d-557c-41bb-8857-07baf0d5bc1e",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "5caa87c1-6229-4445-87b4-aaff3aa53148",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "61b4d8ad-0fe4-40de-a13b-4f5a81f4d42e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a0894266-46af-4e31-b6ae-12e3de548ab7",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "81d64f48-4a54-4d29-b844-c00e2028e13a",
+      "answer": false,
+      "example": false,
+      "children": "console.log(Number(2) === Number(2))\nconsole.log(Boolean(false) === Boolean(false))\nconsole.log(Symbol('foo') === Symbol('foo'))",
+      "className": "javascript"
+    },
+    {
+      "id": "217d82d1-f6af-42ff-b046-5bab994de7a8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "fc19e1a1-6587-4633-bafb-fb2a3a80acb8",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "0f55ec18-34fd-41d8-9c41-eb73248dfd95",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "cff06210-9d75-4525-a402-d4f41b510c1c",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "e83c3863-e47d-4a88-bf00-3219dd105356",
+      "answer": false,
+      "example": false,
+      "children": "const name = \"Lydia Hallie\"\nconsole.log(name.padStart(13))\nconsole.log(name.padStart(2))",
+      "className": "javascript"
+    },
+    {
+      "id": "e28b689e-b203-43e3-b5ed-8c7b60bc1a2b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d8f1e97e-74fb-4ee4-9822-86eb4ead4ad6",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "09dcca25-531b-47eb-ab7f-e5ea7c94a868",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0cdfdcd2-75f8-43d6-9daa-60d4ee2d0c08",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "faa23b8d-f147-46cc-81fd-e517e4370e31",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "7118a7d7-af29-44fb-9f3c-3fd01c3a2663",
+      "answer": false,
+      "example": false,
+      "children": "console.log(\"🥑\" + \"💻\");",
+      "className": "javascript"
+    },
+    {
+      "id": "4992657e-9894-4248-bf89-f4a6f2a603cf",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "66f61b37-a626-44ab-919b-f72d9aa5bc29",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "3a72d1b1-57b1-4522-be12-5b883ac7c2a4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5a0c05b7-2b7a-4f15-b35c-f76a03e9b5f9",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "d0994c77-4ed9-40fb-9471-391465f7ef66",
+      "answer": false,
+      "example": false,
+      "children": "function* startGame() {\n  const answer = yield \"Do you love JavaScript?\";\n  if (answer !== \"Yes\") {\n    return \"Oh wow... Guess we're gone here\";\n  }\n  return \"JavaScript loves you back ❤️\";\n}\n\nconst game = startGame();\nconsole.log(/* 1 */); // Do you love JavaScript?\nconsole.log(/* 2 */); // JavaScript loves you back ❤️",
+      "className": "javascript"
+    },
+    {
+      "id": "44e87bd7-76d8-4324-bf2e-3a6d5e64f13b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "79c585f1-9a49-4471-b6cb-c08232b5ce0f",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "454d47cd-a638-4b61-9e92-7d0706522805",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5cc6cd15-3746-4ce8-b07b-c14bca0d500d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "390c07f8-e3e3-4275-b47c-08ea319a7d15",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "444d12b5-9ef9-45ef-a1da-7c0878d073a8",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "ee6e6187-2692-4afb-9b4f-cc0ae84a22f2",
+      "answer": false,
+      "example": false,
+      "children": "console.log(String.raw`Hello\\nworld`);",
+      "className": "javascript"
+    },
+    {
+      "id": "f27ec82e-383a-496b-9c2b-6f3016048553",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "854d04aa-b5ed-4bf6-bbf9-ca89a74a67d0",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "51b08f2e-c612-475b-9ac5-098496243078",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "99ef012e-77cc-4ea2-885d-ccbeb81a629e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4a9ef48a-b80a-4da4-a036-1768bd1f57ad",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "670c6854-6055-4dd5-b001-ef34af5c9191",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "be83e397-ff00-409b-87f9-4f769f871478",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a70227c6-7273-4053-8f72-e429b0e28cfc",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ffc5ea5e-d18a-4ba3-9fd7-d5b24ea8bca1",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "77b17f56-1be4-4fb4-83f3-0c11645321e7",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "f600e66e-6e9d-4ac4-aeb6-c14838e0909b",
+      "answer": false,
+      "example": false,
+      "children": "async function getData() {\n  return await Promise.resolve(\"I made it!\");\n}\n\nconst data = getData();\nconsole.log(data);",
+      "className": "javascript"
+    },
+    {
+      "id": "0330d47d-8456-4ee2-ad8f-726b35d8f56c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d25ef246-6da3-4493-b04b-f68286d5b6cf",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "850a903a-5e70-42a0-bb68-1ff05f050d0b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "683c004f-b34b-4c1a-a468-ee894f8db85f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "67c9fe7b-63a7-4d61-a79d-8b4a79e2b537",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3ffc746c-a093-401e-9e60-4a36a6b38d0d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "adfe159f-272b-40e0-a930-a4d579f8786f",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "1a95294c-2d02-4ecf-88b4-89502b4b78da",
+      "answer": false,
+      "example": false,
+      "children": "function addToList(item, list) {\n  return list.push(item);\n}\n\nconst result = addToList(\"apple\", [\"banana\"]);\nconsole.log(result);",
+      "className": "javascript"
+    },
+    {
+      "id": "b0846d00-25fe-4d0d-8c96-3a00f77a5adb",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "752c8690-ace4-4541-9601-012648ae4a07",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "cee0d61b-bb84-4b66-89e8-6643ef18ebef",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f90d00cd-cadb-494b-817b-f49dac13d913",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6b8b54c2-00c3-4395-8780-163426b28570",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "69d5ffc4-43aa-487f-8b76-4993fba25ed0",
+      "answer": false,
+      "example": false,
+      "children": "const box = { x: 10, y: 20 };\n\nObject.freeze(box);\n\nconst shape = box;\nshape.x = 100;\n\nconsole.log(shape);",
+      "className": "javascript"
+    },
+    {
+      "id": "1e6a638c-f389-4a15-9c79-ed04b16ca74e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "71801edc-1123-469f-b117-422c476179da",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "452a9188-437a-43dd-880a-76c646085fca",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ffeb1a7b-bfbc-4df8-8712-dfeea1d8fd35",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2b6eba3a-4630-4028-9aca-18cefabd54ce",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7f9bd075-7d0d-43b1-a45a-5d11c96d77c0",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "01785427-f4d2-41fe-a714-3547ae75b5d8",
+      "answer": false,
+      "example": false,
+      "children": "const { name: myName } = { name: \"Lydia\" };\n\nconsole.log(name);",
+      "className": "javascript"
+    },
+    {
+      "id": "58656cea-5148-45d5-a0b0-e51e9662f9e1",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "26c61cc2-3f9b-4429-a0ae-a6b7b1eaa32d",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "59a8eaf7-6109-4eda-ab89-319eb9668dbd",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "49f20b9b-abbc-4978-8965-7f735b42a34e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e76f8193-5503-4107-8af0-a911d804c381",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ea92a9ab-4950-41b2-8588-15dbd8b4e687",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "0d33d340-59ff-4d5e-a13c-bc5f4264420a",
+      "answer": false,
+      "example": false,
+      "children": "function sum(a, b) {\n  return a + b;\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "c235e6b5-1937-4341-85b6-102982837b2b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7d1cbaa7-fd04-496b-80dc-cd43392cde0d",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "173a8ac6-b700-43d6-9eec-adebb9cbd56c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7526265e-93f3-4ff6-aaad-e329b87b8265",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b0160783-a4f7-49a7-aa1a-03b38738b7b7",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "1122ad4b-d144-4e3c-9783-ca9a933bc53e",
+      "answer": false,
+      "example": false,
+      "children": "const add = () => {\n  const cache = {};\n  return num => {\n    if (num in cache) {\n      return `From cache! ${cache[num]}`;\n    } else {\n      const result = num + 10;\n      cache[num] = result;\n      return `Calculated! ${result}`;\n    }\n  };\n};\n\nconst addFunction = add();\nconsole.log(addFunction(10));\nconsole.log(addFunction(10));\nconsole.log(addFunction(5 * 2));",
+      "className": "javascript"
+    },
+    {
+      "id": "4e9479b5-abc6-48db-9735-834fe833eb6a",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9ba99a4f-170e-4391-8167-f4c13ff38636",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "b4f6a8e1-1420-4b9e-aac0-ee8cfb9dff4f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d9424ccd-3c6f-4650-bf72-991431b51abe",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7695cbc3-48ce-4a07-b76c-47b22fcf70b9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c7f6bd0c-b7a2-4f1f-8ff6-f6243be07eac",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "933ddace-779d-462f-9c49-c51843cf0f43",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f0f0d586-005f-4427-b5f4-b0221ac05631",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "5b2e822d-7ff1-49d1-b1b6-01b2f9800de7",
+      "answer": false,
+      "example": false,
+      "children": "const myLifeSummedUp = [\"☕\", \"💻\", \"🍷\", \"🍫\"]\n\nfor (let item in myLifeSummedUp) {\n  console.log(item)\n}\n\nfor (let item of myLifeSummedUp) {\n  console.log(item)\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "8c038290-4f47-49d0-8d04-f2e2f4a1a097",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f7aaca48-1378-492e-bbaa-a9e799a3c69c",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "16c4d72f-9d58-4a50-8198-c775a21b75c4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "dd98206c-b352-423e-b28f-45d9910da259",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ea50a24c-8bcc-4086-b715-872c602e7051",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "03bb5730-fa4c-47ab-8010-591d00ba0fb4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8f3d4939-44f2-4b48-a487-eaaa34a46b34",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "454b009a-bf1d-488b-a701-4471d9304a3a",
+      "answer": false,
+      "example": false,
+      "children": "const list = [1 + 2, 1 * 2, 1 / 2]\nconsole.log(list)",
+      "className": "javascript"
+    },
+    {
+      "id": "84d9f567-befb-4a3e-b81c-68163b5d025a",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b24bab57-e1a8-4c3f-bc55-fe27a3601dd0",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "7cca73d9-419a-4586-a0e1-3599656838c7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d25ea0f6-fb3a-42ae-8dd2-63cd8cc740c9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "59ace0b5-adfc-4427-9740-70dbc282d919",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "6f40d758-fc81-4e57-989b-d799c8ccc2eb",
+      "answer": false,
+      "example": false,
+      "children": "function sayHi(name) {\n  return `Hi there, ${name}`\n}\n\nconsole.log(sayHi())",
+      "className": "javascript"
+    },
+    {
+      "id": "69145f34-b9ec-4a33-b0ad-0af2ac55031e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9a918e3e-9afb-4402-b190-308e1463aa98",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "19a2329e-10b8-497f-8c37-3a84a8caa553",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e9cc7d38-4354-408a-8427-1e76297105ab",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7e2d2c19-eb8a-4884-b2fe-37f2cf565c70",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "993da298-ccf7-4500-af28-f262ce4665f1",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b42ad7b9-e8fd-46b6-b7ff-8dcf75acd3fe",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "a201ae14-0ccc-4c40-b603-a622e9847b99",
+      "answer": false,
+      "example": false,
+      "children": "var status = \"😎\"\n\nsetTimeout(() => {\n  const status = \"😍\"\n\n  const data = {\n    status: \"🥑\",\n    getStatus() {\n      return this.status\n    }\n  }\n\n  console.log(data.getStatus())\n  console.log(data.getStatus.call(this))\n}, 0)",
+      "className": "javascript"
+    },
+    {
+      "id": "2ef8f305-a2d3-44ff-a5ec-3c45fef5f5e8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9a30922a-cd1c-4412-bd56-080e33560667",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "ed4115d9-ff21-480d-a488-26b801733645",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "555b0b71-ca24-42b3-8d97-e6305ebdb131",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "490c4459-3e22-4a4b-8714-7d8a8f231423",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "ee504456-0f44-48d2-b010-ebf9d7f617ae",
+      "answer": false,
+      "example": false,
+      "children": "const person = {\n  name: \"Lydia\",\n  age: 21\n}\n\nlet city = person.city\ncity = \"Amsterdam\"\n\nconsole.log(person)",
+      "className": "javascript"
+    },
+    {
+      "id": "73fde6f7-a10e-4bd8-861a-d473460d5012",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a67f3d94-eb7d-4269-9b5b-df54312b6b58",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "b0df8cae-d00a-4300-b3df-850427120d83",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "88927e00-7616-4fed-99da-8124de7220a8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e33fa206-7dcd-4cfe-b3fe-26e0fba9b78f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f4fd20a5-0ed2-4a8e-87c7-ec1a602736b1",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6bb38bc5-0210-4c5c-97da-ad10cfd708a3",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "406faa14-7bfd-4042-8c9c-ab071379a99a",
+      "answer": false,
+      "example": false,
+      "children": "function checkAge(age) {\n  if (age < 18) {\n    const message = \"Sorry, you're too young.\"\n  } else {\n    const message = \"Yay! You're old enough!\"\n  }\n\n  return message\n}\n\nconsole.log(checkAge(21))",
+      "className": "javascript"
+    },
+    {
+      "id": "eac44186-ee57-43f0-bb3a-6dc7ef5220ee",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "23c92a98-334c-4704-888b-5d96c80d7c65",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "043bb5a3-7048-4d7c-ab9e-59ecd24039a2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b6e5d487-9bc7-4b6c-83b7-797f133def3b",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "676985cc-b74e-4779-a6b0-2ca7fe8b0f72",
+      "answer": false,
+      "example": false,
+      "children": "fetch('https://www.website.com/api/user/1')\n  .then(res => res.json())\n  .then(res => console.log(res))",
+      "className": "javascript"
+    },
+    {
+      "id": "39b96f86-8191-4e09-834d-82945e544f5c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "302e66b7-6edb-4b0f-b0a4-658daa45c870",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "543b6be4-672a-4c5e-9545-6b5f2951e7d4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ced470af-ce82-476c-94ad-3d047d40ebfa",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "686b658d-908b-4733-b6c1-bbe5b8207d19",
+      "answer": false,
+      "example": false,
+      "children": "function getName(name) {\n  const hasName = //\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "dc17e7c4-5319-4dd8-92e5-edcc6b124acb",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d42683b0-22bf-40f4-9a1e-8f6105fe4730",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "80047cde-fd7d-4de6-a42e-69d2bf1df103",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2c2746af-c8e2-43e4-9f77-8f45533ca281",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0e2777df-aaab-4f5a-9a9f-41e68165de68",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "139fcddd-ba4c-461e-ac5a-c35887e89b5f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "b315af75-3f52-464a-b13e-51e9ba28c3de",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "72fad2c2-8cfd-4b9c-96de-297b5475f7f4",
+      "answer": false,
+      "example": false,
+      "children": "console.log(\"I want pizza\"[0])",
+      "className": "javascript"
+    },
+    {
+      "id": "ef45f5d2-ad80-4c70-8469-b6233357c8c2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "81bc52b1-70f1-4475-8aac-2ada48173e70",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "cf99f2b9-b90b-450b-b916-2c108fad1ad6",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4cf71a4a-ccd6-45d7-9440-28f1229caea2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ac4e1814-a7b3-44ce-ac50-0e5e709d3e4a",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "daa6a8b5-2b0e-413f-859b-0dca94d0b1d2",
+      "answer": false,
+      "example": false,
+      "children": "function sum(num1, num2 = num1) {\n  console.log(num1 + num2)\n}\n\nsum(10)",
+      "className": "javascript"
+    },
+    {
+      "id": "b45b73c9-6406-4900-94a5-23869899bf70",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d9be0de0-8f82-46f0-99fe-4955cc911f64",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "48c58f8a-25f4-4027-beef-6ab9a3ea42c8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2dfa9678-ab50-4e8b-9169-65e4951b1d84",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4bda5dde-bbc2-41ed-a0dc-49f6b9deaea8",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "e6b2ae9b-4b69-4015-9d74-452affc853b9",
+      "answer": false,
+      "example": false,
+      "children": "// module.js\nexport default () => \"Hello world\"\nexport const name = \"Lydia\"\n\n// index.js\nimport * as data from \"./module\"\n\nconsole.log(data)",
+      "className": "javascript"
+    },
+    {
+      "id": "0326708e-5769-427c-8e4d-6613a76adc30",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "724b44d9-bdfd-4d68-94a8-3bae076bf44f",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "e7324db3-ed91-4b91-b82d-6e18434766db",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "60c16713-bc73-45bf-9574-f6431692fda8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7197c230-84ad-49f0-94fb-db10acbc85a4",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "9dc1b8dc-9388-4d86-befe-7abf9c8779c3",
+      "answer": false,
+      "example": false,
+      "children": "class Person {\n  constructor(name) {\n    this.name = name\n  }\n}\n\nconst member = new Person(\"John\")\nconsole.log(typeof member)",
+      "className": "javascript"
+    },
+    {
+      "id": "5bc3237a-e1bc-455d-9ab7-b3b0707a0bdf",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d61606de-d317-46f4-8fd6-4367d12e25eb",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "6348775a-6820-4a5f-8e92-5ba4df0db065",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c83d99d3-1e74-4bd0-8f00-d0ed39377cca",
+      "answer": false,
+      "example": false,
+      "children": "function Person() {\n  this.name = name\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "ef35f260-cd08-480d-9e0e-cbbb89a683a5",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9fafde39-9511-4663-bb27-a1a85bcd0b7f",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "dd9059b6-fe59-4111-94c1-b7c95aae699d",
+      "answer": false,
+      "example": false,
+      "children": "let newList = [1, 2, 3].push(4)\n\nconsole.log(newList.push(5))",
+      "className": "javascript"
+    },
+    {
+      "id": "c30e6cc7-7bd8-4383-8656-55bd9daf7f21",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "83640b84-045c-44a6-9816-a7eef4da35ff",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "3a18427d-54c3-4f83-add2-c7524b378d3d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a4b4333b-12bf-4704-b7ef-6162e61f27f0",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "95eb81e2-bfdb-431f-a3a4-4ec49f365772",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "fc3ca77c-1834-440a-9763-d712aa3cf624",
+      "answer": false,
+      "example": false,
+      "children": "function giveLydiaPizza() {\n  return \"Here is pizza!\"\n}\n\nconst giveLydiaChocolate = () => \"Here's chocolate... now go hit the gym already.\"\n\nconsole.log(giveLydiaPizza.prototype)\nconsole.log(giveLydiaChocolate.prototype)",
+      "className": "javascript"
+    },
+    {
+      "id": "29ae667e-0361-4f8e-9bd9-02d83d7d1274",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0a6a29e7-29df-4077-a346-9480fd80d1cc",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "2db1a2e5-77b6-4a34-8378-1435f140c6da",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "842b2f14-f34f-41a1-bd87-ce9beabf534e",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "bbc51bb5-1874-421f-bd9b-135c86c54568",
+      "answer": false,
+      "example": false,
+      "children": "const person = {\n  name: \"Lydia\",\n  age: 21\n}\n\nfor (const [x, y] of Object.entries(person)) {\n  console.log(x, y)\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "8cc6eabc-4af6-44b3-ba9f-5d0dd2f258ff",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "47a498d6-e0e3-4e5b-a26b-9e6633ab88c4",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "7c305783-4c14-479d-aee2-aac32ee2644c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5aeaf5f5-0594-4e02-bf74-add8f8e5c862",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "767216fa-cd31-422b-b78b-974ab25e520b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "cf29bcc3-16d8-4cb0-8ff9-b410e8d19d87",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0ab1020f-1fc9-4b68-bd70-069e8bd6a9e7",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "ad80c090-5082-49a7-a63a-c6e1e0dd9654",
+      "answer": false,
+      "example": false,
+      "children": "function getItems(fruitList, ...args, favoriteFruit) {\n  return [...fruitList, ...args, favoriteFruit]\n}\n\ngetItems([\"banana\", \"apple\"], \"pear\", \"orange\")",
+      "className": "javascript"
+    },
+    {
+      "id": "15bcda1c-1929-4dcc-8ffd-8b9c98cc68eb",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "deba29cf-32a8-4fa9-aa48-4ee3e9414697",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "c71f0c0b-871b-4e42-983d-70c599d8b3c7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "300e29e7-0364-4821-941b-7198a87a8e78",
+      "answer": false,
+      "example": false,
+      "children": "function getItems(fruitList, favoriteFruit, ...args) {\n  return [...fruitList, ...args, favoriteFruit]\n}\n\ngetItems([\"banana\", \"apple\"], \"pear\", \"orange\")",
+      "className": "javascript"
+    },
+    {
+      "id": "53b9fdc7-2eeb-4fd6-9e7f-01ca1f37abc0",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5ce7ed56-6d54-4dbe-bb5a-b60dc47afe4f",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "a0edabbb-cbf6-4370-b9ea-cfc1421d5132",
+      "answer": false,
+      "example": false,
+      "children": "function nums(a, b) {\n  if\n  (a > b)\n  console.log('a is bigger')\n  else\n  console.log('b is bigger')\n  return\n  a + b\n}\n\nconsole.log(nums(4, 2))\nconsole.log(nums(1, 2))",
+      "className": "javascript"
+    },
+    {
+      "id": "376a8719-721d-4a82-90e8-9cd085b0b2ee",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "19f312df-170a-48d3-8a3f-b462adeb0308",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "f07e044d-49b4-4774-8764-54bafe61d524",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c5a3c551-4f3c-4ed3-8e90-ba240faf401e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "02f97296-158c-4bfc-b808-bedb33072ebf",
+      "answer": false,
+      "example": false,
+      "children": "  return;\n  a + b",
+      "className": "javascript"
+    },
+    {
+      "id": "64430cfa-86b9-47be-ad3f-b41d962c88e0",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f87cb5b7-e7d2-4bd1-b26d-247176a7c0d7",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "0ee83a58-f38b-43c0-961c-d172bf84afc4",
+      "answer": false,
+      "example": false,
+      "children": "class Person {\n  constructor() {\n    this.name = \"Lydia\"\n  }\n}\n\nPerson = class AnotherPerson {\n  constructor() {\n    this.name = \"Sarah\"\n  }\n}\n\nconst member = new Person()\nconsole.log(member.name)",
+      "className": "javascript"
+    },
+    {
+      "id": "2fd88783-7396-493e-8b42-5e955744167f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "fe531999-6e0c-4d74-b325-d25151ba8ede",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "0496fc55-b38f-4a1b-902a-8bfaaa13579e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "cf1cc8ad-30d8-4f40-973a-76e9a34be73c",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "5436f6b1-2712-41a1-910b-67dbb072c4d6",
+      "answer": false,
+      "example": false,
+      "children": "const info = {\n  [Symbol('a')]: 'b'\n}\n\nconsole.log(info)\nconsole.log(Object.keys(info))",
+      "className": "javascript"
+    },
+    {
+      "id": "baa2fb3f-9f80-408f-a351-c180ac855aa6",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d7eace4d-e25f-47fc-9829-670e412e6835",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "1775186e-c0d8-4440-8d66-b06a311fb9a7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8741ab5f-a669-4177-8f17-26efbe643e4c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4a0297cc-47b6-430a-8d96-60785ec34327",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "c69071f5-60eb-4704-b028-d80c28a522f9",
+      "answer": false,
+      "example": false,
+      "children": "const getList = ([x, ...y]) => [x, y]\nconst getUser = user => { name: user.name, age: user.age }\n\nconst list = [1, 2, 3, 4]\nconst user = { name: \"Lydia\", age: 21 }\n\nconsole.log(getList(list))\nconsole.log(getUser(user))",
+      "className": "javascript"
+    },
+    {
+      "id": "cd44a08a-a4b5-4ddd-abab-fcf8588e1425",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e83862f7-e381-424b-9309-7d77e3516ebf",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "ff318c83-d000-42e7-a8e7-264f56bdee6c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e4f917e8-c3a4-429e-8fac-d00e21651a39",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "507355d8-4f19-4d4f-a0c3-5c6e1990b1ef",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e1ee6a89-3892-44d4-9ae2-73fb21ced25c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "fb99c206-2c44-4259-ae04-752f8874b2fd",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6b8e26d8-9973-444f-bca0-595d552074ec",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6cb66dbf-e19a-4e18-8e3d-4791c97b6d38",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "7bfa0b34-24e7-4313-89e5-a26830736dad",
+      "answer": false,
+      "example": false,
+      "children": "const name = \"Lydia\"\n\nconsole.log(name())",
+      "className": "javascript"
+    },
+    {
+      "id": "740082ba-96f6-4d44-9613-b36427b04c73",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "eb33a6d4-dfb3-4706-a372-7e203d1bb20a",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "c3c717b3-d40d-402f-a53f-e2484b0d0845",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "85aca802-1c9f-4c2a-b157-0da74a37545b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4ad77e7c-4f70-43fe-a62b-8ecc1772ada0",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "45110ef3-a3d0-4843-8f6c-60f7e2343069",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "41732395-fb61-4b45-8971-b75d3455e10e",
+      "answer": false,
+      "example": false,
+      "children": "// 🎉✨ This is my 100th question! ✨🎉\n\nconst output = `${[] && 'Im'}possible!\nYou should${'' && `n't`} see a therapist after so much JavaScript lol`",
+      "className": "javascript"
+    },
+    {
+      "id": "597cfb39-2030-4c40-8188-05c67ee90397",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3029b1c8-4a9b-4dde-817a-62d5ece88596",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "e98c66bb-8ffa-4287-a7eb-bab53dcde3f4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "e5db6f3d-5e53-4c61-b869-a00ecd475c97",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "62315f00-2b27-446b-890d-0df17baf463e",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "3ee6ca19-9caf-4ffd-ba7c-251dfc926d1a",
+      "answer": false,
+      "example": false,
+      "children": "const one = (false || {} || null)\nconst two = (null || false || \"\")\nconst three = ([] || 0 || true)\n\nconsole.log(one, two, three)",
+      "className": "javascript"
+    },
+    {
+      "id": "4149d58b-eb74-407c-8796-311fec666fb6",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "13059d95-4b18-40e2-a564-d37f2aaab91f",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "2f40e5a8-c28a-4746-b654-12ac36e7c314",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f8b7ec49-8260-42f3-a1a0-2088e44d45d9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "aa1c0d79-4b44-4fb1-91ef-1d2e8d678d6b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "70c8082f-8929-4d27-8cb9-517afa6e4c74",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5dc130a2-37e4-4ac4-b388-18bfe5ee7a46",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "a40aaccb-b2a5-49a8-830a-39c567a2e35f",
+      "answer": false,
+      "example": false,
+      "children": "const myPromise = () => Promise.resolve('I have resolved!')\n\nfunction firstFunction() {\n  myPromise().then(res => console.log(res))\n  console.log('second')\n}\n\nasync function secondFunction() {\n  console.log(await myPromise())\n  console.log('second')\n}\n\nfirstFunction()\nsecondFunction()",
+      "className": "javascript"
+    },
+    {
+      "id": "593cf3fc-0371-44d3-8c76-7f3a3f6ffde3",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "58570054-8bfe-4536-8f12-f584726c1a43",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "5c517107-6863-4cf5-9d17-80bbb188b8ed",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9ac79971-ea4e-41d7-afb2-314ef685c87e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c5cd5d9d-64d4-469c-84ff-b767a29a5580",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "12287799-f2bb-4ded-aec7-949953e9a7ac",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5b36f00f-f651-40bc-9f4f-dda7ae08ec60",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "efb89cdd-2dfa-47eb-a07b-6a64abfc4894",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "da19b053-8344-4e3b-973b-48c72c67b08f",
+      "answer": false,
+      "example": false,
+      "children": "const set = new Set()\n\nset.add(1)\nset.add(\"Lydia\")\nset.add({ name: \"Lydia\" })\n\nfor (let item of set) {\n  console.log(item + 2)\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "4df8a1f6-6d45-4ef8-afa8-5de990a4f554",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "69217397-5394-49d9-985e-1fc2df6627e4",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "7916dc65-0d52-4a62-b61e-77345a12860b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9c7e6a50-fc6c-4ab3-8873-e06a883075a9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "887c27e0-f260-409d-aa39-64fe475519d7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "1ef116d7-f665-4507-b2a2-cc29e454723c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "541eddf5-751d-45a9-b189-00983a371320",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "bc21421e-f46a-49f4-b347-ffd1758d55c1",
+      "answer": false,
+      "example": false,
+      "children": "Promise.resolve(5)",
+      "className": "javascript"
+    },
+    {
+      "id": "eba14da2-59fc-4c2a-94ba-20432064325b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7e10ca99-ff1b-4e15-ba79-746abe3b3c8c",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "bd726d8c-1b3d-45e9-8897-3ae1e6ba4b9f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "1c0ba994-31d5-48b6-8cbe-d03bf4313c0b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f9d063d5-4f80-4537-adb5-f01d470bc319",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "1338da61-4502-4836-a1a5-47f8e665ef2e",
+      "answer": false,
+      "example": false,
+      "children": "function compareMembers(person1, person2 = person) {\n  if (person1 !== person2) {\n    console.log(\"Not the same!\")\n  } else {\n    console.log(\"They are the same!\")\n  }\n}\n\nconst person = { name: \"Lydia\" }\n\ncompareMembers(person)",
+      "className": "javascript"
+    },
+    {
+      "id": "734ead3e-8791-478c-a7c8-45cd618302d1",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3e831e5a-223f-4f1f-89a1-d1c79a3a4f25",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "10f852cf-41d4-469d-ab59-3ccf9fd6daf1",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "17654722-2161-4876-911c-34971a6f0e33",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6b47e6de-6acb-45a8-9c6d-ef94b354c88a",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "dc75ea29-a2b8-47b5-a0b5-7e2efc435c6c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6668b27a-cc83-4778-95fb-3309fed5d545",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "75cc05f9-641c-446d-93c2-52754749e4d1",
+      "answer": false,
+      "example": false,
+      "children": "const colorConfig = {\n  red: true,\n  blue: false,\n  green: true,\n  black: true,\n  yellow: false,\n}\n\nconst colors = [\"pink\", \"red\", \"blue\"]\n\nconsole.log(colorConfig.colors[1])",
+      "className": "javascript"
+    },
+    {
+      "id": "c28b3fe9-9912-4c4c-b651-7bdb32d7b115",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6aa6c507-3919-4678-839e-8f88ca8af484",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "cbcd70f8-b09e-432b-8747-e65a8dc7a8b9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ea07d9f1-bbcc-4472-9e5e-6e67f12315e8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ba9688d4-6c80-4c45-bdfd-c89b5939bae8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8e4bb629-4b71-417b-a07e-04a6eeea80c3",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "e3176670-648a-4580-9682-145af05167eb",
+      "answer": false,
+      "example": false,
+      "children": "console.log('❤️' === '❤️')",
+      "className": "javascript"
+    },
+    {
+      "id": "56401bfe-66ce-435f-9578-a623a09a5ab7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "cd4a3d72-fd64-4db9-b5d9-c33c35470126",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "7245f564-cead-482b-b534-213c48359d9c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "81a4abcc-deb8-40fa-98fa-d5d0a027f3a9",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "bee8f273-33d1-472f-bb28-8084a5847364",
+      "answer": false,
+      "example": false,
+      "children": "const emojis = ['✨', '🥑', '😍']\n\nemojis.map(x => x + '✨')\nemojis.filter(x => x !== '🥑')\nemojis.find(x => x !== '🥑')\nemojis.reduce((acc, cur) => acc + '✨')\nemojis.slice(1, 2, '✨') \nemojis.splice(1, 2, '✨')",
+      "className": "javascript"
+    },
+    {
+      "id": "1bd38748-ca72-4748-b1bc-f7fd8e5653e9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "207023db-ee29-48a3-819a-19894b8fad12",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "8fd561f2-1be1-400d-bebc-0c8ab9f2b1ba",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2c64a7c4-6ee5-47e8-8825-496fb2537c78",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6d488b09-891f-43b8-800f-9c08cb1c35c6",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "e225c024-6f98-45ec-8b28-b4b03c9ed285",
+      "answer": false,
+      "example": false,
+      "children": "const food = ['🍕', '🍫', '🥑', '🍔']\nconst info = { favoriteFood: food[0] }\n\ninfo.favoriteFood = '🍝'\n\nconsole.log(food)",
+      "className": "javascript"
+    },
+    {
+      "id": "b0d770a4-4577-4a7e-91b0-0d6fe72c7634",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "617a6e6f-4519-45b2-a29a-670d12b57dd5",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "5a5ab1dd-89f2-4b29-91a0-2bbe88f2414f",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f32d5fe8-04a8-47a3-82a7-d7b15b2f1ebd",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "8fb4370b-5cd2-4e66-b193-83d05e007b9b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3031f344-3fbf-488b-8724-2910923ea326",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "ba453003-8fd9-41f2-b172-185f242dc2a3",
+      "answer": false,
+      "example": false,
+      "children": "JSON.parse()",
+      "className": "javascript"
+    },
+    {
+      "id": "7813ac9f-7a24-4e77-8aed-73670861818c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3257144f-eb60-445a-85bc-76ad473323cb",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "79dc04be-7398-4756-bac3-0a9039d172e9",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3bab75af-ae63-487a-91f5-afe46ea45e8d",
+      "answer": false,
+      "example": false,
+      "children": "// Преобразование числа в допустимый JSON, затем преобразование строки JSON в значение JavaScript:\nconst jsonNumber = JSON.stringify(4) // '4'\nJSON.parse(jsonNumber) // 4\n\n// Преобразование значения массива в допустимый JSON, затем разбор строки JSON в значение JavaScript:\nconst jsonArray = JSON.stringify([1, 2, 3]) // '[1, 2, 3]'\nJSON.parse(jsonArray) // [1, 2, 3]\n\n// Преобразование объекта в допустимый JSON, затем преобразование строки JSON в значение JavaScript:\nconst jsonArray = JSON.stringify({ name: \"Lydia\" }) // '{\"name\":\"Lydia\"}'\nJSON.parse(jsonArray) // { name: 'Lydia' }",
+      "className": "javascript"
+    },
+    {
+      "id": "3b24245d-fa31-45ea-9350-3409ad31936c",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "82ef3171-f74f-4ec8-99d8-9409f6a7ab09",
+      "answer": false,
+      "example": false,
+      "children": "let name = 'Lydia'\n\nfunction getName() {\n  console.log(name)\n  let name = 'Sarah'\n}\n\ngetName()",
+      "className": "javascript"
+    },
+    {
+      "id": "b928186f-8174-4ecb-ba61-ef0d6f2583c2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "69578873-b730-46c7-b0e4-dd2828de30fd",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "f82cbbbc-a681-4a13-ba4d-ff2268d32110",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "463cbefb-3c6d-4103-bf85-d6afd3183250",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5401928d-38db-4d37-9011-445c7c52acaf",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2347a6f8-cb6a-4b48-9a3a-483996150557",
+      "answer": false,
+      "example": false,
+      "children": "let name = 'Lydia'\n\nfunction getName() {\n  console.log(name)\n}\n\ngetName() // Lydia",
+      "className": "javascript"
+    },
+    {
+      "id": "babd46d0-a4e7-4d9f-ae6d-c698b8d28387",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "44b6ef29-1bb8-4869-af5e-d18df33bba49",
+      "answer": false,
+      "example": false,
+      "children": "function* generatorOne() {\n  yield ['a', 'b', 'c'];\n}\n\nfunction* generatorTwo() {\n  yield* ['a', 'b', 'c'];\n}\n\nconst one = generatorOne()\nconst two = generatorTwo()\n\nconsole.log(one.next().value)\nconsole.log(two.next().value)",
+      "className": "javascript"
+    },
+    {
+      "id": "1f5594a5-9586-403c-86a5-d1ba0a04dd23",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "473c16e6-e65c-4b05-bf13-bff12fe8706e",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "7dda0113-f960-4977-a65c-ac861cb638d7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "485d5645-6483-4748-8b83-8593d9abc594",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "25ee306b-7a6a-41cb-9d5b-dbc1905258be",
+      "answer": false,
+      "example": false,
+      "children": "console.log(one.next().value) // ['a', 'b', 'c']\nconsole.log(one.next().value) // undefined",
+      "className": "javascript"
+    },
+    {
+      "id": "18e88b94-be38-45f2-afd7-e7b78d25ce09",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "25c67431-d7ef-400a-a8de-fc5d6e9d1480",
+      "answer": false,
+      "example": false,
+      "children": "console.log(two.next().value) // 'a'\nconsole.log(two.next().value) // 'b'\nconsole.log(two.next().value) // 'c'\nconsole.log(two.next().value) // undefined",
+      "className": "javascript"
+    },
+    {
+      "id": "50120944-4c2b-41e9-83b6-3792db4dd1ee",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "728abf4e-4044-434f-af13-49e08f3bd930",
+      "answer": false,
+      "example": false,
+      "children": "console.log(`${(x => x)('I love')} to program`)",
+      "className": "javascript"
+    },
+    {
+      "id": "8e4a5620-4292-4946-aac4-92f8849674a7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0583778a-4fcb-4f48-9edc-3c32b953e9ae",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "99fc3150-0c6c-46e4-acfa-ba2254992e45",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6f7da9dc-f9fb-4d0a-9e5b-86fa645dc3a9",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "a306d73b-afe2-4717-a18f-04401659181b",
+      "answer": false,
+      "example": false,
+      "children": "let config = {\n  alert: setInterval(() => {\n    console.log('Alert!')\n  }, 1000)\n}\n\nconfig = null",
+      "className": "javascript"
+    },
+    {
+      "id": "3ac01f3f-7219-4423-aa0d-e6e6342c309e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c6da25cc-731e-46ce-9d9d-23fefc8f654c",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "15deeb53-fea7-48d1-a5de-8805ffa43abc",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a3a6cdea-c916-4233-8bbf-cf0363001623",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "35540e41-d905-412a-b53e-53964d544b93",
+      "answer": false,
+      "example": false,
+      "children": "const myMap = new Map()\nconst myFunc = () => 'greeting'\n\nmyMap.set(myFunc, 'Hello world!')\n\n//1\nmyMap.get('greeting')\n//2\nmyMap.get(myFunc)\n//3\nmyMap.get(() => 'greeting')",
+      "className": "javascript"
+    },
+    {
+      "id": "d1cf5db4-fc27-4f55-9dce-6a0bb7e47db4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "76c5f2c3-8e74-433c-9d5c-e1b78a0e1910",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "9e9a0727-2a56-4278-afa4-928453a00d97",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3750f2bc-3b81-44c0-af38-434562b15f0c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "777e8778-aaa9-4473-88e9-e07315cf1844",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "6ca20b96-0a9f-4a08-ad37-367d572c186b",
+      "answer": false,
+      "example": false,
+      "children": "const person = {\n  name: \"Lydia\",\n  age: 21\n}\n\nconst changeAge = (x = { ...person }) => x.age += 1\nconst changeAgeAndName = (x = { ...person }) => {\n  x.age += 1\n  x.name = \"Sarah\"\n}\n\nchangeAge(person)\nchangeAgeAndName()\n\nconsole.log(person)",
+      "className": "javascript"
+    },
+    {
+      "id": "8e7f81e9-9ac6-4e87-96be-f13adf4e560d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "20c06fac-a4f5-422a-b8be-8e7a8ef6ca7c",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "cee8d63b-2148-4eec-a707-6923f4bda7c4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a640c03d-e4bb-4d45-a7e2-5216019cd62b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "71e4353d-5e01-44ab-95b8-1bad6a07ecdb",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "33492d55-08a7-4e12-83c6-1f6fa6bc3c29",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "4cb6afa3-af71-4705-9d2b-e2cded255973",
+      "answer": false,
+      "example": false,
+      "children": "function sumValues(x, y, z) {\n\treturn x + y + z;\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "ae2a6487-f022-4710-a0b4-bbdc4ab7916b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "31b98fd4-d1db-4276-9546-1aa0e19f158b",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "12d443ef-1439-408e-945b-547e36ba6db1",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4cec3a0f-7b53-4c74-8976-31adf615379e",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "ba52ccde-2d84-4313-8b1d-4ba37ee0aab4",
+      "answer": false,
+      "example": false,
+      "children": "let num = 1;\nconst list = [\"🥳\", \"🤠\", \"🥰\", \"🤪\"];\n\nconsole.log(list[(num += 1)]);",
+      "className": "javascript"
+    },
+    {
+      "id": "9be686ff-99f5-419b-b983-08a3dd49436b",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0c30fc46-5a13-4824-bdd2-3fdae3923144",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "f0f3c97d-6db8-4e4d-aac7-bbdbd296f6f7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "561664f1-a1a5-458c-8d8c-5f181c2afbd7",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "e5552687-1706-4ddc-b83b-15c056b6f9c0",
+      "answer": false,
+      "example": false,
+      "children": "const person = {\n\tfirstName: \"Lydia\",\n\tlastName: \"Hallie\",\n\tpet: {\n\t\tname: \"Mara\",\n\t\tbreed: \"Dutch Tulip Hound\"\n\t},\n\tgetFullName() {\n\t\treturn `${this.firstName} ${this.lastName}`;\n\t}\n};\n\nconsole.log(person.pet?.name);\nconsole.log(person.pet?.family?.name);\nconsole.log(person.getFullName?.());\nconsole.log(member.getLastName?.());",
+      "className": "javascript"
+    },
+    {
+      "id": "2c65d2e3-b87a-4f48-be6b-5f49eae794c6",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a97c241d-e187-4c2c-b1a9-59d9e5da3e83",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "87d6c02a-0466-4738-9f7b-cb8025d93b42",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2f6d8570-71b2-4aaa-a2ea-4a049e1623eb",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "1dde471e-6c6a-460f-9fb9-ef57112797c4",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "6e48a211-e187-4777-8bbd-dbeeb0889ec8",
+      "answer": false,
+      "example": false,
+      "children": "const groceries = [\"banana\", \"apple\", \"peanuts\"];\n\nif (groceries.indexOf(\"banana\")) {\n\tconsole.log(\"We have to buy bananas!\");\n} else {\n\tconsole.log(`We don't have to buy bananas!`);\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "2793eefb-e5fc-40c9-8dd4-6b443a2a0f5e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "43051d4c-365f-49e0-a260-dcf14c958f4e",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "9c0f627b-0465-41de-a655-c3cd4911c92d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "bdba3a54-c79d-4861-8b81-2aab705f84be",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "510d7cf6-0ffb-4682-904a-d95a17eca096",
+      "answer": false,
+      "example": false,
+      "children": "const config = {\n\tlanguages: [],\n\tset language(lang) {\n\t\treturn this.languages.push(lang);\n\t}\n};\n\nconsole.log(config.language);",
+      "className": "javascript"
+    },
+    {
+      "id": "32942129-5944-4cca-9536-815d23e3aede",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5db2234d-843d-46a1-b68d-923cc2b663a3",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "f57bc7f3-ee01-4dd2-831c-90f5bfea67aa",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "66cd2e16-1065-4e17-bc94-463d7878d923",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "3210451e-d83e-4bdb-9e40-96e58f3eb4da",
+      "answer": false,
+      "example": false,
+      "children": "const name = \"Lydia Hallie\";\n\nconsole.log(!typeof name === \"object\");\nconsole.log(!typeof name === \"string\");",
+      "className": "javascript"
+    },
+    {
+      "id": "2c8b6382-a1e0-4330-baec-ff8e5c88e723",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f898c7a6-536b-4990-8618-d71283777516",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "4b591acf-e998-44dd-a61a-b768c5fe2ca1",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "78792440-4181-45f8-a4f8-60e60a652bd7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2a4e5a6b-91e5-40ef-9ccf-b1fe054e45a7",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "b126b0c3-6166-4d38-886a-aa966ae06dc6",
+      "answer": false,
+      "example": false,
+      "children": "const add = x => y => z => {\n\tconsole.log(x, y, z);\n\treturn x + y + z;\n};\n\nadd(4)(5)(6);",
+      "className": "javascript"
+    },
+    {
+      "id": "14519fff-8246-4b3a-bb5e-626617674b31",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "910788be-9944-4c1a-b579-d49207d61b23",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "cb22e1ec-38dc-4062-a2b7-6638449628e7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c54e3627-0cab-49ac-86db-36df139b2f13",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "0ac6f2c8-11c7-44b1-a3ea-cef185626727",
+      "answer": false,
+      "example": false,
+      "children": "async function* range(start, end) {\n\tfor (let i = start; i <= end; i++) {\n\t\tyield Promise.resolve(i);\n\t}\n}\n\n(async () => {\n\tconst gen = range(1, 3);\n\tfor await (const item of gen) {\n\t\tconsole.log(item);\n\t}\n})();",
+      "className": "javascript"
+    },
+    {
+      "id": "c51c4161-221e-4cfe-a77a-8500793d09a2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "2b61342d-16be-40dc-b8bb-938329a51fbe",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "b8443b78-1ff4-48b4-8e39-101d501ffc53",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "be6b6f54-bef0-4de5-a103-998cc5ec7701",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "d2704653-8b35-4c45-88c6-6e901e145cbb",
+      "answer": false,
+      "example": false,
+      "children": "const myFunc = ({ x, y, z }) => {\n\tconsole.log(x, y, z);\n};\n\nmyFunc(1, 2, 3);",
+      "className": "javascript"
+    },
+    {
+      "id": "6e537562-3af4-415b-aab3-731b8116918c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3163483a-28f3-46c7-9f09-e4ffe751c3b2",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "908ddd2f-9e27-4419-8798-7315a24fa7da",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4d945382-c875-4a65-bcb4-7eab425d82ec",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "0fdccade-edb8-4672-b351-81b39d2761d2",
+      "answer": false,
+      "example": false,
+      "children": "function getFine(speed, amount) {\n  const formattedSpeed = new Intl.NumberFormat({\n    'en-US',\n    { style: 'unit', unit: 'mile-per-hour' }\n  }).format(speed)\n\n  const formattedAmount = new Intl.NumberFormat({\n    'en-US',\n    { style: 'currency', currency: 'USD' }\n  }).format(amount)\n\n  return `The driver drove ${formattedSpeed} and has to pay ${formattedAmount}`\n}\n\nconsole.log(getFine(130, 300))",
+      "className": "javascript"
+    },
+    {
+      "id": "e0cbe9e0-4bf4-4b42-aeb1-8ae0fc146386",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ba62b8b7-113d-4e85-ac91-d1f4007872d2",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "3d12047b-4d8e-47eb-99f6-a907b445a04c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "7a3495dd-25f2-4c6a-b760-c894af93db54",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "7154cd7f-4447-4a64-bfb7-6693359fff0f",
+      "answer": false,
+      "example": false,
+      "children": "const spookyItems = [\"👻\", \"🎃\", \"🕸\"];\n({ item: spookyItems[3] } = { item: \"💀\" });\n\nconsole.log(spookyItems);",
+      "className": "javascript"
+    },
+    {
+      "id": "d35bba2b-d15e-4971-b808-e58e7c7ae941",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "cac17992-e7d1-43f4-953d-44ec1cc59eb3",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "06306e7d-086e-4097-8043-5bb0f47d0f44",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "259760b1-e522-41f7-aa8f-e2c3da232e8e",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "16f3e61f-afd4-4357-91d8-04d3c2f7d6ab",
+      "answer": false,
+      "example": false,
+      "children": "const name = \"Lydia Hallie\";\nconst age = 21;\n\nconsole.log(Number.isNaN(name));\nconsole.log(Number.isNaN(age));\n\nconsole.log(isNaN(name));\nconsole.log(isNaN(age));",
+      "className": "javascript"
+    },
+    {
+      "id": "01f4d554-35cc-4b9d-8cbb-a6762a844098",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "056331bd-ed85-45e7-8fe7-53dbb35c4428",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "238d98de-ef23-4ffd-b7f2-f07eb7ce29fb",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "eff2c7f1-0549-4d70-b521-1e8e906a54b7",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "89356121-5111-4e04-a4d6-a3b38cebea15",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "ed35f03a-936d-4a63-819b-b5d40fb05a5e",
+      "answer": false,
+      "example": false,
+      "children": "const randomValue = 21;\n\nfunction getInfo() {\n\tconsole.log(typeof randomValue);\n\tconst randomValue = \"Lydia Hallie\";\n}\n\ngetInfo();",
+      "className": "javascript"
+    },
+    {
+      "id": "e46b4cdd-888a-4c97-85ae-343a508ea9e8",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c9ddbc11-cce7-421d-bc65-856b795e1664",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "6c5f3945-899c-4aa1-b5e1-524e094fd208",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "eb48ce37-e58a-4af2-9319-0581a2e0bfb7",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "b5804465-603a-4980-9a49-a3389ca8a845",
+      "answer": false,
+      "example": false,
+      "children": "const myPromise = Promise.resolve(\"Woah some cool data\");\n\n(async () => {\n\ttry {\n\t\tconsole.log(await myPromise);\n\t} catch {\n\t\tthrow new Error(`Oops didn't work`);\n\t} finally {\n\t\tconsole.log(\"Oh finally!\");\n\t}\n})();",
+      "className": "javascript"
+    },
+    {
+      "id": "491a88cb-875f-4dc2-8859-ccfb8b836bcc",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "bee101e2-8dc7-4f93-b091-9813b402b103",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "7490fabe-c8a5-412c-aace-f9fb7e06f87d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "c4dfac9c-4365-4d79-871e-904b2624a484",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "6088d578-53c8-4d5a-9ee0-2e1a8a6ee5fb",
+      "answer": false,
+      "example": false,
+      "children": "const emojis = [\"🥑\", [\"✨\", \"✨\", [\"🍕\", \"🍕\"]]];\n\nconsole.log(emojis.flat(1));",
+      "className": "javascript"
+    },
+    {
+      "id": "eb92ff58-1cfc-4715-8882-c7102a3406b3",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0eea3b47-d3e8-4472-a83c-4c56e88d6384",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "e138d717-bebd-4abe-afb5-efead6cd7fec",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "ad09fa5a-e606-4517-aad0-09d13ba94c19",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "6de6c48a-0886-4f23-9459-85fab7cd04e1",
+      "answer": false,
+      "example": false,
+      "children": "class Counter {\n  constructor() {\n    this.count = 0;\n  }\n\n  increment() {\n    this.count++;\n  }\n}\n\nconst counterOne = new Counter();\ncounterOne.increment();\ncounterOne.increment();\n\nconst counterTwo = counterOne;\ncounterTwo.increment();\n\nconsole.log(counterOne.count);",
+      "className": "javascript"
+    },
+    {
+      "id": "c89a934f-badc-40a3-8412-11f3f38014bb",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "96f8999f-bf4f-418f-a2c0-9112645446bd",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "6c86ecf8-b565-4bdf-a4c4-3866f2cd853d",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "455872d7-742b-4aa2-97cf-31d295e16fa6",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/KxLlTm9.png\" width=\"400\" />"
+    },
+    {
+      "id": "61912b9e-07a4-4b90-a188-0f974e4e483e",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "96da487c-561d-455e-acef-f1a1cde63866",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "62ab72a8-9e82-4f58-8ed9-848542667952",
+      "answer": false,
+      "example": false,
+      "children": "<img src=\"https://i.imgur.com/BNBHXmc.png\" width=\"400\" />"
+    },
+    {
+      "id": "5d67408a-401a-4547-9bb9-11d7bda8e3d4",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "aa6efd57-d64a-4a81-8f19-1f990c97284a",
+      "answer": false,
+      "example": false,
+      "children": "const myPromise = Promise.resolve(Promise.resolve('Promise!'));\n\nfunction funcOne() {\n  myPromise.then(res => res).then(res => console.log(res));\n  setTimeout(() => console.log('Timeout!', 0));\n  console.log('Last line!');\n}\n\nasync function funcTwo() {\n  const res = await myPromise;\n  console.log(await res);\n  setTimeout(() => console.log('Timeout!', 0));\n  console.log('Last line!');\n}\n\nfuncOne();\nfuncTwo();",
+      "className": "javascript"
+    },
+    {
+      "id": "6b82c89b-bd60-408f-8435-640438408452",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "f56cabb8-7e71-4b3a-92f6-97638c474cb1",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "2bf32d66-4f4a-4e08-a301-e2f990a23921",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "fae035ef-fc18-48ed-81ca-5c9b6a247038",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3b9f22c9-59db-45d3-aff9-34cf291ca190",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "35491580-0471-47f8-9ca8-46508ae8b9b2",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "672d5fbe-3b19-4e04-a1ff-96d62eb91576",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "85433686-75b4-440b-b75c-77dcbb23153a",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "ab3a1332-a7ba-4552-96a8-b1e6ce22f315",
+      "answer": false,
+      "example": false,
+      "children": "// sum.js\nexport default function sum(x) {\n  return x + x;\n}\n\n// index.js\nimport * as sum from './sum';",
+      "className": "javascript"
+    },
+    {
+      "id": "d94c5692-b62d-4e67-b547-cca57eb0b032",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "37c65e1e-4232-4aa0-890a-2e26d51e064f",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "0c7725fd-3760-4501-b8bd-1f053c103ca0",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "155fae83-a120-463c-b483-2a041cc7e5e2",
+      "answer": false,
+      "example": false,
+      "children": "// info.js\nexport const name = 'Lydia';\nexport const age = 21;\nexport default 'I love JavaScript';\n\n// index.js\nimport * as info from './info';\nconsole.log(info);",
+      "className": "javascript"
+    },
+    {
+      "id": "d75ee088-dd0a-412a-aa36-e38f02c57c24",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "3ee9ffe5-6722-4844-8d41-b335cd45eca2",
+      "answer": false,
+      "example": false,
+      "children": "{\n  default: \"I love JavaScript\",\n  name: \"Lydia\",\n  age: 21\n}",
+      "className": "javascript"
+    },
+    {
+      "id": "71348754-23e6-4d2a-858f-6b96c43c3b75",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "9a052f17-ea47-456c-9604-18a30407248e",
+      "answer": false,
+      "example": false,
+      "children": "{ default: function sum(x) { return x + x } }",
+      "className": "javascript"
+    },
+    {
+      "id": "18ddc68a-b988-4b00-916b-9935d5305b49",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "55122527-3a19-4334-832d-f74446ec6208",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "bdd9b1c3-d5e1-40f9-b816-774ae537f9d2",
+      "answer": false,
+      "example": false,
+      "children": "const handler = {\n  set: () => console.log('Added a new property!'),\n  get: () => console.log('Accessed a property!'),\n};\n\nconst person = new Proxy({}, handler);\n\nperson.name = 'Lydia';\nperson.name;",
+      "className": "javascript"
+    },
+    {
+      "id": "1465b33f-05cd-4531-ba3c-fc619d5f8ebd",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "84748eef-56fd-4056-bbda-536e11f6ed3e",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "67077c56-2cd5-4e1f-8de4-3e13bf56813c",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "a1b92a92-ed37-42c3-a15a-2546bcd3b934",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "5d3ac71f-fa66-4803-997b-355b87edfd07",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "01b8c424-93d7-4166-ac48-5f195a918691",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "44abdcba-e575-4170-981d-a13ff2b878f5",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "7f72f519-ec80-44e2-8384-500fb085bb4c",
+      "answer": false,
+      "example": false,
+      "children": "const person = { name: 'Lydia Hallie' };\n\nObject.seal(person);",
+      "className": "javascript"
+    },
+    {
+      "id": "0893b12e-acce-4e3f-9c98-b549a958dca5",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "d74c84fd-b03b-4c4c-84f1-ef8d342d960c",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "74401ab1-c8cd-4ca4-b42a-8747881e4dc4",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "398b6abf-4e47-4939-af34-94ab06581865",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "6253931c-af66-4a5d-be17-e23e7e37be0f",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    },
+    {
+      "id": "cdbc5d4b-3e74-4565-92ef-c2f2fd4b22b7",
+      "answer": false,
+      "example": false,
+      "children": "const person = {\n  name: 'Lydia Hallie',\n  address: {\n    street: '100 Main St',\n  },\n};\n\nObject.freeze(person);",
+      "className": "javascript"
+    },
+    {
+      "id": "11cd676a-f070-4cd8-a5bb-62fcac2ee731",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "cae8eda2-0619-4471-ab11-ee06ea2db155",
+      "answer": false,
+      "example": false,
+      "children": "<details><summary><b>Ответ</b></summary>\n<p>"
+    },
+    {
+      "id": "6a350f33-e7a2-400c-902e-4fff50701d54",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "4cd81419-667d-4c9d-a016-87e165295a94",
+      "answer": false,
+      "example": false
+    },
+    {
+      "id": "0a21e2b9-6591-4e5b-8249-f4470e0133ef",
+      "answer": false,
+      "example": false,
+      "children": "</p>\n</details>"
+    }
+  ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/array-iterate-methods.mdx": [
     {
-      "id": "98b42fd9-e621-4887-8f0e-a0c578cb3c29",
+      "id": "f52452d8-c0be-499d-bf5d-6b3ee2a3d8f3",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/bind-call-apply.mdx": [
     {
-      "id": "236fd1a8-fc8a-4dbf-8809-aa62a1e070b1",
+      "id": "96c0ed5e-0756-42ca-95ee-7d9c3363dd19",
       "answer": false,
       "example": false
     },
     {
-      "id": "38dbd091-c691-41a4-a49b-e6d3d9239817",
+      "id": "bf831924-d139-431b-85a5-9886d374630b",
       "answer": false,
       "example": false
     },
     {
-      "id": "2b8e14de-9287-43cf-b56e-34d631cf2e7f",
+      "id": "19575a0a-b5ba-407f-a37a-d6c702efac7a",
       "answer": false,
       "example": false
     },
     {
-      "id": "6e052048-1313-43d0-bcff-ec682ba21f6e",
+      "id": "82eb3603-4f91-4317-87b7-d54864f9e015",
       "answer": false,
       "example": false
     },
     {
-      "id": "f4278915-38be-40c6-a2f7-439074d5b8f2",
+      "id": "8fe872b7-9086-4cbf-9aa4-471e32ff0dd4",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/clousure.mdx": [
     {
-      "id": "a800dc9a-893f-4723-b451-56c0ccf5882b",
+      "id": "7b2cd323-5c22-4cbd-9149-d5411dc27394",
       "answer": false,
       "example": false
     },
     {
-      "id": "a58629e6-d42f-48c6-8fc0-3cd331700686",
+      "id": "e87a8f93-3f6d-45f6-a3e2-4c6b12ad10e8",
       "answer": false,
       "example": false
     },
     {
-      "id": "5dfb7629-e02e-4b02-a6c5-a5f1f72beb42",
+      "id": "ecab3dbd-eff4-4ec0-9cdd-a827d7ab6089",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/event-delegation.mdx": [
     {
-      "id": "03c333a4-a9a1-47c6-9eb0-7d8c056a1e60",
+      "id": "48671d86-67df-4b56-a0f9-815b9c5b5c11",
       "answer": false,
       "example": false
     },
     {
-      "id": "bc744780-7958-4f9f-8312-9fe62ba8c458",
+      "id": "bc0cb05f-31b5-4eff-9c0b-20b2302c9d6e",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/event-loop.mdx": [
     {
-      "id": "ae6294fc-f299-4836-9fb7-f4b9d2a47fb3",
+      "id": "4b1c9abd-4e3a-4c6a-98d0-989d18d989f4",
       "answer": false,
       "example": false
     },
     {
-      "id": "d5ba796c-1e63-47a0-892f-ade0af009697",
+      "id": "2014fbbe-0db1-458d-b473-582614d8751e",
       "answer": false,
       "example": false
     },
     {
-      "id": "28c0ff8f-8d90-4333-a30c-abdeda25a328",
+      "id": "274ddbc1-c900-4545-8431-1ae4385a2bca",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/falsy-values.mdx": [
     {
-      "id": "e897e839-96e2-4299-9272-306f20142069",
+      "id": "93e10c79-915a-4516-9703-562433d001f4",
       "answer": false,
       "example": false
     },
     {
-      "id": "fbdfbe59-c574-406e-99fa-a35a81b48bb7",
+      "id": "9726ec8c-2697-4703-b224-36d47450936f",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/hoisting.mdx": [
     {
-      "id": "d6202b63-1a08-44ef-a592-35cd5f16311e",
+      "id": "7966ecec-841c-4a55-9d28-4aebc6148dad",
       "answer": false,
       "example": false
     },
     {
-      "id": "fc681490-3d3a-4231-8549-eacad63a448c",
+      "id": "73f930c3-6478-46ca-9da5-93f363ccb9b2",
       "answer": false,
       "example": false
     },
     {
-      "id": "e5f4dc86-0b9b-4a95-a5e2-534affe465ab",
+      "id": "95644525-4f7a-4063-89f5-c65b1a1856ca",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/promise.mdx": [
     {
-      "id": "339653fd-a0c3-45e8-9596-27a41556ded1",
+      "id": "2792e670-48df-4c57-92e1-904470f3bdf9",
       "answer": false,
       "example": false
     },
     {
-      "id": "0f219866-abe1-4afc-b728-5f3811bb568d",
+      "id": "e24aa595-97d6-47e6-9a68-a315f4d85473",
       "answer": false,
       "example": false
     },
     {
-      "id": "3631fe4f-4fe5-415a-822d-d706c826a7e7",
+      "id": "95400338-51b4-425a-8094-e3f2492345bc",
       "answer": false,
       "example": true,
       "children": "class Repo {\n  static getName() {\n    return 'Repo name is modern-js-cheatsheet'\n  }\n}\n\n// нам не нужно создавать объект класса Repo\nconsole.log(Repo.getName()) // \"Repo name is modern-js-cheatsheet\"\n\nlet r = new Repo()\nconsole.log(r.getName()) // необработанная ошибка TypeError: r.getName не является функцией",
       "className": "js"
     },
     {
-      "id": "091147b7-79c1-434e-b631-1870f7ab8daa",
+      "id": "0ba4c863-4faa-40bc-b1fd-337af83c44e3",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/protorype-inheratence.mdx": [
     {
-      "id": "5afeb7a8-3ce7-49cf-b5d7-56d410e57db0",
+      "id": "eb98f25d-72d8-4a31-a405-70f696cb11c1",
       "answer": false,
       "example": false
     },
     {
-      "id": "dc52eaba-579c-4cc9-8f19-44b6f451f091",
+      "id": "435a03f3-2ffd-4dd7-8f0c-a8c6db9593e2",
       "answer": false,
       "example": false
     },
     {
-      "id": "03a24154-092b-434c-8d8c-8b2b4b2c2fef",
+      "id": "bfdbe697-041b-406c-ac01-0713b809d9e3",
       "answer": false,
       "example": false
     },
     {
-      "id": "059619c9-7e70-4f73-9f90-c4b47e3b3845",
+      "id": "27e635f6-31c2-4882-8735-7627b248232d",
       "answer": false,
       "example": false
     },
     {
-      "id": "64146e6a-7c4b-48a1-ba5c-a7013b6462e2",
+      "id": "1484c4cd-5c15-463f-829f-b0bc786c7d5b",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/scope.mdx": [
     {
-      "id": "7b7ff87b-1eb8-4d9e-9bdc-0c8584f00bf6",
+      "id": "bc56255e-f4fc-4692-bb41-55adf1c9a417",
       "answer": false,
       "example": false
     },
     {
-      "id": "46704b69-832f-4664-887c-4e36f339e779",
+      "id": "c538ec2c-54a6-4c4d-b8ab-3786932a7445",
       "answer": false,
       "example": false
     },
     {
-      "id": "afc1a3b8-4f6d-4d89-8911-4d532b29930e",
+      "id": "214ca0a9-0bca-47b6-8408-01d97609fbd9",
       "answer": false,
       "example": false
     },
     {
-      "id": "c07b375c-0dec-4f0e-babb-c649e201fbde",
+      "id": "8ea61ecd-edba-4091-975c-26308b908376",
       "answer": false,
       "example": false
     },
     {
-      "id": "3e052ba4-af2c-4695-b981-448d6725c3c0",
+      "id": "fd767dc0-61f5-43fe-94ec-ed9b17bb61b1",
       "answer": false,
       "example": false
     },
     {
-      "id": "1d74e7f7-7e8d-4823-b353-188abfe1aa98",
+      "id": "fa4a79ab-743f-4de5-9543-0f8d167dc26c",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/set-map-weakset-weak-map.mdx": [
     {
-      "id": "1b2fe017-a1d0-41b9-80b5-aed40c91c1e9",
+      "id": "2b23bcba-1934-4824-9e52-f73092b483da",
       "answer": false,
       "example": false
     },
     {
-      "id": "ef758476-5933-4e8e-bb2d-4f8e4e03ade5",
+      "id": "88aef65c-15ca-4255-96a0-f0080849743d",
       "answer": false,
       "example": false
     },
     {
-      "id": "a09c2e0c-67b8-44fb-83ff-b6822d5097cf",
+      "id": "5266c4df-0456-45ac-a36b-8b3f89a1ad06",
       "answer": false,
       "example": true,
       "children": "'use strict'\n\nlet map = new Map()\n\nmap.set('1', 'str1') // ключ-строка\nmap.set(1, 'num1') // число\nmap.set(true, 'bool1') // булевое значение\n\n// в обычном объекте это было бы одно и то же,\n// map сохраняет тип ключа\nalert(map.get(1)) // 'num1'\nalert(map.get('1')) // 'str1'\n\nalert(map.size) // 3",
       "className": "js"
     },
     {
-      "id": "a7891a4a-edec-4478-a0b1-ec36efacd98b",
+      "id": "d056019a-0736-4178-9b05-25489353ca52",
       "answer": false,
       "example": false
     },
     {
-      "id": "2d9efdfc-ac57-4136-864e-a25edbdac853",
+      "id": "a2b28dbe-f537-464d-91a3-f531331288a2",
       "answer": false,
       "example": true,
       "children": "'use strict'\n\nlet set = new Set()\n\nlet vasya = { name: 'Вася' }\nlet petya = { name: 'Петя' }\nlet dasha = { name: 'Даша' }\n\n// посещения, некоторые пользователи заходят много раз\nset.add(vasya)\nset.add(petya)\nset.add(dasha)\nset.add(vasya)\nset.add(petya)\n\n// set сохраняет только уникальные значения\nalert(set.size) // 3\n\nset.forEach(user => alert(user.name)) // Вася, Петя, Даша",
       "className": "js"
     },
     {
-      "id": "5c7cff9d-5e67-4a55-ad84-7d3db85ed8d6",
+      "id": "57780871-d2c0-4131-a4d5-6ffec96da772",
       "answer": false,
       "example": false
     },
     {
-      "id": "dab818c9-e7be-4e14-91c2-5daa9c61b145",
+      "id": "98f7a571-35cc-44f4-8356-0c2cd34d7578",
       "answer": false,
       "example": true,
       "children": "// текущие активные пользователи\nlet activeUsers = [{ name: 'Вася' }, { name: 'Петя' }, { name: 'Маша' }]\n\n// вспомогательная информация о них,\n// которая напрямую не входит в объект юзера,\n// и потому хранится отдельно\nlet weakMap = new WeakMap()\n\nweakMap.set(activeUsers[0], 1)\nweakMap.set(activeUsers[1], 2)\nweakMap.set(activeUsers[2], 3)\nweakMap.set('Katya', 4) //Будет ошибка TypeError: \"Katya\" is not a non-null object\n\nalert(weakMap.get(activeUsers[0])) // 1\n\nactiveUsers.splice(0, 1) // Вася более не активный пользователь\n\n// weakMap теперь содержит только 2 элемента\n\nactiveUsers.splice(0, 1) // Петя более не активный пользователь\n\n// weakMap теперь содержит только 1 элемент",
@@ -236,31 +5287,31 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/question/this-keyword.mdx": [
     {
-      "id": "7c20408d-5996-4c95-b0de-61ecaeaadac6",
+      "id": "06fa8bc9-ef1c-45ed-9789-59094ef6e522",
       "answer": false,
       "example": false
     },
     {
-      "id": "f1c55225-2513-4566-aea4-b0ab59cc5dbf",
+      "id": "f0ea620c-c696-44b8-b778-a5f08600aafa",
       "answer": false,
       "example": false
     },
     {
-      "id": "6aabd5c1-e2b5-43b4-83da-89a1202ced81",
+      "id": "6f82e4c5-780c-4c27-a189-27a2bacddfc1",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/array-unique-items.mdx": [
     {
-      "id": "167cb73c-1604-42cf-93cd-55808b0af969",
+      "id": "df287f1b-822a-4115-9648-5c6470b58f7b",
       "answer": false,
       "example": true,
       "children": "() => {\n  const list = [1, 1, 2, 2, 3, 4]\n\n  function unique(arr) {\n    // write your code here \n    return arr\n  }\n\n  const result = unique(list) \n  return JSON.stringify(result) // => [1,2,3,4]\n}",
       "className": "jsx"
     },
     {
-      "id": "672b0113-516b-4ca7-b623-8a7cedb23651",
+      "id": "38b16641-8513-468b-aae4-10b6079cc1d5",
       "answer": true,
       "example": false,
       "children": "function unique(arr) {\n  return arr.filter((item, index, self) => self.indexOf(item) === index)\n}",
@@ -269,14 +5320,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/bomb.mdx": [
     {
-      "id": "bfdf4a60-9b1a-4df8-89f6-fc5899871330",
+      "id": "8ce14768-d643-4b2d-8dd5-0e0046eb8dd7",
       "answer": false,
       "example": true,
       "children": "() => {\n  const [result, setResult] = useState('')\n  function Bomb(message, delay) {\n    // write your code here   \n  }\n  \n  new Bomb('Explosion!', 3)\n  return JSON.stringify(result) // => 'Explosion!'\n}",
       "className": "jsx"
     },
     {
-      "id": "8b0b3b61-908e-420a-9c3c-415cb4590fa9",
+      "id": "f2c8a282-2e30-4219-a7ff-059f9c25165f",
       "answer": true,
       "example": false,
       "children": "function Bomb(message, delay) {\n  this.message = message\n  setTimeout(this.blowUp.bind(this), delay * 1000)\n}\n\nBomb.prototype.blowUp = function () {\n  setResult(this.message) // or console.log(result)\n}\n\nnew Bomb('Explosion!', 3) // Через 3000ms выведет 'Explosion!'",
@@ -285,14 +5336,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/clone-object.mdx": [
     {
-      "id": "71d5ac81-497e-41f9-b7b5-d4e400be8ea7",
+      "id": "47ed89cf-ce7e-4d3f-975e-2a29b03df203",
       "answer": false,
       "example": true,
       "children": "() => {\n  const obj = { a: 1, b: 2, c: { d: 4 } }\n  const cloneObj = obj => {\n    // write your code here \n    return obj\n  }\n\n  const result = cloneObj(obj)\n  result.c.d = 10\n\n  return JSON.stringify(obj.c.d === 4) // => true\n}\n\n",
       "className": "jsx"
     },
     {
-      "id": "79f0e310-9858-4d4e-b10a-bf30354da49e",
+      "id": "9adfffec-b47a-428e-8f69-cb00209a5ae9",
       "answer": true,
       "example": false,
       "children": "// Через JSON.parse/stringify\nconst cloneObj = obj => JSON.parse(JSON.stringify(obj))\n\n// Через рекурсию\nconst cloneObj = (o, i, r) => {\n  r = o\n  if (r && typeof o == 'object') {\n    r = o instanceof Array ? [] : {}\n    for (i in o) if (o.hasOwnProperty(i)) r[i] = cloneObj(o[i])\n  }\n  return r\n}",
@@ -301,14 +5352,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-custom-promise.mdx": [
     {
-      "id": "7868c0d6-d051-4f6a-9270-85a9cda2091b",
+      "id": "f0857abf-15fc-4034-9e59-97169ae3f2b5",
       "answer": false,
       "example": true,
       "children": "() => {\n  const [result, setResult] = useState('')\n  class CustomPromise {\n    // write your code here \n  }\n\n  useEffect(() => {\n    let promise = new CustomPromise((resolver, reject) => {\n      setTimeout(() => {\n        const rand = Math.ceil(Math.random(1 * 1 + 6) * 6)\n        if (rand > 2) {\n          resolver('Success')\n        } else {\n          reject('Error')\n        }\n      }, 1000)\n    })\n\n    if (promise.then && promise.catch) {\n      promise\n        .then(function (response) {\n          setResult(response)\n        })\n        .catch(function (error) {\n          setResult(error)\n        })\n    }\n  }, [])\n\n  return result // => 'Success' or 'Error' \n}\n\n",
       "className": "jsx"
     },
     {
-      "id": "4b4faca7-ff32-44d6-bad5-ae5f123298a3",
+      "id": "d38ffc44-286d-436f-bfdc-16f6d228c1a1",
       "answer": true,
       "example": false,
       "children": "class CustomPromise {\n  constructor(action) {\n    this.state = 'PENDING'\n    this.value = undefined\n    this.thenCallbacks = []\n    this.errorCallbacks = []\n    action(this.resolver.bind(this), this.reject.bind(this))\n  }\n\n  resolver(value) {\n    this.state = 'RESOLVED'\n    this.value = value\n    this.thenCallbacks.forEach(callback => {\n      callback(this.value)\n    })\n  }\n\n  reject(value) {\n    this.state = 'REJECTED'\n    this.value = value\n    this.errorCallbacks.forEach(callback => {\n      callback(this.value)\n    })\n  }\n\n  then(callback) {\n    this.thenCallbacks.push(callback)\n    return this\n  }\n\n  catch(callback) {\n    this.errorCallbacks.push(callback)\n    return this\n  }\n}",
@@ -317,14 +5368,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-function-debounce.mdx": [
     {
-      "id": "026d4a2e-a030-4de5-b076-f69812cfa904",
+      "id": "e290a825-d07c-47f8-b9b0-123e504f683d",
       "answer": false,
       "example": true,
       "children": "() => {\n  const calledRef = useRef([])\n  const [timesCalledList, setTimesCalledList] = useState([])\n  const timesCalled = (value) => {\n    calledRef.current = [...calledRef.current, value]\n    setTimesCalledList(...timesCalledList, value)\n  }\n  \n  const debounce = (f, ms) => {\n    // write your code here\n  }\n\n  useEffect(() => {\n    let f = debounce(timesCalled, 1000)\n    if (f) {\n      f(1) // выполняется немедленно\n      f(2) // проигнорирован\n      setTimeout(() => f(4), 1100) // выполняется\n      setTimeout(() => f(5), 1500) // проигнорирован (прошло только 400 мс от последнего вызова) \n    }\n\n  }, [])\n\n  return JSON.stringify(calledRef.current) // => [1,4]\n}\n",
       "className": "jsx"
     },
     {
-      "id": "1668ba3b-c207-401f-8d7d-f32342758c37",
+      "id": "9ba1ec15-81b3-4096-bb6c-35f6d1c1dd73",
       "answer": true,
       "example": false,
       "children": "const debounce = (f, ms) => {\n  let isCooldown = false\n\n  return function () {\n    if (isCooldown) return\n\n    f.apply(this, arguments)\n\n    isCooldown = true\n\n    setTimeout(() => (isCooldown = false), ms)\n  }\n}",
@@ -333,14 +5384,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-function-throttle.mdx": [
     {
-      "id": "25b9af3c-7e70-40fa-bead-86d590a0cb62",
+      "id": "5bd69e8a-91b6-4591-a33b-08729ca205de",
       "answer": false,
       "example": true,
       "children": "() => {\n  const calledRef = useRef([])\n  const [timesCalledList, setTimesCalledList] = useState([])\n  const timesCalled = (value) => {\n    calledRef.current = [...calledRef.current, value]\n    setTimesCalledList(...timesCalledList, value)\n  }\n\n  const throttle = (f, ms) => {\n    // write your code here\n  }\n\n  useEffect(() => {\n    // f1000 передаёт вызовы f максимум раз в 1000 мс\n    let f1000 = throttle(timesCalled, 1000)\n \n    if (f1000) {\n      f1000(1) // показывает 1\n      f1000(2) // (ограничение, 1000 мс ещё нет)\n      f1000(3) // (ограничение, 1000 мс ещё нет)\n\n      // когда 1000 мс истекли ...\n      // ...выводим 3, промежуточное значение 2 было проигнорировано\n    }\n  }, [])\n\n  return JSON.stringify(calledRef.current) // => [1,3]\n}\n",
       "className": "jsx"
     },
     {
-      "id": "147ef0b6-bb0c-4f88-8c60-0cbd3745ddb9",
+      "id": "45beb06c-395e-4a22-a800-7424312374b7",
       "answer": true,
       "example": false,
       "children": "const throttle = (func, ms) => {\n  let isThrottled = false,\n    savedArgs,\n    savedThis\n\n  function wrapper() {\n    if (isThrottled) {\n      savedArgs = arguments\n      savedThis = this\n      return\n    }\n\n    func.apply(this, arguments) \n\n    isThrottled = true\n\n    setTimeout(function () {\n      isThrottled = false \n      if (savedArgs) {\n        wrapper.apply(savedThis, savedArgs)\n        savedArgs = savedThis = null\n      }\n    }, ms)\n  }\n\n  return wrapper\n}",
@@ -349,14 +5400,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-method-reduce.mdx": [
     {
-      "id": "15771fc1-ef89-4427-a8ec-d6e55b25301e",
+      "id": "f667192b-13cf-4198-a01d-01d52adf991d",
       "answer": false,
       "example": true,
       "children": "() => {\n  let arr = [1, 2, 3, 4, 5]\n\n  Array.prototype.myReduce = function (func, initState) {\n    // write your code here\n    return initState\n  }\n\n  const result = arr.myReduce((curr, next) => (curr += next), 0) \n\n  return JSON.stringify(result) // => 15\n}",
       "className": "jsx"
     },
     {
-      "id": "1389a5ee-bb9f-4910-b652-2fa517c25b44",
+      "id": "2b374754-fe6e-4abb-9a43-0b8fa6771369",
       "answer": true,
       "example": false,
       "children": "Array.prototype.myReduce = function (func, initState) {\n  const arr = this\n  const callback = func\n  let init = initState\n\n  arr.forEach(function (value, index) {\n    init = callback(init, value)\n  })\n  return init\n}",
@@ -365,14 +5416,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-promise-all.mdx": [
     {
-      "id": "91f7949c-afe8-4c5b-8c46-86f37c088227",
+      "id": "1ec43699-936c-49e3-b35e-1c093fc59987",
       "answer": false,
       "example": true,
       "children": "() => {\n  const [result, setTesult] = useState({})\n  function promiseAll(promises) {\n    // write your code here\n  }\n\n  useEffect(() => {\n    if (promiseAll.then) {\n      promiseAll([\n        new Promise(resolve => {\n          setTimeout(() => resolve('foo'), 3000)\n        }),\n\n        new Promise((resolve, reject) => {\n          setTimeout(() => resolve('bar'), 3000)\n        }),\n\n        new Promise((resolve, reject) => {\n          setTimeout(() => {\n            Math.round(Math.random() * 10) % 2 === 0 ? resolve('baz') : reject('Error')\n          }, 300)\n        }),\n      ])\n        .then(res => setTesult(res))\n        .catch(err => setTesult(err))\n    }\n  }, [])\n  return JSON.stringify(result) // => [\"foo\",\"bar\",\"baz\"] or \"Error\"\n}\n\n",
       "className": "jsx"
     },
     {
-      "id": "6a092efe-225c-4cf3-85ce-283e5e2c0b9d",
+      "id": "5dfa9653-04e5-4abb-8815-15b1e131f594",
       "answer": true,
       "example": false,
       "children": "function promiseAll(promises) {\n  return new Promise((resolve, reject) => {\n    const results = []\n    let resolvedCount = 0\n\n    promises.forEach((promise, index) => {\n      promise\n        .then(result => {\n          results[index] = result\n\n          resolvedCount++\n\n          if (resolvedCount === promises.length) {\n            resolve(results)\n          }\n        })\n        .catch(err => reject(err))\n    })\n  })\n}",
@@ -381,14 +5432,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/create-prototype-bind.mdx": [
     {
-      "id": "5faa6534-d5bf-4153-91b0-4b66cc56100f",
+      "id": "7c57ff44-fefd-4512-8800-6b0daa6c50eb",
       "answer": false,
       "example": true,
       "children": "() => {\n  let user = {\n    firstName: \"Арсений\"\n  };\n\n  Function.prototype.myBind = function (context, ...argsBind) {\n    // write your code here\n    return () => ''\n  }\n  \n  function func() {\n    return this.firstName;\n  }\n  \n  let funcUser = func.myBind(user)\n\n  return JSON.stringify(funcUser()) // => Арсений\n}",
       "className": "jsx"
     },
     {
-      "id": "4cdabada-e221-4a50-8297-1c76c94cdce0",
+      "id": "45620293-5b11-4e32-8101-92fd04eb91b1",
       "answer": true,
       "example": false,
       "children": "Function.prototype.myBind = function (context, ...argsBind) {\n  const fn = this\n  return function (...args) {\n    return fn.apply(context, argsBind.concat(args))\n  }\n}",
@@ -397,14 +5448,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/how-to-delegation.mdx": [
     {
-      "id": "d0d01f8c-e45f-4dbc-ba75-352f3079386e",
+      "id": "1c49286d-63eb-42a1-90f3-0587640bf9a8",
       "answer": false,
       "example": true,
       "children": "() => {\n  const delegate = (eventName, el, selector, handler) => {\n    // write your code\n  }\n\n  useEffect(() => {\n    if (document) {\n      delegate(\n        'click',\n        document.querySelector('.wrapper'),\n        '.child',\n        el => (el.style.backgroundColor = 'blue')\n      )\n    }\n  }, [])\n\n  return (\n    <div class=\"wrapper\">\n      <div class=\"child\">\n        <div>\n          <div>\n            <div>click me</div>\n          </div>\n        </div>\n      </div>\n      <div class=\"child\">\n        <div>\n          <div>\n            <div>click me</div>\n          </div>\n        </div>\n      </div>\n      <div class=\"child\">\n        <div>\n          <div>\n            <div>click me</div>\n          </div>\n        </div>\n      </div>\n      <div class=\"other\">\n        <div>\n          <div>\n            <div>dont't click me</div>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n",
       "className": "jsx"
     },
     {
-      "id": "0217e422-b7ae-4562-ad31-1492cf217927",
+      "id": "994d28be-c215-4638-adef-81f0fc072175",
       "answer": true,
       "example": false,
       "children": "const delegate = (eventName, el, selector, handler) => {\n  el.addEventListener(eventName, event => {\n    let node = event.target\n    const items = [].slice.call(el.querySelectorAll(selector))\n\n    if (items.length) {\n      while (node !== el && node !== null) {\n        const isTarget = items.some(item => node === item)\n\n        if (isTarget) {\n          handler(node)\n          break\n        } else {\n          node = node.parentNode\n        }\n      }\n    }\n  })\n}",
@@ -413,14 +5464,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/is-pallindrom.mdx": [
     {
-      "id": "c6300c5e-e484-41fb-b152-80584b3348fe",
+      "id": "69116505-787d-490f-a821-4a34a72f71a9",
       "answer": false,
       "example": true,
       "children": "() => {\n  function isEqualSymbols(str1, str2) {\n    // write your code here\n  }\n\n  return JSON.stringify(\n    [isEqualSymbols('cat', 'tac'), isEqualSymbols('kit', 'tok')]\n  ) // => [true, false]\n}",
       "className": "jsx"
     },
     {
-      "id": "d8f5686f-3649-4bd6-bc5c-6245d34a5b8c",
+      "id": "d427e45c-8c79-4227-8e3b-9a46e3423e24",
       "answer": true,
       "example": false,
       "children": "function isEqualSymbols(str1, str2) {\n  if (str1.length !== str2.length) {\n    return false\n  }\n\n  if (str1.split('').sort().join('') === str2.split('').sort().join('')) {\n    return true\n  }\n\n  return false\n}",
@@ -429,14 +5480,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/make-flat-array.mdx": [
     {
-      "id": "571fefce-db03-4aff-b354-52a7e09413b5",
+      "id": "2dd5635d-b000-48ed-bcbb-790515bcf80c",
       "answer": false,
       "example": true,
       "children": "() => {\n  let arr = [1, 2, [3, 4, [5, 6, [7, [8, 9, 10]]]]]\n\n  function flatten(arr) {\n    //write your code here\n    return arr\n  }\n\n  const result = flatten(arr)\n\n  return JSON.stringify(result) // => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n}",
       "className": "jsx"
     },
     {
-      "id": "779bd939-f8c6-4dbc-b66a-18b6a59423c3",
+      "id": "429b2ba0-91d1-430b-bc83-baa7bd7fcc8b",
       "answer": true,
       "example": false,
       "children": "function flatten(arr) {\n  return arr.reduce(function (acc, next) {\n    let isArray = Array.isArray(next)\n    return acc.concat(isArray ? flatten(next) : next)\n  }, [])\n}\n\nif (!Array.prototype.flatten) {\n  Array.prototype.flatten = function () {\n    return flatten(this)\n  }\n}",
@@ -445,14 +5496,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/odd-sort.mdx": [
     {
-      "id": "51c8909c-3a4e-4eaf-93a7-2ea752e38d5c",
+      "id": "3a78edff-fed0-409e-87c2-eb3d80299a2d",
       "answer": false,
       "example": true,
       "children": "() => {\n  function oddSort(arr) {\n    // write your code here\n    return arr\n  }\n  \n  return JSON.stringify(oddSort([7, 3, 4, 9, 5, 2, 17])) // => [3, 5, 4, 7, 9, 2, 17]\n}",
       "className": "jsx"
     },
     {
-      "id": "3427ef43-ca7b-4ea5-88c3-407707197059",
+      "id": "13aa875d-f7ac-48ce-bdc8-484e5719de4b",
       "answer": true,
       "example": false,
       "children": "function oddSort(arr) {\n  arr.forEach((item, index) => {\n    if (item % 2 === 1) {\n      let sortNumber = item\n\n      for (let i = 0; i < index; i++) {\n        if (arr[i] % 2 === 1) {\n          if (arr[i] > sortNumber) {\n            const tmp = sortNumber\n\n            sortNumber = arr[i]\n            arr[i] = tmp\n          }\n        }\n      }\n      arr[index] = sortNumber\n    }\n  })\n\n  return arr\n}",
@@ -461,14 +5512,14 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/js/task/sum-of-tree.mdx": [
     {
-      "id": "ac1cf99d-9f2e-45a9-83dc-a3cf08d6bfea",
+      "id": "4d936334-63f3-4b85-9fdb-6c8400a7dd9b",
       "answer": false,
       "example": true,
       "children": "() => {\n  function sumTree(tree) {\n    // write your code here\n   return null\n  }\n\n  const tree = {\n    value: 5,\n    right: {\n      value: 5,\n      right: {\n        value: 5,\n        right: {\n          value: 10,\n        },\n      },\n      left: {\n        value: 5,\n        left: {\n          value: 1,\n        },\n      },\n    },\n  }\n\n  return JSON.stringify(sumTree(tree)) // => 31\n}",
       "className": "jsx"
     },
     {
-      "id": "a1ac73f8-d36e-47c0-bf2a-7a5083f2600c",
+      "id": "ef3356d5-32a8-432d-89a7-baa9931bc9bb",
       "answer": true,
       "example": false,
       "children": "function sumTree(tree) {\n  let count = tree.value\n  if (tree.left) {\n    count += sumTree(tree.left)\n  }\n  if (tree.right) {\n    count += sumTree(tree.right)\n  }\n\n  return count\n}",
@@ -477,152 +5528,152 @@
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/difference-between-props-and-state.mdx": [
     {
-      "id": "6661657c-d979-4e98-af06-e67737123ba7",
+      "id": "9e9abeb6-4f37-4fff-b581-14fbe631956a",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/key.mdx": [
     {
-      "id": "7022f7fd-70da-4030-ae30-0b6ff11ad5a6",
+      "id": "9969f574-213b-41b2-bf07-fc81a4a7a0a0",
       "answer": false,
       "example": false
     },
     {
-      "id": "7dd5b4ed-71fe-42ca-8239-d4840dfa1c98",
+      "id": "e1daf098-ce38-4d4b-b051-0ddac0383a2d",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/portal.mdx": [
     {
-      "id": "f7ca47a0-1a92-445f-ac68-df96e6f7769b",
+      "id": "d29c7ce7-6bc6-4e25-8a9a-bd6911c09fcd",
       "answer": false,
       "example": false
     },
     {
-      "id": "acf9c013-8c26-44d4-9e44-9a4980c93d3d",
+      "id": "b4b826fd-8889-4e67-a6cb-615b855ae9c6",
       "answer": false,
       "example": true,
       "children": "ReactDOM.createPortal(child, container)",
       "className": "js"
     },
     {
-      "id": "ee8109cb-3802-4b20-8fa5-1ce8df017c46",
+      "id": "1b7d65dc-0d66-4638-8512-84e988a623f1",
       "answer": false,
       "example": false
     },
     {
-      "id": "382f0747-8a50-4e93-98bb-9c99d0699118",
+      "id": "77a2056a-db0a-40e0-954a-f844219ad240",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/pure-component.mdx": [
     {
-      "id": "d4c77961-d203-4e40-ab7d-f1c3ae4521ad",
+      "id": "41dccf9a-0c32-4a2e-8dd3-ff39d08c3015",
       "answer": false,
       "example": false
     },
     {
-      "id": "3d19c817-e486-4e7f-916e-44efe17a1176",
+      "id": "a7066840-3d24-4e1d-8fd0-273cc8b97698",
       "answer": false,
       "example": false
     },
     {
-      "id": "004b9df9-0955-4120-9fc4-35c884e6dd25",
+      "id": "7c9a0acc-4a9d-4c08-9ab4-28efde4f7ab8",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/react-lifecycle.mdx": [
     {
-      "id": "69d6020e-f6e6-4633-b781-1dfca50a0500",
+      "id": "cf4fe1b6-9c10-4e20-af72-e367311381aa",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/react-reconciliation.mdx": [
     {
-      "id": "8564d4d2-ab70-418d-b0e2-5ac31979cfc1",
+      "id": "4d9fc5fd-3977-4ce0-942e-e3af80fe000a",
       "answer": false,
       "example": false
     },
     {
-      "id": "037703ec-cd87-48bf-8fa6-338730418fbd",
+      "id": "285e37e7-2338-4bd4-a08c-a8ece3e730ca",
       "answer": false,
       "example": false
     },
     {
-      "id": "07315911-5efa-47ee-ae9c-58ac90096e64",
+      "id": "e90470d7-34f8-4e41-b9fc-06352da85374",
       "answer": false,
       "example": false
     },
     {
-      "id": "e402c158-3320-40b4-bedf-f5f3d7fbe93a",
+      "id": "e8e2e81e-76f3-4c14-99b8-d625f3515e06",
       "answer": false,
       "example": false
     },
     {
-      "id": "00e96af4-d74f-4839-82ca-1748bdb9b7d7",
+      "id": "62371d91-3ff6-46b0-831e-5e146da91958",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/type-or-react-component.mdx": [
     {
-      "id": "8bf689d3-3ccc-4eb3-a5df-d64c254979fc",
+      "id": "0e0763a5-6a98-4b09-af3f-2cf40da426e4",
       "answer": false,
       "example": false
     },
     {
-      "id": "2a18815b-839f-4f2e-95fa-ea21b3f0c167",
+      "id": "0c0174eb-a6e4-4620-b771-107b16a7395a",
       "answer": false,
       "example": false
     },
     {
-      "id": "d918357c-aac7-4e4a-853d-4a9d097f18c3",
+      "id": "0537acb1-16a5-413c-bf48-07a6576a4fbf",
       "answer": false,
       "example": false
     },
     {
-      "id": "40b316bc-fd52-4921-b31e-cd906e666497",
+      "id": "878c57d0-58e9-4095-8850-a95e55593cac",
       "answer": false,
       "example": false
     },
     {
-      "id": "936d0d04-0a2c-4e9b-a2ca-5a0d2d58c7c2",
+      "id": "0605e815-5376-486f-a984-602250786c7d",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/question/v-dom.mdx": [
     {
-      "id": "8aa43543-e864-4548-8724-3d66faaf8627",
+      "id": "69ef6f50-a1e6-4323-a5ee-dcccdefcd098",
       "answer": false,
       "example": false
     },
     {
-      "id": "4103c4d7-b60a-4d5e-8885-ead5fd4d02c3",
+      "id": "0afa2430-a35b-460b-9220-01ae57c735b0",
       "answer": false,
       "example": false
     },
     {
-      "id": "eb084997-9506-44fd-8ca0-c4d689be3693",
+      "id": "8ba32603-d13f-45e5-b208-4b4ca34d8b65",
       "answer": false,
       "example": false
     }
   ],
   "/Users/ars/Desktop/sandbox/frontendinterview/pages/ru/react/task/buggy-counter.mdx": [
     {
-      "id": "21cac891-8217-4ff3-ab2b-024aeab0d822",
+      "id": "8ecb3f3e-354d-4360-874d-4410b1df2277",
       "answer": false,
       "example": true,
       "children": "class BuggyCounter extends React.Component {\n  constructor(props) {\n    super(props)\n    this.state = {\n      counter: 0,\n    }\n  }\n\n  handleClick() {\n    this.setState({ counter: this.state.counter + 1 })\n    this.setState({ counter: this.state.counter + 1 })\n    this.setState({ counter: this.state.counter + 1 })\n    this.setState({ counter: this.state.counter + 1 })\n    this.setState({ counter: this.state.counter + 1 })\n  }\n\n  render() {\n    return (\n      <div>\n        <span>current state: {this.state.counter}</span>\n        <br />\n        <button onClick={this.handleClick}>count!</button>\n      </div>\n    )\n  }\n}",
       "className": "jsx"
     },
     {
-      "id": "bea4da0d-bba6-4bc5-b646-655cb3f4918a",
+      "id": "0fe3a41b-027a-4d57-a903-0f36d0de4982",
       "answer": true,
       "example": false,
       "children": "class BuggyCounter extends React.Component {\n  constructor(props) {\n    super(props)\n    this.state = {\n      counter: 0,\n    }\n  }\n\n  handleClick() {\n    this.setState(prev => ({ counter: prev.counter + 1 }))\n    this.setState(prev => ({ counter: prev.counter + 1 }))\n    this.setState(prev => ({ counter: prev.counter + 1 }))\n    this.setState(prev => ({ counter: prev.counter + 1 }))\n    this.setState(prev => ({ counter: prev.counter + 1 }))\n  }\n\n  render() {\n    return (\n      <div>\n        <span>current state: {this.state.counter}</span>\n        <br />\n        <button onClick={this.handleClick.bind(this)}>count!</button>\n      </div>\n    )\n  }\n}",

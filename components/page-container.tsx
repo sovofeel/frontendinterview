@@ -70,7 +70,7 @@ function PageContainer(props: PageContainerProps) {
                 </Text>
               </Box>
             )}
-            <Box id="content" marginBottom={pagination ? '36px' : '0'}>
+            <Box class="content" marginBottom={pagination ? '36px' : '0'}>
               <PageTransition>{children}</PageTransition>
             </Box>
             {pagination || null}

@@ -89,7 +89,7 @@ function CodeBlock(props) {
 
   const liveProviderProps = {
     theme,
-    language,
+    language: language ? language : 'jsx',
     code: editorCode,
     scope: getScope(language),
     noInline: manual,
